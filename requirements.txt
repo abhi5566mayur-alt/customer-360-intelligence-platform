@@ -1,0 +1,12 @@
+pandas
+numpy
+pyarrow
+scikit-learn
+matplotlib
+seaborn
+plotly
+jupyter
+pytest
+python-dotenv
+tqdm
+scipy

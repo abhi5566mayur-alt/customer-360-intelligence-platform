@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# ML artifacts
+models/
+mlruns/
+
+# OS/editor
+.DS_Store
+Thumbs.db
