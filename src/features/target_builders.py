@@ -1,3 +1,5 @@
+
+import numpy as np
 import pandas as pd
 
 
@@ -13,11 +15,11 @@ def build_customer_features_before_cutoff(fact: pd.DataFrame, cutoff_date: str) 
 
     # historical data only
     hist = df[df["order_purchase_timestamp"] < cutoff].copy()
-
-    # keep only required rows
     hist = hist.dropna(subset=["customer_unique_id", "order_id", "order_purchase_timestamp"])
 
-    # order-level aggregation first to avoid duplicate inflation from joins
+    # ---------------------------------------------------
+    # Order-level aggregation first
+    # ---------------------------------------------------
     order_level = (
         hist.groupby(["customer_unique_id", "order_id"], as_index=False)
         .agg(
@@ -29,7 +31,9 @@ def build_customer_features_before_cutoff(fact: pd.DataFrame, cutoff_date: str) 
 
     snapshot_date = cutoff
 
-    # base customer features
+    # ---------------------------------------------------
+    # Base customer aggregation
+    # ---------------------------------------------------
     customer = (
         order_level.groupby("customer_unique_id", as_index=False)
         .agg(
@@ -48,7 +52,9 @@ def build_customer_features_before_cutoff(fact: pd.DataFrame, cutoff_date: str) 
         customer["last_order_date"] - customer["first_order_date"]
     ).dt.days
 
-    # recent windows
+    # ---------------------------------------------------
+    # Recent windows
+    # ---------------------------------------------------
     last_30_cutoff = snapshot_date - pd.Timedelta(days=30)
     last_90_cutoff = snapshot_date - pd.Timedelta(days=90)
 
@@ -76,8 +82,70 @@ def build_customer_features_before_cutoff(fact: pd.DataFrame, cutoff_date: str) 
     for col in ["orders_last_30d", "spend_last_30d", "orders_last_90d", "spend_last_90d"]:
         customer[col] = customer[col].fillna(0)
 
-    return customer
+    # ---------------------------------------------------
+    # New feature block 1: average items per order
+    # ---------------------------------------------------
+    customer["avg_items_per_order"] = (
+        customer["total_items_bought"] / customer["frequency_orders"]
+    ).replace([np.inf, -np.inf], 0)
 
+    # ---------------------------------------------------
+    # New feature block 2: cadence / order spacing
+    # ---------------------------------------------------
+    # Compute average gap between consecutive orders per customer
+    order_level_sorted = order_level.sort_values(
+        ["customer_unique_id", "order_purchase_timestamp"]
+    ).copy()
+
+    order_level_sorted["prev_order_ts"] = (
+        order_level_sorted.groupby("customer_unique_id")["order_purchase_timestamp"].shift(1)
+    )
+
+    order_level_sorted["days_since_prev_order"] = (
+        order_level_sorted["order_purchase_timestamp"] - order_level_sorted["prev_order_ts"]
+    ).dt.days
+
+    cadence = (
+        order_level_sorted.groupby("customer_unique_id", as_index=False)
+        .agg(
+            avg_days_between_orders=("days_since_prev_order", "mean"),
+        )
+    )
+
+    customer = customer.merge(cadence, on="customer_unique_id", how="left")
+
+    # For one-order customers, avg_days_between_orders will be NaN
+    customer["avg_days_between_orders"] = customer["avg_days_between_orders"].fillna(-1)
+
+    # ---------------------------------------------------
+    # New feature block 3: normalized order/spend intensity
+    # ---------------------------------------------------
+    # avoid division by zero for tenure=0
+    tenure_den = customer["customer_tenure_days"].replace(0, 1)
+
+    customer["orders_per_tenure_day"] = customer["frequency_orders"] / tenure_den
+    customer["spend_per_tenure_day"] = customer["monetary_total_spend"] / tenure_den
+
+    # ---------------------------------------------------
+    # New feature block 4: recent activity ratios
+    # ---------------------------------------------------
+    spend_den = customer["monetary_total_spend"].replace(0, 1)
+    freq_den = customer["frequency_orders"].replace(0, 1)
+
+    customer["spend_last_30d_ratio"] = customer["spend_last_30d"] / spend_den
+    customer["spend_last_90d_ratio"] = customer["spend_last_90d"] / spend_den
+    customer["orders_last_90d_ratio"] = customer["orders_last_90d"] / freq_den
+
+    # clip possible weird numeric issues
+    ratio_cols = [
+        "spend_last_30d_ratio",
+        "spend_last_90d_ratio",
+        "orders_last_90d_ratio",
+    ]
+    for col in ratio_cols:
+        customer[col] = customer[col].replace([np.inf, -np.inf], 0).fillna(0)
+
+    return customer
 
 def build_targets_90d(fact: pd.DataFrame, cutoff_date: str) -> pd.DataFrame:
     """

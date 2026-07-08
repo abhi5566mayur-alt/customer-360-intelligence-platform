@@ -1,0 +1,43 @@
+{
+  "task": "clv_regression_positive_buyers_only",
+  "model_name": "RandomForestRegressor",
+  "target_transform": "log1p",
+  "dataset": "clv_regression_dataset.parquet",
+  "train_cutoffs": [
+    "2017-12-01",
+    "2018-02-01",
+    "2018-04-01"
+  ],
+  "valid_cutoff": "2018-06-01",
+  "feature_columns": [
+    "frequency_orders",
+    "monetary_total_spend",
+    "avg_order_value",
+    "total_items_bought",
+    "recency_days",
+    "customer_tenure_days",
+    "orders_last_30d",
+    "spend_last_30d",
+    "orders_last_90d",
+    "spend_last_90d",
+    "avg_items_per_order",
+    "avg_days_between_orders",
+    "orders_per_tenure_day",
+    "spend_per_tenure_day",
+    "spend_last_30d_ratio",
+    "spend_last_90d_ratio",
+    "orders_last_90d_ratio",
+    "num_reviews",
+    "avg_review_score",
+    "min_review_score",
+    "negative_review_ratio",
+    "num_payment_types_used",
+    "avg_installments",
+    "credit_card_ratio",
+    "num_unique_categories",
+    "favorite_category_ratio",
+    "cutoff_month",
+    "cutoff_quarter"
+  ],
+  "created_at": "2026-07-08T13:33:04.229969"
+}

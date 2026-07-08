@@ -1,0 +1,35 @@
+{
+  "task": "repeat_purchase_classification",
+  "model_name": "LogisticRegression",
+  "dataset": "repeat_model_dataset.parquet",
+  "train_cutoffs": [
+    "2017-12-01",
+    "2018-02-01",
+    "2018-04-01"
+  ],
+  "valid_cutoff": "2018-06-01",
+  "feature_columns": [
+    "frequency_orders",
+    "monetary_total_spend",
+    "avg_order_value",
+    "total_items_bought",
+    "recency_days",
+    "customer_tenure_days",
+    "orders_last_30d",
+    "spend_last_30d",
+    "orders_last_90d",
+    "spend_last_90d",
+    "num_reviews",
+    "avg_review_score",
+    "min_review_score",
+    "negative_review_ratio",
+    "num_payment_types_used",
+    "avg_installments",
+    "credit_card_ratio",
+    "num_unique_categories",
+    "favorite_category_ratio",
+    "cutoff_month",
+    "cutoff_quarter"
+  ],
+  "created_at": "2026-07-08T12:41:14.627369"
+}

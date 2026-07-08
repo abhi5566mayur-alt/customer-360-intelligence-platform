@@ -1,0 +1,10 @@
+{
+  "train_rows": 1104,
+  "valid_rows": 440,
+  "target_transform": "log1p",
+  "rmse": 179.7984807139758,
+  "mae": 89.11830708631906,
+  "r2": -0.003460538252355816,
+  "train_target_mean": 152.92924818840578,
+  "valid_target_mean": 156.25754545454546
+}
