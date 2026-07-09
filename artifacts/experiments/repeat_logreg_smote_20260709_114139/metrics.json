@@ -1,0 +1,20 @@
+{
+  "train_rows_before_resampling": 154081,
+  "train_rows_after_resampling": 305954,
+  "valid_rows": 77808,
+  "pr_auc": 0.018495837461951922,
+  "roc_auc": 0.6171084210291311,
+  "precision": 0.009652712202287273,
+  "recall": 0.41818181818181815,
+  "f1": 0.01886985950158958,
+  "confusion_matrix": [
+    [
+      58490,
+      18878
+    ],
+    [
+      256,
+      184
+    ]
+  ]
+}

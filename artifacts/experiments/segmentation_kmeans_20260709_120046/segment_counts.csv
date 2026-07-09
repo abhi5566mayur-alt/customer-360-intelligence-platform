@@ -1,0 +1,4 @@
+segment_id,segment_name,customer_count,customer_pct
+0,Active Recent Customers,9135,0.09506118881118882
+1,Dormant One-Time Customers,73262,0.7623834498834499
+2,Higher-Value Inactive Customers,13699,0.1425553613053613
