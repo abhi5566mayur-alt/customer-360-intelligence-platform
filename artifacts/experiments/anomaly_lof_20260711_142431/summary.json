@@ -1,0 +1,47 @@
+{
+    "algorithm": "Local Outlier Factor",
+    "customers": 96096,
+    "anomalies": 1791,
+    "severity": {
+        "Normal": 94305,
+        "Low": 895,
+        "Medium": 716,
+        "High": 180
+    },
+    "top_reasons": {
+        "Highly concentrated shopping": 289,
+        "Large installment usage": 240,
+        "Very high purchase frequency": 142,
+        "Heavy ordering in last 90 days": 134,
+        "Unusual category diversity": 129,
+        "Unusually inactive customer": 108,
+        "Multiple payment methods": 106,
+        "Exceptional total spending": 100,
+        "High negative review ratio": 91,
+        "Heavy credit card usage": 87
+    },
+    "second_reasons": {
+        "Unusual category diversity": 288,
+        "Unusual payment diversity": 181,
+        "Unusual review rating": 168,
+        "Broad category diversity": 157,
+        "Exceptional total spending": 134,
+        "High spend with few reviews": 93,
+        "Very expensive items": 84,
+        "Unusually inactive customer": 81,
+        "Large share of orders in last 90 days": 78,
+        "Very high average order value": 76
+    },
+    "third_reasons": {
+        "Broad category diversity": 309,
+        "Exceptional total spending": 156,
+        "Heavy credit card usage": 135,
+        "Highly concentrated shopping": 129,
+        "Very high average order value": 112,
+        "Unusual review rating": 103,
+        "High spend with few reviews": 95,
+        "Unusually high review activity": 89,
+        "Very expensive items": 86,
+        "Large share of spending in last 90 days": 78
+    }
+}

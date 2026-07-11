@@ -1,0 +1,1196 @@
+customer_unique_id,isolation,lof,ocsvm,votes,detected_by,models
+0058f300f57d7b93c477a131a59b36c3,1,0,1,2,2,Isolation Forest; One-Class SVM
+0097fca0db567f5ca79509b7b4fc1c2d,1,0,1,2,2,Isolation Forest; One-Class SVM
+011575986092c30523ecb71ff10cb473,1,0,1,2,2,Isolation Forest; One-Class SVM
+012452d40dafae4df401bced74cdb490,1,0,1,2,2,Isolation Forest; One-Class SVM
+012a218df8995d3ec3bb221828360c86,1,0,1,2,2,Isolation Forest; One-Class SVM
+013ef03e0f3f408dd9bf555e4edcdc0a,1,0,1,2,2,Isolation Forest; One-Class SVM
+015557c9912277312b9073947804a7ba,1,0,1,2,2,Isolation Forest; One-Class SVM
+0178b244a5c281fb2ade54038dd4b161,1,0,1,2,2,Isolation Forest; One-Class SVM
+019ed386aec9ff0f9eab4a590231174e,1,0,1,2,2,Isolation Forest; One-Class SVM
+01c289bb06354cdc7e6549570f20ada4,1,0,1,2,2,Isolation Forest; One-Class SVM
+0241fa2e9adf0576cb0f845377d05c03,1,0,1,2,2,Isolation Forest; One-Class SVM
+025cf7c2f32536f0be1ab412bb6602d2,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+02a2a0a9627a062602de754d75038ce4,1,0,1,2,2,Isolation Forest; One-Class SVM
+02ccceb879088a0253e1e46e0200bdb8,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+02e9109b7e0a985108b43e573b6afb23,1,0,1,2,2,Isolation Forest; One-Class SVM
+02e9827c15167f699df7bf90d326ffdb,1,0,1,2,2,Isolation Forest; One-Class SVM
+030a810edeec1ceea314282513023587,1,1,0,2,2,Isolation Forest; LOF
+031ea691b99fc101dcad357d1a83573f,1,0,1,2,2,Isolation Forest; One-Class SVM
+032b3a42598667caf2e099999b9dc1b9,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+0341bbd5c969923a0f801b9e2d10a7b8,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+03796b63235e0e0a299084988c662c7e,0,1,1,2,2,LOF; One-Class SVM
+038301b43811478e1a8dc0e476eaf52e,1,0,1,2,2,Isolation Forest; One-Class SVM
+03d4953a455f8489e712ea80699de878,1,0,1,2,2,Isolation Forest; One-Class SVM
+03ef7f03905227e15c7b6c860554b3cb,1,0,1,2,2,Isolation Forest; One-Class SVM
+041caba6a63ace5818387698ea85cdb2,1,0,1,2,2,Isolation Forest; One-Class SVM
+043aee247e71edff7045664609f4d806,1,0,1,2,2,Isolation Forest; One-Class SVM
+053b7090271ed4dacbfe0afd6382bbab,1,0,1,2,2,Isolation Forest; One-Class SVM
+055ec572ac7f3c7bdd04a183830ebe59,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+059e7585d8fcd2430a33375bdbcbb990,1,1,0,2,2,Isolation Forest; LOF
+05e52c1f96f8b83dd66dcdce679ff58d,1,0,1,2,2,Isolation Forest; One-Class SVM
+061e0d9d23f099ebcc78d1c90f94dfbe,1,0,1,2,2,Isolation Forest; One-Class SVM
+0621c2a5979d3e887ae519620cbe2926,1,0,1,2,2,Isolation Forest; One-Class SVM
+0697142614905a50813d854fa08b8eaf,1,0,1,2,2,Isolation Forest; One-Class SVM
+070acf4df1234a6257809e4e79644481,1,0,1,2,2,Isolation Forest; One-Class SVM
+072a543c663f0b54b41af8b074162d62,1,0,1,2,2,Isolation Forest; One-Class SVM
+07342638d0e0aad32c3cf0efc1a37ba5,1,0,1,2,2,Isolation Forest; One-Class SVM
+07547425c8f7a7086f529f2d3b80d21a,1,1,0,2,2,Isolation Forest; LOF
+07a47aaed3703199835441d912aa3c43,1,1,0,2,2,Isolation Forest; LOF
+07ff81a9676efa0286ddd3f09e7c0063,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+0807baeeeaa1309effbd9a9dee41ab17,1,0,1,2,2,Isolation Forest; One-Class SVM
+0810492c615d973d804931e404adade7,1,1,0,2,2,Isolation Forest; LOF
+083ca1aa470c280236380973a48f77c6,1,0,1,2,2,Isolation Forest; One-Class SVM
+083ce299ea3fc1eba79bd0b17f64555b,1,0,1,2,2,Isolation Forest; One-Class SVM
+084be429c23e342acf5084ac6156d22e,1,0,1,2,2,Isolation Forest; One-Class SVM
+08642cd329066fe11ec63293f714f2f8,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+0895c61a77b305efdfad13596c749c60,1,0,1,2,2,Isolation Forest; One-Class SVM
+089bc915af34d9041b3a88a1aa84292b,1,0,1,2,2,Isolation Forest; One-Class SVM
+08a374bca4063116d5530a7b04ecaf3f,1,1,0,2,2,Isolation Forest; LOF
+08c07c761592a71b85136aa4fe76a6f4,1,0,1,2,2,Isolation Forest; One-Class SVM
+08e5b38d7948d37fbb2a59fc5e175ab1,1,0,1,2,2,Isolation Forest; One-Class SVM
+08f334e84bc7ab7b588cb7fc77dd7f4a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+09687a7b7431a93b5c53b50ba779bf94,1,0,1,2,2,Isolation Forest; One-Class SVM
+09baec50afccbb414f24bf8e0bc7c020,1,0,1,2,2,Isolation Forest; One-Class SVM
+0a0a92112bd4c708ca5fde585afaa872,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+0a5dadb73145d29f42f703c97c377ae8,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+0a609db8d244100909a15d65eadf8539,1,0,1,2,2,Isolation Forest; One-Class SVM
+0a61b571f594b6919601bcf3380da7f7,1,0,1,2,2,Isolation Forest; One-Class SVM
+0aa1ab39ff2b837c05d7c9ff85b6d983,1,0,1,2,2,Isolation Forest; One-Class SVM
+0aadc1d26d1c8b88a52c39a533ccea93,1,0,1,2,2,Isolation Forest; One-Class SVM
+0abee71cd257861a0944e2a81cea4a50,1,0,1,2,2,Isolation Forest; One-Class SVM
+0b18593e033697810a62a987e77f4b8c,1,0,1,2,2,Isolation Forest; One-Class SVM
+0b51518c7deffd54b13b007c9f91c3f0,1,0,1,2,2,Isolation Forest; One-Class SVM
+0b613a282e9dfd7cc3ba1c74468053f5,1,1,0,2,2,Isolation Forest; LOF
+0bf1278577a2acf8532a031d98cd517c,1,0,1,2,2,Isolation Forest; One-Class SVM
+0c1201c04330536234aaa49b396745d4,1,0,1,2,2,Isolation Forest; One-Class SVM
+0c3dbe243398d9af58ac1a6d27cbe004,1,0,1,2,2,Isolation Forest; One-Class SVM
+0c8286526be3a0fc8f50b7267db95035,1,0,1,2,2,Isolation Forest; One-Class SVM
+0cc2ee1112a11a1094eff52fa2e87150,1,0,1,2,2,Isolation Forest; One-Class SVM
+0d153268371aa25450d4117ff070277e,1,0,1,2,2,Isolation Forest; One-Class SVM
+0d7241c7fb49c1be6e75c9fe99e0822c,1,0,1,2,2,Isolation Forest; One-Class SVM
+0dc81b520ef7db9cb44bb075e129dcf8,1,0,1,2,2,Isolation Forest; One-Class SVM
+0df55f5accedda71bda8f4c7f590951f,1,0,1,2,2,Isolation Forest; One-Class SVM
+0e06af8004ffd01a3461e768f9f659aa,1,0,1,2,2,Isolation Forest; One-Class SVM
+0e4d012fac3d20c033e0284fb6d2ea6a,1,0,1,2,2,Isolation Forest; One-Class SVM
+0e88d25592a4f873d5439a70609ace33,1,0,1,2,2,Isolation Forest; One-Class SVM
+0e9bafe047d5c6fe3fd8ef6bcdce9a1a,1,0,1,2,2,Isolation Forest; One-Class SVM
+0ee57f62666561b72f2ceacad0230cbf,1,0,1,2,2,Isolation Forest; One-Class SVM
+0ef7b906320b21fe4d39f99496aaa2d8,1,0,1,2,2,Isolation Forest; One-Class SVM
+0efd5025e6544ef110881866b945d0cc,1,0,1,2,2,Isolation Forest; One-Class SVM
+0f187f58097c5431d5244e1fe1383884,1,0,1,2,2,Isolation Forest; One-Class SVM
+0f5ac8d5c31de21d2f25e24be15bbffb,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+0fd39b61ec94864f92e18e5d7144bc6c,1,0,1,2,2,Isolation Forest; One-Class SVM
+0fd475edfa0b61c59ecde6f89c21dedb,1,0,1,2,2,Isolation Forest; One-Class SVM
+1041688b50cfd8ef6df6086a1746a30c,1,0,1,2,2,Isolation Forest; One-Class SVM
+10b442e762ba8a5ad22de5ba2207e5f1,1,0,1,2,2,Isolation Forest; One-Class SVM
+10dbffc4a798d018f58224da1162b90e,0,1,1,2,2,LOF; One-Class SVM
+110991b379efbcebb0d35cbd20bf9698,1,0,1,2,2,Isolation Forest; One-Class SVM
+118c825b7ac197bc393cb4c8c3310f65,1,1,0,2,2,Isolation Forest; LOF
+11b47516f8f6a42105b9807903ede333,1,0,1,2,2,Isolation Forest; One-Class SVM
+11f97da02237a49c8e783dfda6f50e8e,0,1,1,2,2,LOF; One-Class SVM
+124bc956b56b1523d2a75b29a856085d,1,0,1,2,2,Isolation Forest; One-Class SVM
+124ef8d5acc80858c69d34e3e08b572d,1,0,1,2,2,Isolation Forest; One-Class SVM
+125740359669fa63858476105a5d523d,1,0,1,2,2,Isolation Forest; One-Class SVM
+1291474366a550ebc251d9187e763d62,1,0,1,2,2,Isolation Forest; One-Class SVM
+12d8b5ed661190a3a08183644dfc504d,1,0,1,2,2,Isolation Forest; One-Class SVM
+12f5d6e1cbf93dafd9dcc19095df0b3d,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+130f4a32887cc549621b3c6cf36bf77e,1,0,1,2,2,Isolation Forest; One-Class SVM
+13607978e0686d841deb64954c023495,1,0,1,2,2,Isolation Forest; One-Class SVM
+1373e04979cfa0fb2092909abbd57f25,1,0,1,2,2,Isolation Forest; One-Class SVM
+139093b1c6e7e3108ac0469ce43bfb99,1,0,1,2,2,Isolation Forest; One-Class SVM
+13bf0b4120921402dff563cda4383ff6,1,0,1,2,2,Isolation Forest; One-Class SVM
+1427b47a463aa0edd349ca3a0e556729,1,1,0,2,2,Isolation Forest; LOF
+142f18a4a7cd370e40b64f34baf14a6a,1,0,1,2,2,Isolation Forest; One-Class SVM
+151e9edb34867eaece4d6e7ae188f261,1,0,1,2,2,Isolation Forest; One-Class SVM
+155af62b6c947689a67af5c16acd5c55,1,0,1,2,2,Isolation Forest; One-Class SVM
+1590457b4be348b165ff7030a6f94dce,1,0,1,2,2,Isolation Forest; One-Class SVM
+15a38a0c1bf789e06ec42d24e485e794,1,0,1,2,2,Isolation Forest; One-Class SVM
+15a52a044cbf18c87283f8c460ad5ccf,1,1,0,2,2,Isolation Forest; LOF
+15eb6c5aa4aa23cbdb42e119220d23ec,1,0,1,2,2,Isolation Forest; One-Class SVM
+165d93a9d1da194b47da42c9cf810ebd,1,0,1,2,2,Isolation Forest; One-Class SVM
+176c21456fab655afee57b3ea9799f47,1,0,1,2,2,Isolation Forest; One-Class SVM
+177c725937ae5f96171bb8b43f196dfa,1,0,1,2,2,Isolation Forest; One-Class SVM
+182053495bc94c2f41090ce8c41be266,1,0,1,2,2,Isolation Forest; One-Class SVM
+18a65d67bb184e736656cc017f09f7b8,1,0,1,2,2,Isolation Forest; One-Class SVM
+18ac369326ec0aafe3ae0e397b14102b,1,1,0,2,2,Isolation Forest; LOF
+18e3d276253780b44b5b7bf83f6785ec,1,0,1,2,2,Isolation Forest; One-Class SVM
+18f17efd50fd7e9595cc1a40205c937c,1,0,1,2,2,Isolation Forest; One-Class SVM
+191e0f453bea7f50ce1fcd514af38835,1,0,1,2,2,Isolation Forest; One-Class SVM
+194be31520cde5c527bad17720119e85,1,0,1,2,2,Isolation Forest; One-Class SVM
+19bedfc18c92d4e7eb6ba318a6c2033c,1,0,1,2,2,Isolation Forest; One-Class SVM
+19f8fcd23ed70e29220a6a2f13ecd911,1,0,1,2,2,Isolation Forest; One-Class SVM
+1a13743254d9c8e6360106295947932f,1,0,1,2,2,Isolation Forest; One-Class SVM
+1a281fe9f53ee457dacd2c9e8ccf861f,1,0,1,2,2,Isolation Forest; One-Class SVM
+1a674d0bad43d5b5c387fce838e4c428,1,1,0,2,2,Isolation Forest; LOF
+1ac4011bec2c0d9ce8eceb56bb1142c7,1,0,1,2,2,Isolation Forest; One-Class SVM
+1b2ca7e6f04df407b81492b44aef46eb,1,1,0,2,2,Isolation Forest; LOF
+1b5720c7b0ee7183c2eafe3dba65111b,1,0,1,2,2,Isolation Forest; One-Class SVM
+1b6c7548a2a1f9037c1fd3ddfed95f33,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+1b6e96ed99cb8d135efe220d761bbd67,1,0,1,2,2,Isolation Forest; One-Class SVM
+1b7b7f9631cd453251d0b328c9b38a2a,1,0,1,2,2,Isolation Forest; One-Class SVM
+1b95e3fe033836c787689ae4b9516aa3,1,0,1,2,2,Isolation Forest; One-Class SVM
+1ba713c8258f756279a049018ce01177,1,0,1,2,2,Isolation Forest; One-Class SVM
+1bcbeccb2851888f299cf9a5dba8553d,1,0,1,2,2,Isolation Forest; One-Class SVM
+1c98969880c8c7c522bc4677dfce9384,1,0,1,2,2,Isolation Forest; One-Class SVM
+1d0be6ff723818bb810023b236405017,1,0,1,2,2,Isolation Forest; One-Class SVM
+1d2435aa3b858d45c707c9fc25e18779,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+1d7e8be24bca64576da891970638bfe3,1,0,1,2,2,Isolation Forest; One-Class SVM
+1da09dd64e235e7c2f29a4faff33535c,1,0,1,2,2,Isolation Forest; One-Class SVM
+1dedbe50138a3540d30fe355776d2d6a,1,0,1,2,2,Isolation Forest; One-Class SVM
+1e007f34a068548c0f0a411e301fa115,1,1,0,2,2,Isolation Forest; LOF
+1e433d2aca7584032f8f56d51643e605,1,0,1,2,2,Isolation Forest; One-Class SVM
+1f22ecb07d25446bf52c51afa93cfa3b,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+1f98d2384ff7a372e6a2d3bb75cbcd54,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+1fbd81e4d0a0cf9125ca038b43533b7f,1,0,1,2,2,Isolation Forest; One-Class SVM
+2004ba7732339d9be65f2236d8887ae4,1,0,1,2,2,Isolation Forest; One-Class SVM
+2028c90d6c4523ae70a285c44010258a,1,0,1,2,2,Isolation Forest; One-Class SVM
+204fa49efb5913a76287284d6e096f69,1,0,1,2,2,Isolation Forest; One-Class SVM
+20a5257c01689ac69410a14cb51bb447,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+211aaecea827d378c879c2b2f667c89d,1,0,1,2,2,Isolation Forest; One-Class SVM
+212b7cfb2631b23e85a4645a7cba1733,0,1,1,2,2,LOF; One-Class SVM
+21560f93adbd9ada040a40909ac8619d,1,0,1,2,2,Isolation Forest; One-Class SVM
+215e0a9044344dca7820b462c60bd206,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+216ab90e27f18940cfac8f9f02fb4239,1,0,1,2,2,Isolation Forest; One-Class SVM
+219291a07997c4fc9a962719151bfa38,0,1,1,2,2,LOF; One-Class SVM
+21d3f0a4bf0cccf65dcfe93b8325d250,1,0,1,2,2,Isolation Forest; One-Class SVM
+221ae88140600106a982acb69a0add50,1,0,1,2,2,Isolation Forest; One-Class SVM
+221d59abddcd719f3ec72c50078b9e31,1,0,1,2,2,Isolation Forest; One-Class SVM
+22770768e9c650851b78132a4d881128,0,1,1,2,2,LOF; One-Class SVM
+22ac8971f405f9520b3e7cf37e042ee7,1,0,1,2,2,Isolation Forest; One-Class SVM
+22f6af8201369f9eb96592db3142b9c2,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+230a1e9f42924d41f37fd22a1d4a9707,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+2333aaab5194813686b0f3971a4615db,1,1,0,2,2,Isolation Forest; LOF
+23b8272c10c49458eac0b8626f0666ca,1,0,1,2,2,Isolation Forest; One-Class SVM
+23dc3a062c6c097bcb3940a909e7730f,1,0,1,2,2,Isolation Forest; One-Class SVM
+240f980f7c03e873c538e86792646919,1,0,1,2,2,Isolation Forest; One-Class SVM
+242cfcd883c1b54592f9f3b9c31cc53a,0,1,1,2,2,LOF; One-Class SVM
+24391449252cf6db04ce271b2a208d83,1,0,1,2,2,Isolation Forest; One-Class SVM
+243b99bd9ed8a3f460e7289d0a8df291,1,0,1,2,2,Isolation Forest; One-Class SVM
+24a2aa45549d34a910425326c6e54e60,1,1,0,2,2,Isolation Forest; LOF
+24f12460aad399ba18f4ed2c2fbab65d,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+24f8fb3587b82676b7354df6a625de72,1,1,0,2,2,Isolation Forest; LOF
+24fb2954f8c6cdb4b900ed8db6dc88e2,1,0,1,2,2,Isolation Forest; One-Class SVM
+2524dcec233c3766f2c2b22f69fd65f4,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+255ac312f5ceb97163ec60f0db2eee11,1,0,1,2,2,Isolation Forest; One-Class SVM
+2592816433dfbb3051af91ba91625de5,1,0,1,2,2,Isolation Forest; One-Class SVM
+25a1ad8a564d758f233c587cc657aa4b,1,0,1,2,2,Isolation Forest; One-Class SVM
+2615f18f801b0156237b068570d64217,1,0,1,2,2,Isolation Forest; One-Class SVM
+262e1f1e26e92e86375f86840b4ffd63,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+26a6e3e036636ef1d5636f98b66094cc,1,0,1,2,2,Isolation Forest; One-Class SVM
+26cf7ebdf7d1db7f8428cb66f933e2bd,0,1,1,2,2,LOF; One-Class SVM
+26d1b63e9b8478f84f87188c4877049e,1,0,1,2,2,Isolation Forest; One-Class SVM
+270c0ad2a232e4a10be51000bc69eb03,1,0,1,2,2,Isolation Forest; One-Class SVM
+272f0ffe236b0bf765e14f5a2b577a6b,1,0,1,2,2,Isolation Forest; One-Class SVM
+2750ea8eaed9066e36245a18802eac17,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+27e86d2ae0db33b8d242c9251067d97e,1,0,1,2,2,Isolation Forest; One-Class SVM
+280c34dc057ff9f3cd17360673d4b87c,1,0,1,2,2,Isolation Forest; One-Class SVM
+281e1e72207e518c29b249a1361a775d,1,0,1,2,2,Isolation Forest; One-Class SVM
+282dc4abbf2759fb9bb77217f5cd6c4c,1,0,1,2,2,Isolation Forest; One-Class SVM
+295c05e81917928d76245e842748184d,1,0,1,2,2,Isolation Forest; One-Class SVM
+297ec5afd18366f5ba27520cc4954151,1,0,1,2,2,Isolation Forest; One-Class SVM
+298015aa1d73599b01d9c872b9b6bc1d,1,0,1,2,2,Isolation Forest; One-Class SVM
+2a17d0a71f5910d7207819f9ca9ec12b,1,0,1,2,2,Isolation Forest; One-Class SVM
+2a7f837de6a1999e457b8e3c5619156f,1,0,1,2,2,Isolation Forest; One-Class SVM
+2b174670dbec666bbc68b6e2a4062740,1,0,1,2,2,Isolation Forest; One-Class SVM
+2b4871f788b44ee004ec2c7fc7cd420b,1,0,1,2,2,Isolation Forest; One-Class SVM
+2b6ce149982204423f4efac29701255a,1,0,1,2,2,Isolation Forest; One-Class SVM
+2b952792a20f6076f6e7a9c6a27ade02,1,0,1,2,2,Isolation Forest; One-Class SVM
+2be5dce8b491a7bc6a65d6e91bf49812,1,0,1,2,2,Isolation Forest; One-Class SVM
+2be7d578854588f75b1922cf7627e1be,1,0,1,2,2,Isolation Forest; One-Class SVM
+2c45ab66a3dae52960147e76a35740ff,1,0,1,2,2,Isolation Forest; One-Class SVM
+2c6a91479a7dc00d8c9d650d8dee88ca,1,0,1,2,2,Isolation Forest; One-Class SVM
+2cf396c9e24e7627ff042cccb209b9e6,1,0,1,2,2,Isolation Forest; One-Class SVM
+2d14556024f4bbe01f147576097c42fe,1,0,1,2,2,Isolation Forest; One-Class SVM
+2d6e75f5a4a33d3a936f1ea68ac9bf01,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+2ddc001b620bd90d0f4378cfde1db887,1,0,1,2,2,Isolation Forest; One-Class SVM
+2e015e68fbfa36910263df5384e8e45c,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+2e08911037fe7ec67377711eee1fdbf3,1,0,1,2,2,Isolation Forest; One-Class SVM
+2e0a2166aa23da2472c6a60c4af6f7a6,1,0,1,2,2,Isolation Forest; One-Class SVM
+2e49a3bbeb76297ee0ff49df39c2456c,1,0,1,2,2,Isolation Forest; One-Class SVM
+2ef9e79cf6bf3c0dac3b48c8dd46259e,1,0,1,2,2,Isolation Forest; One-Class SVM
+2f293b442348c20d12aa4537bd3d7234,1,0,1,2,2,Isolation Forest; One-Class SVM
+2f7c8c8386941ce0ef458ca7ff304123,1,0,1,2,2,Isolation Forest; One-Class SVM
+2fe074ea3cc24b8fd57d29effc995f8b,1,0,1,2,2,Isolation Forest; One-Class SVM
+30057710f699e666b130e5a742657a8c,1,1,0,2,2,Isolation Forest; LOF
+300b4fbe132eb27cb930a4bf0b9c835d,1,1,0,2,2,Isolation Forest; LOF
+30b782a79466007756f170cb5bd6bbd8,1,0,1,2,2,Isolation Forest; One-Class SVM
+310647380793836bfa5b7b6b3f518423,1,0,1,2,2,Isolation Forest; One-Class SVM
+313febe2adc914a7cb3f6e903f8e13cf,1,0,1,2,2,Isolation Forest; One-Class SVM
+317cfc692e3f86c45c95697c61c853a6,1,1,0,2,2,Isolation Forest; LOF
+31bfa97f1ea0663a50ebc5c811ebdf4d,1,0,1,2,2,Isolation Forest; One-Class SVM
+31d332d20895c5c0baefe55207a0fead,1,0,1,2,2,Isolation Forest; One-Class SVM
+31e412b9fb766b6794724ed17a41dfa6,0,1,1,2,2,LOF; One-Class SVM
+323ff9fd6b4a3edcdf3039e1fb213eb6,1,0,1,2,2,Isolation Forest; One-Class SVM
+32c3312cd5a2dddfdcbd359694cd7ae8,1,0,1,2,2,Isolation Forest; One-Class SVM
+32ea3bdedab835c3aa6cb68ce66565ef,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+330fdaa06f93c0c6ffb4af7d79c1ef12,1,0,1,2,2,Isolation Forest; One-Class SVM
+33176de67c05eeed870fd49f234387a0,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+33416ee3d4fa56400ec814d7b24bde02,1,0,1,2,2,Isolation Forest; One-Class SVM
+334293c291f43a6aa85020f8597a171f,1,0,1,2,2,Isolation Forest; One-Class SVM
+334d0235ca6f2f09dd55804a26efe952,1,0,1,2,2,Isolation Forest; One-Class SVM
+336421b86cc4259a58106da261e0e000,1,0,1,2,2,Isolation Forest; One-Class SVM
+339c527109c4c03e8e09bd4b593dab5f,1,0,1,2,2,Isolation Forest; One-Class SVM
+340d924858c395848c127b3e772b6bfd,1,0,1,2,2,Isolation Forest; One-Class SVM
+345759b8cb3d30586551de1ca6905df0,1,0,1,2,2,Isolation Forest; One-Class SVM
+346534c8088852932d947f4b8fea3959,1,0,1,2,2,Isolation Forest; One-Class SVM
+34b0cd95480e55c2a701293a2b9671b3,1,0,1,2,2,Isolation Forest; One-Class SVM
+3511aa3ff5fb9645041bf1875415142d,1,0,1,2,2,Isolation Forest; One-Class SVM
+359328b5ede8c2758bc8f1740565dda3,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+359bacb2b5c52b4287667a7bc6c7bc63,1,0,1,2,2,Isolation Forest; One-Class SVM
+35b45b906d1450b3540dc96692f58583,1,0,1,2,2,Isolation Forest; One-Class SVM
+35c62cb24d4c38a9d121fed1a43b2237,1,0,1,2,2,Isolation Forest; One-Class SVM
+35ecdf6858edc6427223b64804cf028e,1,0,1,2,2,Isolation Forest; One-Class SVM
+3633902a0addd1ffc74cbc13d96da288,1,0,1,2,2,Isolation Forest; One-Class SVM
+3725c5b8c1cf5ee69158f66922a862c4,1,0,1,2,2,Isolation Forest; One-Class SVM
+372b41e8faa2819e0b6346b16cdf402b,1,0,1,2,2,Isolation Forest; One-Class SVM
+379a5698aeca26ff55abca9bc7fcaa4f,1,0,1,2,2,Isolation Forest; One-Class SVM
+37bc3d463e2a0024012a7fa587597a3c,0,1,1,2,2,LOF; One-Class SVM
+37d2d1ac62901f9a36cff32ca86c9337,1,0,1,2,2,Isolation Forest; One-Class SVM
+3806104dbbc3d14c17b091b3b8e38d59,0,1,1,2,2,LOF; One-Class SVM
+387b38ebe598313ef56ef3df19b192af,1,0,1,2,2,Isolation Forest; One-Class SVM
+38a4f1deb45ca914dd13c73b41775d71,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+39104edef5e46d7b8c61848cc95e6d97,1,0,1,2,2,Isolation Forest; One-Class SVM
+391d6062da3dd65b4de4524f28c478de,1,0,1,2,2,Isolation Forest; One-Class SVM
+394ac4de8f3acb14253c177f0e15bc58,1,0,1,2,2,Isolation Forest; One-Class SVM
+39618678c9395910a7d675df2b0af941,1,1,0,2,2,Isolation Forest; LOF
+397b44d5bb99eabf54ea9c2b41ebb905,1,0,1,2,2,Isolation Forest; One-Class SVM
+39bd660f04727f543f878c1e1103e2df,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+39c7f8c4e4552af113351a650816296c,1,0,1,2,2,Isolation Forest; One-Class SVM
+3a2681b8e4c9f2171aaade5d578f2cb7,1,0,1,2,2,Isolation Forest; One-Class SVM
+3a2d236fc85fdf338f179ca0cd725433,1,0,1,2,2,Isolation Forest; One-Class SVM
+3ae8c60f0accef7157c38fccbaa4679a,1,1,0,2,2,Isolation Forest; LOF
+3af90f255e824d1d53b3584a4e89ad58,1,0,1,2,2,Isolation Forest; One-Class SVM
+3b97119ab53db4ae0144dff13c2ee26b,1,0,1,2,2,Isolation Forest; One-Class SVM
+3bab949ef05da8e9b3cfd541b6af0ffd,1,0,1,2,2,Isolation Forest; One-Class SVM
+3be412c1321c061d6f85c5e41530ce2d,1,0,1,2,2,Isolation Forest; One-Class SVM
+3c5e1130694632f44051b23fd86ad9e2,1,0,1,2,2,Isolation Forest; One-Class SVM
+3d47f4368ccc8e1bb4c4a12dbda7111b,0,1,1,2,2,LOF; One-Class SVM
+3d4f12dece1264e5d6321f1b7f003336,1,0,1,2,2,Isolation Forest; One-Class SVM
+3d50a44231c2a153219cef76ee3e445d,1,0,1,2,2,Isolation Forest; One-Class SVM
+3d7bc770cfdbe423eb80de6893a8e05e,1,1,0,2,2,Isolation Forest; LOF
+3d93772915efa454a89bf52047b0b285,1,0,1,2,2,Isolation Forest; One-Class SVM
+3db6e5afa8e8178a29afc729855315e2,1,0,1,2,2,Isolation Forest; One-Class SVM
+3de0c9303f39b7ccfe69ca11aee19cc6,1,0,1,2,2,Isolation Forest; One-Class SVM
+3e43e6105506432c953e165fb2acf44c,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+3e45a109987cde39a119cd1a7eade7ea,0,1,1,2,2,LOF; One-Class SVM
+3e5306add1209e5ba184092dd1587282,1,0,1,2,2,Isolation Forest; One-Class SVM
+3ea4185126195c34ed9949d8e406d570,1,0,1,2,2,Isolation Forest; One-Class SVM
+3eadc791253552b8fd96e5f63b403c8f,1,1,0,2,2,Isolation Forest; LOF
+3eb7932f075743f0e50b0d9966707e6f,1,1,0,2,2,Isolation Forest; LOF
+3ec83b54e0afb70def9480cd6b9097f7,1,1,0,2,2,Isolation Forest; LOF
+3edcab192482e9871c17b34cf98c3996,1,0,1,2,2,Isolation Forest; One-Class SVM
+3ee2f03d9b420dd5b3f09c2df2d985c6,1,0,1,2,2,Isolation Forest; One-Class SVM
+3f01021289a4c54f1c984262f4ba625b,0,1,1,2,2,LOF; One-Class SVM
+3f36fa15a16c4850992aa0f33561906e,1,0,1,2,2,Isolation Forest; One-Class SVM
+3f9bb1cc786f6a4ecfd6b3d868d39357,1,1,0,2,2,Isolation Forest; LOF
+3fdc39171d444e1a1cd4da98ac2e4adb,1,0,1,2,2,Isolation Forest; One-Class SVM
+3fe3e628c6c7a15ae96416826a4c5952,1,0,1,2,2,Isolation Forest; One-Class SVM
+3fec1a05177762f279472253113d568a,0,1,1,2,2,LOF; One-Class SVM
+3ff874206f1d7d1e3ffe12bc9c88c27c,1,0,1,2,2,Isolation Forest; One-Class SVM
+4007669dec559734d6f53e029e360987,1,0,1,2,2,Isolation Forest; One-Class SVM
+4041baa51d9eae8f5955ccd4f02bb044,1,0,1,2,2,Isolation Forest; One-Class SVM
+4046cc9e4828038b58ee191e1f713466,1,0,1,2,2,Isolation Forest; One-Class SVM
+4092bf290aa60e4f2d4a0dcc2f38c954,1,0,1,2,2,Isolation Forest; One-Class SVM
+409379e6e577c89589dade402e6c2522,1,0,1,2,2,Isolation Forest; One-Class SVM
+41348c09a551501117e31f8a4149950c,1,0,1,2,2,Isolation Forest; One-Class SVM
+4186b96df8197e7b4982a751c1dde3b6,1,0,1,2,2,Isolation Forest; One-Class SVM
+41a3b256cc497dc952a815b848345cbc,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+41b4af321ed477242aebe74652fd8219,1,0,1,2,2,Isolation Forest; One-Class SVM
+41d57ab847e5ccbe403f46b07ee577d6,1,0,1,2,2,Isolation Forest; One-Class SVM
+4220ae19dee604e8c1dddccd4e535502,1,0,1,2,2,Isolation Forest; One-Class SVM
+423d40b193638955a782839886648464,1,0,1,2,2,Isolation Forest; One-Class SVM
+4291db0da71914754618cd789aebcd56,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+429fbf4ee20691b0ae84c84c3ebc6897,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+42befda568ea0df110b6cec63c233bea,1,0,1,2,2,Isolation Forest; One-Class SVM
+432aa6200ee9673be90863a912dc91dc,1,0,1,2,2,Isolation Forest; One-Class SVM
+44b7b02e8a7f63ec7b93b0d2dda64825,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+44e64b7162915525578f601e73e72b16,1,0,1,2,2,Isolation Forest; One-Class SVM
+4546caea018ad8c692964e3382debd19,0,1,1,2,2,LOF; One-Class SVM
+455c17b35969ca198c17f2fc9e8eba1b,1,0,1,2,2,Isolation Forest; One-Class SVM
+4577881f7a6c10d8eb6bd7f7a82ffa86,1,0,1,2,2,Isolation Forest; One-Class SVM
+459bef486812aa25204be022145caa62,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+4644f1b187e390a08b4c66fb16c91364,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+46450c74a0d8c5ca9395da1daac6c120,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+4658b26bcea972ed0b86a5f8c61718be,1,0,1,2,2,Isolation Forest; One-Class SVM
+4681829483318507ed55682649de6571,1,0,1,2,2,Isolation Forest; One-Class SVM
+46b518c0803dd3f27a69b941c70a4e1c,1,1,0,2,2,Isolation Forest; LOF
+46da36c3df7118852b770394d1ba2be5,1,0,1,2,2,Isolation Forest; One-Class SVM
+46ed126bcf1df6e195dbc63d7c320983,1,0,1,2,2,Isolation Forest; One-Class SVM
+4702ba5faa8283e0f6b6a545cdaf8a9f,1,0,1,2,2,Isolation Forest; One-Class SVM
+4711348768db55c57a67aba080ead566,1,0,1,2,2,Isolation Forest; One-Class SVM
+473d9165586cfc6708841d07adf6c020,1,0,1,2,2,Isolation Forest; One-Class SVM
+47544c4d42f988172faedb4b05231671,1,0,1,2,2,Isolation Forest; One-Class SVM
+4755e6cf97a25760ab159e0457c84a29,1,0,1,2,2,Isolation Forest; One-Class SVM
+47c1a3033b8b77b3ab6e109eb4d5fdf3,1,0,1,2,2,Isolation Forest; One-Class SVM
+47e73a2fd380ec487a3b25fa01104859,1,0,1,2,2,Isolation Forest; One-Class SVM
+48625b68a29dcfc3aba4b5147e0625aa,1,0,1,2,2,Isolation Forest; One-Class SVM
+48e1ac109decbb87765a3eade6854098,0,1,1,2,2,LOF; One-Class SVM
+494e887fef923d79982b3c0e1ab49cdd,1,0,1,2,2,Isolation Forest; One-Class SVM
+495fe7ae31686381c8145b2936e761dc,1,0,1,2,2,Isolation Forest; One-Class SVM
+49cee01774f85ef576192e1038cf9cc6,1,0,1,2,2,Isolation Forest; One-Class SVM
+49d602890c664bcee124fa70e94d9fb1,1,0,1,2,2,Isolation Forest; One-Class SVM
+49e6749fd8bf4a9218457eb19a92e200,1,0,1,2,2,Isolation Forest; One-Class SVM
+4b979b432abe14a88cd0cde893952677,1,0,1,2,2,Isolation Forest; One-Class SVM
+4bbaf6f7a10a7e26a8777aa5cb6d5864,1,0,1,2,2,Isolation Forest; One-Class SVM
+4bca9d65362f922b564902c98bd3aabb,1,0,1,2,2,Isolation Forest; One-Class SVM
+4be8154b42b4593fae17f1b2cb375615,1,0,1,2,2,Isolation Forest; One-Class SVM
+4c116f8ddec984371284ab7bc860001a,1,0,1,2,2,Isolation Forest; One-Class SVM
+4c3d123168c78dcca6cde5a7274430a5,1,0,1,2,2,Isolation Forest; One-Class SVM
+4c4b5dc90eb4e33188153ca3e7999f92,1,0,1,2,2,Isolation Forest; One-Class SVM
+4c93744516667ad3b8f1fb645a3116a4,1,0,1,2,2,Isolation Forest; One-Class SVM
+4ccd02ccc6c6bd7213880ba162e95b0c,1,0,1,2,2,Isolation Forest; One-Class SVM
+4ce423721c74231c174d0bb22367645a,1,0,1,2,2,Isolation Forest; One-Class SVM
+4cfa5155cf7cff8eb15e0b12041d058e,1,0,1,2,2,Isolation Forest; One-Class SVM
+4d5cbb095f36a674f6f4a852959ad11d,1,0,1,2,2,Isolation Forest; One-Class SVM
+4d7b6c39aa3c7b53acb8058e4094a593,1,0,1,2,2,Isolation Forest; One-Class SVM
+4d99682572b7b5932340a0bce676c18c,0,1,1,2,2,LOF; One-Class SVM
+4d9e104764077f7dfae917c7cc803212,1,0,1,2,2,Isolation Forest; One-Class SVM
+4dff4725813168461eb3e5e9f807d66a,1,1,0,2,2,Isolation Forest; LOF
+4e1554d1a2dcb38dcf22770eb7390fe1,1,0,1,2,2,Isolation Forest; One-Class SVM
+4e1cce07cd5937c69dacac3c8b13d965,1,0,1,2,2,Isolation Forest; One-Class SVM
+4e65032f1f574189fb793bac5a867bbc,1,0,1,2,2,Isolation Forest; One-Class SVM
+4ecdb958c2b1b099ed5e56d9ca156773,1,1,0,2,2,Isolation Forest; LOF
+4ef6c02126b21225e011b242f9f79c6f,1,0,1,2,2,Isolation Forest; One-Class SVM
+4f011f45db425dcd3be79d4c11e9ad05,1,0,1,2,2,Isolation Forest; One-Class SVM
+4f2029f4e7aea8455f5c1cb9de0b7ccd,1,0,1,2,2,Isolation Forest; One-Class SVM
+4f223a62631b82cfb22241007bbd60dc,1,0,1,2,2,Isolation Forest; One-Class SVM
+4f4943d1a8ac2c4a65d4fba25ee8c0bb,1,0,1,2,2,Isolation Forest; One-Class SVM
+4f4d2fe2987efa0b9e4e61a466e8ed8b,1,0,1,2,2,Isolation Forest; One-Class SVM
+4fa4365000c7090fcb8cad5713c6d3db,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+4facc2e6fbc2bffab2fea92d2b4aa7e4,1,0,1,2,2,Isolation Forest; One-Class SVM
+4ffd7cf05f22d7a320750a2f9e73f665,1,0,1,2,2,Isolation Forest; One-Class SVM
+50ad9fb3ba7f8cf336529fe94a182996,1,0,1,2,2,Isolation Forest; One-Class SVM
+50cd97d731f3f5e3f321673c2671a23d,1,0,1,2,2,Isolation Forest; One-Class SVM
+514f8ca0f04813ed414874f8f422e6c3,1,0,1,2,2,Isolation Forest; One-Class SVM
+51838d41add414a0b1b989b7d251d9ee,1,0,1,2,2,Isolation Forest; One-Class SVM
+5192c897072033288df55bd01b0e5737,1,0,1,2,2,Isolation Forest; One-Class SVM
+51d121ddc025c1b70f8f62a1b727aecf,1,0,1,2,2,Isolation Forest; One-Class SVM
+51dc56123336c573f2977f5da81b17b9,1,0,1,2,2,Isolation Forest; One-Class SVM
+5212c50e79fe1349b9894f6508b401d8,1,1,0,2,2,Isolation Forest; LOF
+523730e4b2ef7654c243699b81763112,1,0,1,2,2,Isolation Forest; One-Class SVM
+52597838f6c178b19b961b068d048c71,1,0,1,2,2,Isolation Forest; One-Class SVM
+525cda9909aa001ebed396f6e55eae01,1,0,1,2,2,Isolation Forest; One-Class SVM
+525e9dbf2f675f893b9f695d5ecefb31,1,0,1,2,2,Isolation Forest; One-Class SVM
+525eb1a84ca6c1c0df03dcafaf9c0afc,1,1,0,2,2,Isolation Forest; LOF
+52b8fc428690f8974a3d3ff3a162f7b7,1,0,1,2,2,Isolation Forest; One-Class SVM
+52e05f52b2ccd1945aafaae6ceff7ba1,1,0,1,2,2,Isolation Forest; One-Class SVM
+53cc7338a7d5994fe8baa28a039d2343,1,1,0,2,2,Isolation Forest; LOF
+53e4d5ab8287848319f0220d47ee7ca0,1,0,1,2,2,Isolation Forest; One-Class SVM
+5419a7c9b86a43d8140e2939cd2c2f7e,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+544bd839b4e7f92a077c7bf2410f8b02,1,0,1,2,2,Isolation Forest; One-Class SVM
+5457ae2c352c18e3bf5cba68301d96a8,1,0,1,2,2,Isolation Forest; One-Class SVM
+5461338ea772177374bcf3f23665178f,1,0,1,2,2,Isolation Forest; One-Class SVM
+547d0504ca415eb4864fa3030f73d3f3,1,0,1,2,2,Isolation Forest; One-Class SVM
+54982b0c374191195d5f433c7cccae90,1,0,1,2,2,Isolation Forest; One-Class SVM
+549a24530925587e2faddb35f667e458,1,0,1,2,2,Isolation Forest; One-Class SVM
+54c7b4f48fb9e911bf328bf9884ca61d,1,0,1,2,2,Isolation Forest; One-Class SVM
+54ed3f082c9e7725a0e26e9e682fc825,1,0,1,2,2,Isolation Forest; One-Class SVM
+552fc05a13d28356a38e8b13f64cbe4f,1,0,1,2,2,Isolation Forest; One-Class SVM
+5568fb2b583235812ed08eb9587d0465,1,0,1,2,2,Isolation Forest; One-Class SVM
+557b158701bedbb76b856eb5f3af51b1,1,0,1,2,2,Isolation Forest; One-Class SVM
+55b488a273c6ec9ca293736e9a69d0b3,1,0,1,2,2,Isolation Forest; One-Class SVM
+55fbb64f60861980e74c4f136f304297,1,0,1,2,2,Isolation Forest; One-Class SVM
+562b3bca5a8903b7451462b6e7aa6082,1,0,1,2,2,Isolation Forest; One-Class SVM
+569aa12b73b5f7edeaa6f2a01603e381,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+56b0ca904be7b0eeb32b90627b820f1a,1,1,0,2,2,Isolation Forest; LOF
+56bbcf30b470277b4241528cb33bab2a,0,1,1,2,2,LOF; One-Class SVM
+56c8638e7c058b98aae6d74d2dd6ea23,1,0,1,2,2,Isolation Forest; One-Class SVM
+5735fac0e3e12fee0b0545828a977acd,1,0,1,2,2,Isolation Forest; One-Class SVM
+575e8735ac3203bfb92c7d52919faf70,1,0,1,2,2,Isolation Forest; One-Class SVM
+57ab30ac5f9bf8b1e23bb1732aabc91d,1,0,1,2,2,Isolation Forest; One-Class SVM
+57b5d9f9fa4f1ff41befbfbf0fcbc3ca,1,0,1,2,2,Isolation Forest; One-Class SVM
+58e2253f083d42930c64ca32b510a512,1,0,1,2,2,Isolation Forest; One-Class SVM
+5936fabf5dfeaa6c31d9f649b5794e2c,1,0,1,2,2,Isolation Forest; One-Class SVM
+593cb774409e5239a1946d1c88e0813d,1,0,1,2,2,Isolation Forest; One-Class SVM
+595ee036d3a69e80934a9b3618834085,1,0,1,2,2,Isolation Forest; One-Class SVM
+59d66d72939bc9497e19d89c61a96d5f,1,0,1,2,2,Isolation Forest; One-Class SVM
+5a494c648fde2d1ec4eb614274ea7159,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+5aad27a7b4f74b1c3389d56c74db1057,1,0,1,2,2,Isolation Forest; One-Class SVM
+5ad84888519e10ff52d8af00641d41bc,1,0,1,2,2,Isolation Forest; One-Class SVM
+5ad96d7a95788923e8ff455366a90015,1,0,1,2,2,Isolation Forest; One-Class SVM
+5b09c620db60411b0be6f1817c6cbe71,1,0,1,2,2,Isolation Forest; One-Class SVM
+5b1ae94194ff6e974356063557746e47,1,0,1,2,2,Isolation Forest; One-Class SVM
+5b3186d7cf904f2f9369aec26faba4d2,1,0,1,2,2,Isolation Forest; One-Class SVM
+5c00e849b56a56ea31560d5d66f933e9,1,0,1,2,2,Isolation Forest; One-Class SVM
+5c2b5c09534917d37857557d37ed9205,1,0,1,2,2,Isolation Forest; One-Class SVM
+5c77da09750b42091c93c331d544ab53,1,0,1,2,2,Isolation Forest; One-Class SVM
+5d323409404dee6bdb0f6cf9ef828dae,1,0,1,2,2,Isolation Forest; One-Class SVM
+5d607421da6962c3a1f43b1abccb3119,1,1,0,2,2,Isolation Forest; LOF
+5d63628c95182301765aa1482b0293aa,1,0,1,2,2,Isolation Forest; One-Class SVM
+5d7ff357d021646cf8adf2601713f624,1,0,1,2,2,Isolation Forest; One-Class SVM
+5dbba6c01268a8ad43f79157bf4454a0,1,0,1,2,2,Isolation Forest; One-Class SVM
+5e33331e26d0a4e1f3fe84b3f9c5549b,1,0,1,2,2,Isolation Forest; One-Class SVM
+5e5a9e721cb83187f5893a8c7109faee,1,1,0,2,2,Isolation Forest; LOF
+5e713be0853d8986528d7869a0811d2b,0,1,1,2,2,LOF; One-Class SVM
+5e8f38a9a1c023f3db718edcf926a2db,1,0,1,2,2,Isolation Forest; One-Class SVM
+5e92460d739e8dd987e279285a1d278c,0,1,1,2,2,LOF; One-Class SVM
+5ec4c90f549177a8cbbbc7419353e66a,1,0,1,2,2,Isolation Forest; One-Class SVM
+5ed5ff23e88328ba909334ac76a282f9,0,1,1,2,2,LOF; One-Class SVM
+5eefb861d4921a3e628bbc65c50a480a,1,0,1,2,2,Isolation Forest; One-Class SVM
+5f435bbe57e905e19378fa56b60e9d16,1,0,1,2,2,Isolation Forest; One-Class SVM
+5f45aa4ef9b8fb99b95d33a970bb64a7,1,0,1,2,2,Isolation Forest; One-Class SVM
+5f8ad624020f7db33a63d5a0e5d14348,1,1,0,2,2,Isolation Forest; LOF
+5fe117882be55ee9ad0d6c6c56d11019,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+5ff735d120cf4ec4adefd9766f703bf5,1,0,1,2,2,Isolation Forest; One-Class SVM
+605b061fa0abcd3c972303a1f6ecd08d,1,1,0,2,2,Isolation Forest; LOF
+60863e9f13562f664b73e6f76ff85910,1,0,1,2,2,Isolation Forest; One-Class SVM
+60a22f2188cd2b544c45f103d0e00539,1,0,1,2,2,Isolation Forest; One-Class SVM
+615922c430abddd368735199c38e735d,1,0,1,2,2,Isolation Forest; One-Class SVM
+61b4260aa3892f7f714ba862cd42fd0e,1,1,0,2,2,Isolation Forest; LOF
+61f8e187caf6984fb1fd9d3bc8ba9525,0,1,1,2,2,LOF; One-Class SVM
+61fe766e454d5e750b33250035b4311d,1,0,1,2,2,Isolation Forest; One-Class SVM
+6204c4e582a95b6a350adf6988623bfb,1,0,1,2,2,Isolation Forest; One-Class SVM
+621e115832c0d4258a86adb2a4650b6e,1,1,0,2,2,Isolation Forest; LOF
+6223bdc5aab952ee49dea3511f89e7ec,1,0,1,2,2,Isolation Forest; One-Class SVM
+62b8761192c86f4ead06f4a433096a2b,1,0,1,2,2,Isolation Forest; One-Class SVM
+6321cbc5ca73fae88f1acccaa086ecdf,1,0,1,2,2,Isolation Forest; One-Class SVM
+633aa358e90a435dc47a30af5a0a832d,1,0,1,2,2,Isolation Forest; One-Class SVM
+634420a0ea42302205032ed44ac7fccc,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+6345e3b3ba5ee47685e29ec5febc8155,1,0,1,2,2,Isolation Forest; One-Class SVM
+6358b15ef7fa9b1210f1a5735cabd3d9,1,0,1,2,2,Isolation Forest; One-Class SVM
+63669b3731dcc014feec668c3d888aa0,1,0,1,2,2,Isolation Forest; One-Class SVM
+636f22218f8430a8463c5ddc5f68fc62,1,0,1,2,2,Isolation Forest; One-Class SVM
+63adc4def3cd3c39bd83083d737d98b5,1,0,1,2,2,Isolation Forest; One-Class SVM
+63cfc61cee11cbe306bff5857d00bfe4,1,0,1,2,2,Isolation Forest; One-Class SVM
+6411590d91c48640cb07e72fbb4a359e,0,1,1,2,2,LOF; One-Class SVM
+6419a1be8feac26ec793667b71cbaeb4,1,0,1,2,2,Isolation Forest; One-Class SVM
+6469f99c1f9dfae7733b25662e7f1782,1,0,1,2,2,Isolation Forest; One-Class SVM
+64df076fb557552498049bb07ed1cd5f,1,1,0,2,2,Isolation Forest; LOF
+64ee3e71d9a27034db0c6a48c29d35d5,1,0,1,2,2,Isolation Forest; One-Class SVM
+6594a65023bcb47539aa91b0f8e98e00,1,0,1,2,2,Isolation Forest; One-Class SVM
+65e2735427dedd6a787e5b065b3cc41e,1,0,1,2,2,Isolation Forest; One-Class SVM
+660f3640907ce2cd4742caee5ddf14b7,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+66e56177b9bf464a930e57edc3694403,1,0,1,2,2,Isolation Forest; One-Class SVM
+673dcf90d05656ebc9f5aa4a9709f245,1,1,0,2,2,Isolation Forest; LOF
+67466b5877fad6f2279c1fb634c9aa5c,1,0,1,2,2,Isolation Forest; One-Class SVM
+67806996190d3af60247f64e1d03877f,1,1,0,2,2,Isolation Forest; LOF
+67bddde1844b238fe25995cde1612b4e,1,0,1,2,2,Isolation Forest; One-Class SVM
+681405a99faf3ac8afc2dc018a3f67bb,1,0,1,2,2,Isolation Forest; One-Class SVM
+6832bd3ca1bf89c9e60bf3c91d846ec9,1,0,1,2,2,Isolation Forest; One-Class SVM
+68497ce04e9b12cb402671a29acdf6a2,1,0,1,2,2,Isolation Forest; One-Class SVM
+684fdd89d877968793cfb9c8f7ef7874,1,0,1,2,2,Isolation Forest; One-Class SVM
+688d5274462f91fa0332582b748ce41d,1,0,1,2,2,Isolation Forest; One-Class SVM
+696fca7af7f751e1749087433a92c790,1,0,1,2,2,Isolation Forest; One-Class SVM
+69768afd389429f6ec48199e5fb8e61a,1,0,1,2,2,Isolation Forest; One-Class SVM
+698118425f0afbd4bee557e51b6bd49b,1,0,1,2,2,Isolation Forest; One-Class SVM
+698e1cf81d01a3d389d96145f7fa6df8,0,1,1,2,2,LOF; One-Class SVM
+69aedec762e21e5aaca6eba2e635dcfb,1,0,1,2,2,Isolation Forest; One-Class SVM
+69f2934ad8b50cc05587a94cc7d68fc9,1,0,1,2,2,Isolation Forest; One-Class SVM
+6a6a7141119ceaeca4dfbae7a580a515,1,0,1,2,2,Isolation Forest; One-Class SVM
+6a81fb4e2dc07a9b711cd73142689ee7,0,1,1,2,2,LOF; One-Class SVM
+6a9e15d6fa8ce1cabf193c21aa577f64,1,0,1,2,2,Isolation Forest; One-Class SVM
+6aa2294d9975e319365a586ba919de73,1,0,1,2,2,Isolation Forest; One-Class SVM
+6ae98e2bdf8d09e86cd16479fa511f9e,1,0,1,2,2,Isolation Forest; One-Class SVM
+6b999f361fb30b6274f1f63aa445b6bc,0,1,1,2,2,LOF; One-Class SVM
+6bb535b0906b43e0041916897667aeed,1,0,1,2,2,Isolation Forest; One-Class SVM
+6bb7c9ac69dc13b436f413acec41a1b6,1,0,1,2,2,Isolation Forest; One-Class SVM
+6c5524784076044070d9fe6cf151912d,1,0,1,2,2,Isolation Forest; One-Class SVM
+6c70bee45f245a4ebeddb2ece21b567d,1,0,1,2,2,Isolation Forest; One-Class SVM
+6d3d5771a12f5e7d00729f940bb28fd2,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+6d443b75cff956bb73dce7385033e266,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+6dcf48fcc0c4d96dd7af8a0897ae9de8,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+6dde57240c2e18d525327e76aa288b65,1,0,1,2,2,Isolation Forest; One-Class SVM
+6e26bbeaa107ec34112c64e1ee31c0f5,1,0,1,2,2,Isolation Forest; One-Class SVM
+6e2f539e9e0e323859a81079581db712,1,0,1,2,2,Isolation Forest; One-Class SVM
+6e620488162fe1129d32f26b751d770a,1,0,1,2,2,Isolation Forest; One-Class SVM
+6edeeed37ddd3dee7559f358b023ef9b,1,0,1,2,2,Isolation Forest; One-Class SVM
+6eefa309faab7725bf4b9dce147e4ae6,1,0,1,2,2,Isolation Forest; One-Class SVM
+6f302f15a62c56b3100b67a81bfef328,1,0,1,2,2,Isolation Forest; One-Class SVM
+6f35424ab0a4f25807ac4e03b155832e,1,0,1,2,2,Isolation Forest; One-Class SVM
+6f59eba24fd00a27069b57c896d8899a,1,0,1,2,2,Isolation Forest; One-Class SVM
+6f64406ed5cfa4a2d9bd35e91bfd6587,1,0,1,2,2,Isolation Forest; One-Class SVM
+6faa792efdf7c9c6eb7cfdf68aa5e581,1,0,1,2,2,Isolation Forest; One-Class SVM
+6fbc7cdadbb522125f4b27ae9dee4060,0,1,1,2,2,LOF; One-Class SVM
+70601471b692cc0879300373118041ff,1,1,0,2,2,Isolation Forest; LOF
+70ad91901ad4330af432978ff134fc6f,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+70c7bc295f2ffdd9125c96d2ace32fb4,1,1,0,2,2,Isolation Forest; LOF
+718d5855edf637b8e2f213db87dab93d,1,0,1,2,2,Isolation Forest; One-Class SVM
+719b416ebeb9f51638f343c4cc19f742,1,0,1,2,2,Isolation Forest; One-Class SVM
+71a92fd3087501bcfba6e6e1ef7e8fd7,1,0,1,2,2,Isolation Forest; One-Class SVM
+71d2dbb6d2f52d568ca9d69c815a4331,1,0,1,2,2,Isolation Forest; One-Class SVM
+71d790b151c0349e5f5b2fbb4fbe1321,1,0,1,2,2,Isolation Forest; One-Class SVM
+72061fff095d8325b311ea24e2f4a2b5,1,1,0,2,2,Isolation Forest; LOF
+720bd81369ac97db986d4f09ba1e7e7f,1,1,0,2,2,Isolation Forest; LOF
+728a151b4593fb7ae0787158df28752a,1,0,1,2,2,Isolation Forest; One-Class SVM
+72994e988788873a1df6dad43d38a2bd,1,0,1,2,2,Isolation Forest; One-Class SVM
+7305430719d715992b00be82af4a6aa8,1,0,1,2,2,Isolation Forest; One-Class SVM
+730e4b7ede33b484516435d39ab4dc49,1,0,1,2,2,Isolation Forest; One-Class SVM
+7311b47a208b4f5af09ccc62fafea9e2,1,0,1,2,2,Isolation Forest; One-Class SVM
+732d307839b02bc2d3a4c26b515ea2b9,1,0,1,2,2,Isolation Forest; One-Class SVM
+73601b1eec55943e90ce8d61253d5c09,1,0,1,2,2,Isolation Forest; One-Class SVM
+738ffcf1017b584e9d2684b36e07469c,1,0,1,2,2,Isolation Forest; One-Class SVM
+73a218a376e1c8e6a31799484fe514b8,1,1,0,2,2,Isolation Forest; LOF
+742e8f4db90f93804a21be643fc3ef18,1,1,0,2,2,Isolation Forest; LOF
+7462a753a77ed093330660f7003064c7,1,1,0,2,2,Isolation Forest; LOF
+74a63835c6e5eaef19af58cc83f663aa,1,0,1,2,2,Isolation Forest; One-Class SVM
+74adf920dbd3d2e6e9f18acd88b2fd41,1,0,1,2,2,Isolation Forest; One-Class SVM
+74b70f040f3977a893ed8646cce8a120,1,1,0,2,2,Isolation Forest; LOF
+74b8021516f25eb91f5b4e704a2cd671,1,0,1,2,2,Isolation Forest; One-Class SVM
+74cb1ad7e6d5674325c1f99b5ea30d82,1,0,1,2,2,Isolation Forest; One-Class SVM
+74fe4e106702770ef728399ce5da503a,1,0,1,2,2,Isolation Forest; One-Class SVM
+752041fd42cbe3a4f4dea0d68a0a6edd,1,0,1,2,2,Isolation Forest; One-Class SVM
+7582a5a77fc2976628f46a13ec91b375,0,1,1,2,2,LOF; One-Class SVM
+7588c20c457369de8caad958afc1cc06,1,0,1,2,2,Isolation Forest; One-Class SVM
+7589544c08cc5de364cad85ee73f4b63,1,0,1,2,2,Isolation Forest; One-Class SVM
+7599dea7f7520c8c37351721ad6870de,1,0,1,2,2,Isolation Forest; One-Class SVM
+75c7cb4037146f5c8e95ade4214396c5,1,0,1,2,2,Isolation Forest; One-Class SVM
+75eacb17f5ef482c37c7b7903f014ece,1,0,1,2,2,Isolation Forest; One-Class SVM
+75ff587e87e047a7e00f75bbcab17c00,1,0,1,2,2,Isolation Forest; One-Class SVM
+763c8b1c9c68a0229c42c9fc6f662b93,1,1,0,2,2,Isolation Forest; LOF
+7649b15c0f9e10a06fd969de050553bf,1,1,0,2,2,Isolation Forest; LOF
+76a0491dd70c125840fa259f00dfc351,1,0,1,2,2,Isolation Forest; One-Class SVM
+76b61cd27ca2933a2bd2669762fb229a,1,1,0,2,2,Isolation Forest; LOF
+76e5f3bca2b1f5c510c41563c2ea31a4,1,0,1,2,2,Isolation Forest; One-Class SVM
+76f7d40948174f5cde0fcf8e6147b59d,1,0,1,2,2,Isolation Forest; One-Class SVM
+77784ec016bfbcc51d2394d1632f0d3d,1,0,1,2,2,Isolation Forest; One-Class SVM
+7779fdf670bfe673e064b9aa5447674e,1,0,1,2,2,Isolation Forest; One-Class SVM
+77807178e3955a3352d9e7101cceb07f,1,1,0,2,2,Isolation Forest; LOF
+779f7ec7155dfd74a8425e40c4d34497,1,0,1,2,2,Isolation Forest; One-Class SVM
+7828a4a1ee004bbe6665cbffbc4bf2d9,1,0,1,2,2,Isolation Forest; One-Class SVM
+7849336c1b7785f258ffef06aedbd216,1,0,1,2,2,Isolation Forest; One-Class SVM
+788313d21c3507fe890921f6e17aa679,1,0,1,2,2,Isolation Forest; One-Class SVM
+78acd50d033f80538ef65fb5c5bb07ce,0,1,1,2,2,LOF; One-Class SVM
+78b23d5ff07ebe2f082472ca242b9238,0,1,1,2,2,LOF; One-Class SVM
+78b5cbc4b9ad61445b6609593addca37,1,0,1,2,2,Isolation Forest; One-Class SVM
+78d79858662c99b94b69547d9f80e061,1,0,1,2,2,Isolation Forest; One-Class SVM
+795c1622cf7a53d63d324e862349d01c,1,0,1,2,2,Isolation Forest; One-Class SVM
+796214f3f3b496b3b116986185984393,1,0,1,2,2,Isolation Forest; One-Class SVM
+79abd55efd139ad036a57558aea211e4,1,0,1,2,2,Isolation Forest; One-Class SVM
+79e12483f9b14c3254db94bd137a4b70,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+7a1de9bde89aedca8c5fbad489c5571c,1,0,1,2,2,Isolation Forest; One-Class SVM
+7a311d62282fa63be12b02aef2fd21d1,1,0,1,2,2,Isolation Forest; One-Class SVM
+7a350426024a624cef97f797c408db97,1,0,1,2,2,Isolation Forest; One-Class SVM
+7a774055fedca2666e77244c5e50368f,1,0,1,2,2,Isolation Forest; One-Class SVM
+7afc250f9d980ea3ee0ce3b0245f1b04,1,0,1,2,2,Isolation Forest; One-Class SVM
+7b05e0471103ce0ef346e87c357273fe,1,0,1,2,2,Isolation Forest; One-Class SVM
+7bf5c9596fc39d41078cb46a86b23831,1,0,1,2,2,Isolation Forest; One-Class SVM
+7bfe938f525a12153b94937fbda166bc,0,1,1,2,2,LOF; One-Class SVM
+7c396fd4830fd04220f754e42b4e5bff,1,0,1,2,2,Isolation Forest; One-Class SVM
+7c4b40bb2b820e20b226a5a615e357aa,1,0,1,2,2,Isolation Forest; One-Class SVM
+7c5198d8a67f7da5930f067766cb468f,1,0,1,2,2,Isolation Forest; One-Class SVM
+7c588c097689b0b77fd73d171332b0ba,1,0,1,2,2,Isolation Forest; One-Class SVM
+7c5cd64106c9160122fd28b026cec28b,1,0,1,2,2,Isolation Forest; One-Class SVM
+7c763d069eb3926fc65593030d5c99a3,1,0,1,2,2,Isolation Forest; One-Class SVM
+7c9a0402e884c791edf88646b7c20a82,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+7cb9a6b438fe0a5f228bfd32ff9e1a11,1,0,1,2,2,Isolation Forest; One-Class SVM
+7cbf84875196ee1d04dc880ebbfaa7ef,1,0,1,2,2,Isolation Forest; One-Class SVM
+7d0983269f825d3112e5a64364b1258a,1,0,1,2,2,Isolation Forest; One-Class SVM
+7d3d94b4740895a17760e976797f9f0e,1,0,1,2,2,Isolation Forest; One-Class SVM
+7d87ba0bd6466390cf5d4c9735236086,1,0,1,2,2,Isolation Forest; One-Class SVM
+7e094f060802ff5e25bef767446968d3,1,0,1,2,2,Isolation Forest; One-Class SVM
+7e1681f9bb31800364869a2cdbe289db,1,0,1,2,2,Isolation Forest; One-Class SVM
+7e5ea35b3b148a29f6ea845f1096757c,1,1,0,2,2,Isolation Forest; LOF
+7e8444fb4d74e0b442515b38a13de897,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+7ee9e6c80bf1b7ec4a52639eab6c128c,1,0,1,2,2,Isolation Forest; One-Class SVM
+7f50c43baa66aae590aa1a067427cce5,1,0,1,2,2,Isolation Forest; One-Class SVM
+7f5dcde4d292354dd5e6968a27971126,1,0,1,2,2,Isolation Forest; One-Class SVM
+7f78ef49a3ec6ff5ca63eb05bf82fefc,1,0,1,2,2,Isolation Forest; One-Class SVM
+7fb211f99a01b4971fd1e07e3a256458,1,0,1,2,2,Isolation Forest; One-Class SVM
+801512ead4c9cbc98ecd208f45c975ec,1,0,1,2,2,Isolation Forest; One-Class SVM
+80282a1a77281692a0339c2a08d0e6af,1,0,1,2,2,Isolation Forest; One-Class SVM
+803b4fc75d3fe8c5dbed83f50b3fbd8c,1,0,1,2,2,Isolation Forest; One-Class SVM
+803c530613f5c4ee03502be0d6894de0,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+805e5a317f4b3e1afccb9dfd71287a36,1,0,1,2,2,Isolation Forest; One-Class SVM
+81098a634d4eab46ab9fbd0df37e52bd,1,0,1,2,2,Isolation Forest; One-Class SVM
+8149101234b839e311a6f8c525206632,1,0,1,2,2,Isolation Forest; One-Class SVM
+815392b735eba3589a02408bce170947,1,1,0,2,2,Isolation Forest; LOF
+816092f5825c3e2cdfdd4af546d4d04c,1,0,1,2,2,Isolation Forest; One-Class SVM
+8194a6cea93c5c653e7956f0b962b5f7,1,0,1,2,2,Isolation Forest; One-Class SVM
+819c65629034acc8a0e1c096c2c6715d,1,0,1,2,2,Isolation Forest; One-Class SVM
+821e75291b1ad362e614c0ea79fc95a6,1,0,1,2,2,Isolation Forest; One-Class SVM
+830d5b7aaa3b6f1e9ad63703bec97d23,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+83915016a26b0ca42e3caf1070664d1f,1,0,1,2,2,Isolation Forest; One-Class SVM
+839a04051a2c347397fd425d01fc3eb2,1,1,0,2,2,Isolation Forest; LOF
+83aa61a6db9f7c9576775165a5781f64,0,1,1,2,2,LOF; One-Class SVM
+83e7958a94bd7f74a9414d8782f87628,1,1,0,2,2,Isolation Forest; LOF
+84b19ed453ffee6b3a13dae20065543a,1,0,1,2,2,Isolation Forest; One-Class SVM
+8505734f21396405b5477c75a45734fe,1,0,1,2,2,Isolation Forest; One-Class SVM
+851eefea71a07755f017e75fae31f2fd,1,0,1,2,2,Isolation Forest; One-Class SVM
+85963fd37bfd387aa6d915d8a1065486,0,1,1,2,2,LOF; One-Class SVM
+8597b390850fe72e108d53f42ca64846,1,0,1,2,2,Isolation Forest; One-Class SVM
+85ed7212fe192ab02ab44c95ba87868e,1,0,1,2,2,Isolation Forest; One-Class SVM
+860f75391be5698f015d3b234e7576d6,1,0,1,2,2,Isolation Forest; One-Class SVM
+8614ac51282d77ed22393201f26ca405,1,0,1,2,2,Isolation Forest; One-Class SVM
+862b2c6ccf4352c087cd60cdac498b48,1,0,1,2,2,Isolation Forest; One-Class SVM
+862e1936729b52974099383cd4f07fab,1,1,0,2,2,Isolation Forest; LOF
+864adb6f60fff0c2a11613045507d350,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+8689b3e15d4b16cfd05ecf597a523453,1,0,1,2,2,Isolation Forest; One-Class SVM
+869be6f00b4c49e72f9a1e2033baa9f0,1,0,1,2,2,Isolation Forest; One-Class SVM
+86b3fe2ecd895fa35d303e2a49b3130b,1,0,1,2,2,Isolation Forest; One-Class SVM
+86bfc49565a9ca52fcbf861fcc1e67a4,1,0,1,2,2,Isolation Forest; One-Class SVM
+86df00dc5fd68f4dd5d5945ca19f3ed6,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+8746f1ba2e19bcf8bc03a946a0923d78,1,0,1,2,2,Isolation Forest; One-Class SVM
+87914dda99d76004bfd05778028fa7e8,1,0,1,2,2,Isolation Forest; One-Class SVM
+87ab9fec999db8bd5774917de3cdf01c,1,0,1,2,2,Isolation Forest; One-Class SVM
+87b3f231705783eb2217e25851c0a45d,0,1,1,2,2,LOF; One-Class SVM
+87ff69ee0a94361f61fbd5e5699c5230,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+886583680443fec2ba8b1426cc6facde,1,1,0,2,2,Isolation Forest; LOF
+8897ea56bce6fe37a39cb2ec40898102,1,0,1,2,2,Isolation Forest; One-Class SVM
+88a830a14a479075c655c2f9d3ba3934,0,1,1,2,2,LOF; One-Class SVM
+88c11a241bcbd239da19623bb23891a9,1,0,1,2,2,Isolation Forest; One-Class SVM
+894382535eef1ce243ec19088626be0e,1,0,1,2,2,Isolation Forest; One-Class SVM
+8961b4ca2c5aceb7a78ea72c6e0c840a,1,0,1,2,2,Isolation Forest; One-Class SVM
+8964628f0dd7ab0fe0751abedcbd317d,1,1,0,2,2,Isolation Forest; LOF
+89be58cbdd6ef318e3ed93fdb22be178,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+8a1e8b556fd5feb59a63729b5341e71a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+8a3bb3e78e9a0ffbf3e47f8fb749b4cb,1,0,1,2,2,Isolation Forest; One-Class SVM
+8a8ac60fd8ea25925f379a33ef277987,1,0,1,2,2,Isolation Forest; One-Class SVM
+8ab4df7b84aae318d55e776501cce37c,1,1,0,2,2,Isolation Forest; LOF
+8af7ac63b2efbcbd88e5b11505e8098a,0,1,1,2,2,LOF; One-Class SVM
+8b160faff469868625c7c82cbd310636,1,1,0,2,2,Isolation Forest; LOF
+8bc85b1061383d0dcd4e995a726da763,1,0,1,2,2,Isolation Forest; One-Class SVM
+8bd9c53ae5e194fd363ed6714235e6be,0,1,1,2,2,LOF; One-Class SVM
+8c21dd8c37144807c601f99f2a209dfb,1,0,1,2,2,Isolation Forest; One-Class SVM
+8cb0a62e8c536632e7c0a985166a089b,1,0,1,2,2,Isolation Forest; One-Class SVM
+8cd6f80d3c3994e2060d46ec07ff0b0a,1,0,1,2,2,Isolation Forest; One-Class SVM
+8cda74bcb48b709a90e5441e19b1d759,1,1,0,2,2,Isolation Forest; LOF
+8cfc5350efe3bce6a0d6f96fbaf2c3b4,1,0,1,2,2,Isolation Forest; One-Class SVM
+8d26c82c2086dcacc175e2ffe6ee2f28,1,0,1,2,2,Isolation Forest; One-Class SVM
+8d50f5eadf50201ccdcedfb9e2ac8455,1,0,1,2,2,Isolation Forest; One-Class SVM
+8d6512fa0e1c5cdbd789b956de79fe2f,1,0,1,2,2,Isolation Forest; One-Class SVM
+8dafb82f687e3b0dc9e97b4198b92128,1,0,1,2,2,Isolation Forest; One-Class SVM
+8dc4412f2ddf5ffee6cf50e6278b37fd,1,0,1,2,2,Isolation Forest; One-Class SVM
+8dfbc9064378d19ac99a21ac353072d7,1,0,1,2,2,Isolation Forest; One-Class SVM
+8e0275b5c7fb6f05e312a1079a674410,1,0,1,2,2,Isolation Forest; One-Class SVM
+8e07cbdbbb24328ece74135e2a81405b,1,0,1,2,2,Isolation Forest; One-Class SVM
+8e31f8c64b847de447636be1ced917f2,1,0,1,2,2,Isolation Forest; One-Class SVM
+8f2fa110f45a5b5592f1593842b7e87d,1,0,1,2,2,Isolation Forest; One-Class SVM
+8f567321ba12101dedc07c70b7021069,1,0,1,2,2,Isolation Forest; One-Class SVM
+8f6ce2295bdbec03cd50e34b4bd7ba0a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+8f9c0dc510c12654a35d2add7a6c5d34,1,0,1,2,2,Isolation Forest; One-Class SVM
+8fdb30046559b506b2ea1588cdfded0d,1,0,1,2,2,Isolation Forest; One-Class SVM
+8fe6fc853d687dac18df5b163f84d438,1,0,1,2,2,Isolation Forest; One-Class SVM
+906a8a4ec9f3d4c3e64fa6d1c4fe6009,1,1,0,2,2,Isolation Forest; LOF
+9077449283dc1319d5e51fb3159b28e2,1,0,1,2,2,Isolation Forest; One-Class SVM
+90807fdb59eec2152bc977feeb6e47e7,0,1,1,2,2,LOF; One-Class SVM
+90c205b0bed658a20ba141d2960d6811,1,0,1,2,2,Isolation Forest; One-Class SVM
+90f323e9f0948ddd96c6f6a8ecc75830,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+910f0afb84bc778e856d3683c7e8a46a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+911be3f21248d465d1e6d9993bca60a8,1,0,1,2,2,Isolation Forest; One-Class SVM
+91352e06066eef42b60b24049ccde4fd,1,0,1,2,2,Isolation Forest; One-Class SVM
+913e4a0664572d0652473b98b808e7b5,1,0,1,2,2,Isolation Forest; One-Class SVM
+913f9de018faaa8124e1162c01797f0f,1,1,0,2,2,Isolation Forest; LOF
+91544d22848a922381b73b5e21ad58ff,1,0,1,2,2,Isolation Forest; One-Class SVM
+91d0504cf52d3f76b154c42d78979f39,1,0,1,2,2,Isolation Forest; One-Class SVM
+91def939002d33dcbf6a038b5c879f7b,1,0,1,2,2,Isolation Forest; One-Class SVM
+921972f1568c1c75a26b18b4cb4ed5a7,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+921d58c81068176026975777ae295c05,1,0,1,2,2,Isolation Forest; One-Class SVM
+9263a6fc47a37b8b71cecfeb1defda4a,1,1,0,2,2,Isolation Forest; LOF
+927f5d7e01917bb3b8aeb3260ca42663,1,0,1,2,2,Isolation Forest; One-Class SVM
+928616c185852cc998407c716a6f69bc,1,0,1,2,2,Isolation Forest; One-Class SVM
+929f67fce8f269879084f50385a16354,1,0,1,2,2,Isolation Forest; One-Class SVM
+930ff10207a0155e4d569dc1b66714c2,1,0,1,2,2,Isolation Forest; One-Class SVM
+93360190b9375a40b65720ee99387a4a,1,0,1,2,2,Isolation Forest; One-Class SVM
+93427465b223bc8292b51bb86077b695,1,0,1,2,2,Isolation Forest; One-Class SVM
+934e91b0e98dbbeb3649cb1091cca051,1,0,1,2,2,Isolation Forest; One-Class SVM
+935b9c5a3162185f88dac06d8d08d623,1,0,1,2,2,Isolation Forest; One-Class SVM
+935e66642fcb2baa8c1782a29570d905,1,0,1,2,2,Isolation Forest; One-Class SVM
+93603747aa73507db172820142fb3b81,1,0,1,2,2,Isolation Forest; One-Class SVM
+93bc212addb25a5f5139fded3c2ee6b3,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+93eeb8745a219d35b7e32d796528b681,1,0,1,2,2,Isolation Forest; One-Class SVM
+941590fb8aef66b3a8352fe7c691879e,1,0,1,2,2,Isolation Forest; One-Class SVM
+944779ed5e0464b49fbb2108382b0ddf,1,0,1,2,2,Isolation Forest; One-Class SVM
+947e93a9bb28256adebe49f78cff07ad,1,0,1,2,2,Isolation Forest; One-Class SVM
+94a19681bf6faa3c6ce3e2df1c2d97cb,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+94bd5dee83e9590368179f4ab026b4f4,1,0,1,2,2,Isolation Forest; One-Class SVM
+94cac7a901fa7a145722dfd0a147b050,1,0,1,2,2,Isolation Forest; One-Class SVM
+94e5ea5a8c1bf546db2739673060c43f,0,1,1,2,2,LOF; One-Class SVM
+9565b6eb599caea334238cf517c2408b,1,0,1,2,2,Isolation Forest; One-Class SVM
+95828271d6bee6d5eedcd00e639d67a6,1,0,1,2,2,Isolation Forest; One-Class SVM
+95a744604de66a2e40e18086e69be4f2,0,1,1,2,2,LOF; One-Class SVM
+95cfb39a7e263160308a934e42cfc4e0,1,0,1,2,2,Isolation Forest; One-Class SVM
+9620623f9ea546719cb3cd99bbb879a9,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+9627e55290c60f562fa06f399ec6b82f,1,0,1,2,2,Isolation Forest; One-Class SVM
+962c6b5225cdd53c41509bc38d3a8217,1,0,1,2,2,Isolation Forest; One-Class SVM
+9689908caf4de73724feed92175d867a,1,0,1,2,2,Isolation Forest; One-Class SVM
+968fac81e2c44fb6c1e3ac2a45e6a102,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+969e62a47aec03c735127e6f11ad6564,1,0,1,2,2,Isolation Forest; One-Class SVM
+96f9204de777192f8feb7776d3cd09b4,1,0,1,2,2,Isolation Forest; One-Class SVM
+97258e1c1f77f32358eccd1c9ee5954d,1,0,1,2,2,Isolation Forest; One-Class SVM
+976a39626eb2337ee3258d4ad73f1543,1,0,1,2,2,Isolation Forest; One-Class SVM
+97e5501feb2532ef0e124d2dc4e86537,1,0,1,2,2,Isolation Forest; One-Class SVM
+97f0fce3f9d7aad1b12499a4e4b10d07,1,0,1,2,2,Isolation Forest; One-Class SVM
+982efbf8c3668f63533fa77688dfc5c5,1,1,0,2,2,Isolation Forest; LOF
+9832ae2f7d3e5fa4c7a1a06e9551bc61,1,0,1,2,2,Isolation Forest; One-Class SVM
+98341ec53bd2130c32390570d0929da9,1,0,1,2,2,Isolation Forest; One-Class SVM
+983994b46a18dce5db8648ebf95754af,1,0,1,2,2,Isolation Forest; One-Class SVM
+984503860d8d8dea530666eec07de95c,1,0,1,2,2,Isolation Forest; One-Class SVM
+98758d88bf4b8eef1372ddee45d63178,1,0,1,2,2,Isolation Forest; One-Class SVM
+987fadd385777d8f27edac709bc9fb61,1,0,1,2,2,Isolation Forest; One-Class SVM
+98a8081d6f922b47f0b48d0b10665047,1,0,1,2,2,Isolation Forest; One-Class SVM
+98e3117841a2431959d17808f04bf23c,1,0,1,2,2,Isolation Forest; One-Class SVM
+9947c0ed8bf41cd508a78da36abc1d41,1,0,1,2,2,Isolation Forest; One-Class SVM
+996fdddf8cd5bbb99b221fcaf5ba1359,1,0,1,2,2,Isolation Forest; One-Class SVM
+99b8ee09d642ffedf091951a7235faa0,1,0,1,2,2,Isolation Forest; One-Class SVM
+99bf2e03eb1ef8f29fd57ad10fd75e48,1,0,1,2,2,Isolation Forest; One-Class SVM
+99f7fad55b93ef28bda9d8fe5561dc3b,1,1,0,2,2,Isolation Forest; LOF
+9a736b248f67d166d2fbb006bcb877c3,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+9a7d84a4238838d9573057c632139951,0,1,1,2,2,LOF; One-Class SVM
+9aaa6812e0daefa1f7edd5f772297d2e,1,0,1,2,2,Isolation Forest; One-Class SVM
+9b352d0736779ff0e21fcbd59a7141b3,1,0,1,2,2,Isolation Forest; One-Class SVM
+9b7fcde05dd369caf4dea1f04ed39fcc,1,0,1,2,2,Isolation Forest; One-Class SVM
+9b7fcfa05fb6f8b88fea3d74a6ba77d6,1,0,1,2,2,Isolation Forest; One-Class SVM
+9bb92bebd4cb7511e1a02d5e50bc4655,1,0,1,2,2,Isolation Forest; One-Class SVM
+9bff77a776574edf41418ddd01bcbb4e,1,0,1,2,2,Isolation Forest; One-Class SVM
+9c3af16efacb7aa06aa3bc674556c5d6,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+9c783b71f0ea85aac770d6aa99e8a01d,1,0,1,2,2,Isolation Forest; One-Class SVM
+9ca25c67e315e2a59b00eca2d4797734,1,0,1,2,2,Isolation Forest; One-Class SVM
+9cc5a07f169a1606fd347a56683e6ea6,1,0,1,2,2,Isolation Forest; One-Class SVM
+9d1773d6d4fb3faaf3173924d181952a,1,0,1,2,2,Isolation Forest; One-Class SVM
+9d31457a03125fc870787a251760315a,1,0,1,2,2,Isolation Forest; One-Class SVM
+9d42d5ee226121b6dc867197ce0529cc,1,0,1,2,2,Isolation Forest; One-Class SVM
+9d508f9fe2600ccc19e894431d968e73,1,1,0,2,2,Isolation Forest; LOF
+9db254a87951220e74c58549749cf128,1,0,1,2,2,Isolation Forest; One-Class SVM
+9e527c9bc89a4228e5d8e136712ec63e,1,0,1,2,2,Isolation Forest; One-Class SVM
+9eaee1fe94e2155bde44087d299c0b9d,1,0,1,2,2,Isolation Forest; One-Class SVM
+9eca552063680b7cd2ed0e8aea002b21,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+9f10a450cddebea0e7cd86f67c894d1c,1,0,1,2,2,Isolation Forest; One-Class SVM
+9f67aa18a87ea9a76854deeb9385c011,1,0,1,2,2,Isolation Forest; One-Class SVM
+a0931a30dcf7e2106f0939b799c54321,1,0,1,2,2,Isolation Forest; One-Class SVM
+a0abd26659c9914690cbd3320d39fd96,1,0,1,2,2,Isolation Forest; One-Class SVM
+a10fe3c477989c968aa284bd448b1d5b,1,0,1,2,2,Isolation Forest; One-Class SVM
+a176378c7ad0b4cb3561692f234cecca,1,1,0,2,2,Isolation Forest; LOF
+a1874c5550d2f0bc14cc122164603713,1,0,1,2,2,Isolation Forest; One-Class SVM
+a1c61f8566347ec44ea37d22854634a1,1,0,1,2,2,Isolation Forest; One-Class SVM
+a2027a1c6f9e04a875c44ea09061d3f2,1,0,1,2,2,Isolation Forest; One-Class SVM
+a253d10c681ebc4ee987907d2fd156ce,1,0,1,2,2,Isolation Forest; One-Class SVM
+a262442e3ab89611b44877c7aaf77468,1,0,1,2,2,Isolation Forest; One-Class SVM
+a278e5ab3d212b2c8285bdfa911b25a7,1,0,1,2,2,Isolation Forest; One-Class SVM
+a2b7188b91416738f3f713f6e107f276,1,0,1,2,2,Isolation Forest; One-Class SVM
+a2d2201f14b81eb836de9fef6d305311,1,0,1,2,2,Isolation Forest; One-Class SVM
+a2d8125361b16f316df65f4603b88e23,1,0,1,2,2,Isolation Forest; One-Class SVM
+a2eb3545fdbc2c6687e8d66c78c206d6,1,0,1,2,2,Isolation Forest; One-Class SVM
+a3021c629bd1d99347a8e75a9ab035d8,1,0,1,2,2,Isolation Forest; One-Class SVM
+a30af9d68fbfcafb8451854c528587f5,1,0,1,2,2,Isolation Forest; One-Class SVM
+a32fd99e791dbe323486039bce9ac35e,1,0,1,2,2,Isolation Forest; One-Class SVM
+a3531b78e25e6948ff198a441c30b8eb,1,0,1,2,2,Isolation Forest; One-Class SVM
+a35e6ad969a4298593c504f69c03efb4,1,0,1,2,2,Isolation Forest; One-Class SVM
+a38b86dce31f7c014a0c958b548f6a64,1,0,1,2,2,Isolation Forest; One-Class SVM
+a3ad86e859f1d0466bc1beb77fdf218c,1,0,1,2,2,Isolation Forest; One-Class SVM
+a3dc27d87234f862d7e61a0148c77fa9,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+a4d4a76b47ccec27db5ea63da11debf5,1,0,1,2,2,Isolation Forest; One-Class SVM
+a4e456eca4b667dc31e1881a4b56b319,1,0,1,2,2,Isolation Forest; One-Class SVM
+a4e71a98a7a1490fff07e7a65cf06be2,1,0,1,2,2,Isolation Forest; One-Class SVM
+a4e8a2fb3d4d783c8eec5bf1ea80d3c6,1,0,1,2,2,Isolation Forest; One-Class SVM
+a54de86aa4370cc93031bb4e99d436b0,1,0,1,2,2,Isolation Forest; One-Class SVM
+a55e19719dab7efad8d5b7b0bedf5326,1,0,1,2,2,Isolation Forest; One-Class SVM
+a5afb1cd8d3b8126d2d39a7a29880c09,1,0,1,2,2,Isolation Forest; One-Class SVM
+a5bfa72dd72f6b4a64286ae84022c7e7,1,1,0,2,2,Isolation Forest; LOF
+a5c3e82a63848cb08546796194121927,1,1,0,2,2,Isolation Forest; LOF
+a5c6335399140e986db84120c425adf0,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+a5c806ebe5b25d0ab1e7f0da0e17d6bc,1,0,1,2,2,Isolation Forest; One-Class SVM
+a5d3bfee5b23b430b95c4ae295e1028a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+a61a0484f0c42f81f6299b8d89123823,1,1,0,2,2,Isolation Forest; LOF
+a626420a40f09529d6dc67cc76e1b213,1,1,0,2,2,Isolation Forest; LOF
+a66315c850c3712707754c1eca7a8069,1,0,1,2,2,Isolation Forest; One-Class SVM
+a6ea57f856565adf869941339028fa05,1,0,1,2,2,Isolation Forest; One-Class SVM
+a72a2d4e19868dba726c0e6f49198c7e,1,0,1,2,2,Isolation Forest; One-Class SVM
+a73c5464692d3bc09d64e3edefae9015,1,0,1,2,2,Isolation Forest; One-Class SVM
+a74e3f2f887f14862e34c61ed0e4c5d0,1,0,1,2,2,Isolation Forest; One-Class SVM
+a7657330b1c135f3acd420326e335b2c,1,0,1,2,2,Isolation Forest; One-Class SVM
+a8060584a077038962852f3184a4571e,1,1,0,2,2,Isolation Forest; LOF
+a8c76e74260deff03fc0ca524a83d121,1,1,0,2,2,Isolation Forest; LOF
+a8cb771f0d1d230407948d4ce2af5c3e,1,0,1,2,2,Isolation Forest; One-Class SVM
+a8dd81392e5eee5d979c629a76abec2a,1,1,0,2,2,Isolation Forest; LOF
+a914b2be4782207abc6758095ec9e8aa,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+a944a93bfa1d65b1523c45f9ccb01ec0,1,0,1,2,2,Isolation Forest; One-Class SVM
+aa26d42b1e161d0deefbd5c9ae974d7c,1,1,0,2,2,Isolation Forest; LOF
+aa5dd0414c0e9ad24f22e06bec1dc805,1,1,0,2,2,Isolation Forest; LOF
+aa89a987e1e092c318fbdc4b0e3dcc44,1,0,1,2,2,Isolation Forest; One-Class SVM
+aad0fb3a1680f7a08d9b8de7da72e1cc,1,0,1,2,2,Isolation Forest; One-Class SVM
+ab14aff32b9c7c55378170003a076665,1,0,1,2,2,Isolation Forest; One-Class SVM
+ab243cd9e788d689cc822380f59616e1,1,0,1,2,2,Isolation Forest; One-Class SVM
+ab744045d2445f5bae53b57a4b99bfbf,1,0,1,2,2,Isolation Forest; One-Class SVM
+abc9e5b32caf6ec0c8fa356117b66d66,1,0,1,2,2,Isolation Forest; One-Class SVM
+ac4d73e97aa6d67f64ef83e45f20f668,1,1,0,2,2,Isolation Forest; LOF
+ac95cdab584cac0e86ce97a5399ecf79,1,0,1,2,2,Isolation Forest; One-Class SVM
+ac987d464574ee0f743f9b630f937a27,1,0,1,2,2,Isolation Forest; One-Class SVM
+acaf5177d6de60fda7ce77c48abb5230,1,0,1,2,2,Isolation Forest; One-Class SVM
+accd68fd87adda3d6360d77daafd964d,1,0,1,2,2,Isolation Forest; One-Class SVM
+acea13a79aeaf715ba68122e9deb330a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+acea6bd29b8c1e3c6a8b266a8fb4475e,1,0,1,2,2,Isolation Forest; One-Class SVM
+ad155bc0931cb6bab63d4ff2515c3159,1,0,1,2,2,Isolation Forest; One-Class SVM
+ad97668eed5826a5d800b15351bea269,1,0,1,2,2,Isolation Forest; One-Class SVM
+ada6236b6bba2b0c3588aea846e43afb,1,0,1,2,2,Isolation Forest; One-Class SVM
+ae207cf8119fd10e3b9ac24570089fad,1,0,1,2,2,Isolation Forest; One-Class SVM
+ae3e48f07b8242fa45f29dca1ce36a08,1,0,1,2,2,Isolation Forest; One-Class SVM
+ae74c314b9c383e5d7bcd99d54ffbc71,1,0,1,2,2,Isolation Forest; One-Class SVM
+aebdb8f05f5ebf99f858c1a75fb7035a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+af0f26435fade1ca984d9affda307199,1,0,1,2,2,Isolation Forest; One-Class SVM
+af2f12255a745e11eb31bdd9c971ee65,0,1,1,2,2,LOF; One-Class SVM
+af51e8dd1c30737ba2dd0ece8cfa294d,1,0,1,2,2,Isolation Forest; One-Class SVM
+af5454198a97379394cacf676e1e96cb,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+af65b6eb3336048acc95ef62a4ac94c3,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+afed5a21e94b4e3e5fbe6c7e4bc92f4c,1,0,1,2,2,Isolation Forest; One-Class SVM
+b021c4914aaf3c673e92473fb1e61010,1,1,0,2,2,Isolation Forest; LOF
+b045295488236fa73d8d9c37dc4b03e7,1,0,1,2,2,Isolation Forest; One-Class SVM
+b0468c2f2573d7b6bc5bc33479785e2a,1,0,1,2,2,Isolation Forest; One-Class SVM
+b079e8a1977edd900b4522be9dec0245,1,0,1,2,2,Isolation Forest; One-Class SVM
+b0b057559c54c99e41a21c40c08f7780,1,0,1,2,2,Isolation Forest; One-Class SVM
+b12294f6bca2370dc2f2a46cdc484076,1,0,1,2,2,Isolation Forest; One-Class SVM
+b14ef688a7c1a52e7437298085d9d62b,1,0,1,2,2,Isolation Forest; One-Class SVM
+b18c8cbd9616a95055ef4146f3f805e1,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+b248c92ec54199bedb1d603e0e6f98c6,1,0,1,2,2,Isolation Forest; One-Class SVM
+b25a21b56a2d74da49e04cadbc9e0dd8,1,0,1,2,2,Isolation Forest; One-Class SVM
+b26fa76ddf33e534491e4ec46f51bc64,1,0,1,2,2,Isolation Forest; One-Class SVM
+b2bd387fdc3cf05931f0f897d607dc88,1,1,0,2,2,Isolation Forest; LOF
+b2c913a0723c7737e11067861e061913,1,0,1,2,2,Isolation Forest; One-Class SVM
+b2e9a05d23ea17713b5d7799f2004f8e,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+b326e628704a6e2662dc4471885fe112,0,1,1,2,2,LOF; One-Class SVM
+b339a1ec295defef7cd27439c8718066,1,0,1,2,2,Isolation Forest; One-Class SVM
+b351ac91ab0ef29bae6da7fbc05959c0,1,0,1,2,2,Isolation Forest; One-Class SVM
+b3879dce6b4a3b94b748b6c9b567695e,1,1,0,2,2,Isolation Forest; LOF
+b39dde6dd619943190a8cc9aa6db38a4,1,0,1,2,2,Isolation Forest; One-Class SVM
+b3a34bbf1a1d11885918ad3ad99083ae,1,0,1,2,2,Isolation Forest; One-Class SVM
+b3a6549b3cd47a7117094faafce8b10d,1,0,1,2,2,Isolation Forest; One-Class SVM
+b43b59147bb1d34fbeab3eba7b7fe372,1,1,0,2,2,Isolation Forest; LOF
+b4418ae2225a81808d6c5a61f3a719ff,1,0,1,2,2,Isolation Forest; One-Class SVM
+b495d807ccbd38ea1be486a826c88008,1,0,1,2,2,Isolation Forest; One-Class SVM
+b4b0901bb872cf9972b32a05733b3394,1,0,1,2,2,Isolation Forest; One-Class SVM
+b4d20b907a61795e8c8f3a7966c6cfb9,1,0,1,2,2,Isolation Forest; One-Class SVM
+b4e4f24de1e8725b74e4a1f4975116ed,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+b52378d2bae15325d2dffddb403ff3e3,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+b525fc8cce07342fb00ab3b2667c8eb9,1,1,0,2,2,Isolation Forest; LOF
+b52b8debdefe66d4c0d7f44d9b4ff088,1,0,1,2,2,Isolation Forest; One-Class SVM
+b530945168f12f82a3f9be3a5e243afa,1,0,1,2,2,Isolation Forest; One-Class SVM
+b533e550675cfa12227a15e554a33714,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+b5d391e8447d5ae0f8b852be83249e07,1,1,0,2,2,Isolation Forest; LOF
+b61b38d88ef98dd66fc100efabad2557,0,1,1,2,2,LOF; One-Class SVM
+b643c19d91a65d73f94ba8e037668986,1,0,1,2,2,Isolation Forest; One-Class SVM
+b695d6a0f8f032b0529c65cf885ca29a,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+b6e3114351fe7b547195b542cb8fb006,1,1,0,2,2,Isolation Forest; LOF
+b70d126df03b594cb148da07860d1534,1,1,0,2,2,Isolation Forest; LOF
+b7737cd1c12adf6a0bc2de497ce2935d,1,0,1,2,2,Isolation Forest; One-Class SVM
+b7b162291adff744d6f3c6450557ffee,1,0,1,2,2,Isolation Forest; One-Class SVM
+b854c56e1163bced9c3ebf1e4a6576f3,1,0,1,2,2,Isolation Forest; One-Class SVM
+b896655e2083a1d76b7b85df8fc86e40,1,0,1,2,2,Isolation Forest; One-Class SVM
+b8b3c435a58aebd788a477bed8342910,1,0,1,2,2,Isolation Forest; One-Class SVM
+b9bab1d3bf90360ff3942299971001ef,1,0,1,2,2,Isolation Forest; One-Class SVM
+b9badb100ff8ecc16a403111209e3a06,1,0,1,2,2,Isolation Forest; One-Class SVM
+b9fdb2f344509f77f84250a748c6319c,1,1,0,2,2,Isolation Forest; LOF
+ba0fed3e80432a2a1679d58a24732c93,1,0,1,2,2,Isolation Forest; One-Class SVM
+ba54ee5be417c0558c060a3186451248,1,0,1,2,2,Isolation Forest; One-Class SVM
+ba77e9b6506636dcbd03e463d4786f24,1,0,1,2,2,Isolation Forest; One-Class SVM
+ba84da8c159659f116329563a0a981dd,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+baffecbd1fcc31f8a415cef1cd8cf772,1,0,1,2,2,Isolation Forest; One-Class SVM
+bb6d785b806cb1eef824812b06b9f15b,1,0,1,2,2,Isolation Forest; One-Class SVM
+bbf65e7823171a84e70a495dd6c34ceb,1,0,1,2,2,Isolation Forest; One-Class SVM
+bc3e7032668d3f411c227eec09221362,1,0,1,2,2,Isolation Forest; One-Class SVM
+bc50d0c6d5effaefb4d2423feda931d7,1,0,1,2,2,Isolation Forest; One-Class SVM
+bc5e25094a7d51b6aee35236572e64f4,0,1,1,2,2,LOF; One-Class SVM
+bc7b9e0d078c0c01f622b38cfcd7ee9c,1,0,1,2,2,Isolation Forest; One-Class SVM
+bcc9a08b533971412be737fd5bd918b3,1,0,1,2,2,Isolation Forest; One-Class SVM
+bce006e903be688f122a39f45b210090,1,0,1,2,2,Isolation Forest; One-Class SVM
+bcf0a5f0f3ec8639f940749aab360d8f,1,0,1,2,2,Isolation Forest; One-Class SVM
+bd0512ab6c631a62fdc974a682600f56,1,0,1,2,2,Isolation Forest; One-Class SVM
+bd3c54cfb4d231a2b0d7f26b3f9549de,1,1,0,2,2,Isolation Forest; LOF
+bd748b6890efcaa0e79187653b2d6a91,1,0,1,2,2,Isolation Forest; One-Class SVM
+bd86b1862fe796149a4d2af57bd85451,1,0,1,2,2,Isolation Forest; One-Class SVM
+bd8e0f3ea9fb694fc53c7a358643fc06,1,0,1,2,2,Isolation Forest; One-Class SVM
+bddc05c034061c84f92fe1710bfa5fe4,1,1,0,2,2,Isolation Forest; LOF
+bdde9ce1c27b88a7fe3ef13ad6a80b5f,1,0,1,2,2,Isolation Forest; One-Class SVM
+be09f3273b8ef531c15a9ea93d1b6280,0,1,1,2,2,LOF; One-Class SVM
+be702ead111ea16e09aba67f992c46c6,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+beceaa52fb2f761e647222b3cf7ce0b2,1,0,1,2,2,Isolation Forest; One-Class SVM
+bf1dd33f93c58ea45d677d7e871e098e,1,0,1,2,2,Isolation Forest; One-Class SVM
+bf429f20c75a39eab83442cda8e59832,1,0,1,2,2,Isolation Forest; One-Class SVM
+bf482716881b0c14af9efda1fc58a649,1,0,1,2,2,Isolation Forest; One-Class SVM
+bf6504419e536f7c4c2461ebb0689d48,1,0,1,2,2,Isolation Forest; One-Class SVM
+bf6656ef50e6fd00e7517b01d615b4f3,1,0,1,2,2,Isolation Forest; One-Class SVM
+bf869f6a89c8ba217f47e22359f884f2,1,0,1,2,2,Isolation Forest; One-Class SVM
+bfc84496b1100cbbd83a6f8087526168,1,0,1,2,2,Isolation Forest; One-Class SVM
+bfe14bfa136397036c4fd0cade75c68c,1,0,1,2,2,Isolation Forest; One-Class SVM
+c0118e2c0a037c31aeca71d0b81f66a1,1,0,1,2,2,Isolation Forest; One-Class SVM
+c0394cfa96258a94e368499f919a3ba6,1,0,1,2,2,Isolation Forest; One-Class SVM
+c04a6c1c190e47ec62b4bb139921331a,1,0,1,2,2,Isolation Forest; One-Class SVM
+c0842fc6a034863db2d8479df8435492,1,0,1,2,2,Isolation Forest; One-Class SVM
+c143eafe10719dcc7dc0a855b2e3554d,1,0,1,2,2,Isolation Forest; One-Class SVM
+c169c9937db997a267f749cdd64c161f,1,1,0,2,2,Isolation Forest; LOF
+c1977e8e3ea0900e70cd1dd70123d382,1,0,1,2,2,Isolation Forest; One-Class SVM
+c1d43ef6f70aff50201a1b882176a346,1,0,1,2,2,Isolation Forest; One-Class SVM
+c1ee153508c6b785b491443a95ff364e,1,0,1,2,2,Isolation Forest; One-Class SVM
+c23625b050d7d34272be416aa7b89aea,0,1,1,2,2,LOF; One-Class SVM
+c25d2fb6d22e04ce43c3652e3cacadad,1,0,1,2,2,Isolation Forest; One-Class SVM
+c27a30338b5d9d59399825f77e7dcc61,1,0,1,2,2,Isolation Forest; One-Class SVM
+c283a677fa9937143f13fe6f58fd901d,1,1,0,2,2,Isolation Forest; LOF
+c2919fbdb45366551c1e80d5cb35cd3f,1,0,1,2,2,Isolation Forest; One-Class SVM
+c297bb9230dc3152522d0c2b4caa7a1a,1,0,1,2,2,Isolation Forest; One-Class SVM
+c2a5eec54c809c66e868cd63099ce3d5,1,1,0,2,2,Isolation Forest; LOF
+c32c120fa230c291ecc017406aa2f39d,1,0,1,2,2,Isolation Forest; One-Class SVM
+c35ffdd9679e194c3673533720b5e00c,1,0,1,2,2,Isolation Forest; One-Class SVM
+c375736396906dff8414217e02c45661,1,0,1,2,2,Isolation Forest; One-Class SVM
+c37cc6c1a59d81460a3059744f7ada1c,1,0,1,2,2,Isolation Forest; One-Class SVM
+c3efecdc2ca34416d845120af0bfca09,1,0,1,2,2,Isolation Forest; One-Class SVM
+c402f431464c72e27330a67f7b94d4fb,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+c4063084f01f085897c04bcbd81fcb69,1,0,1,2,2,Isolation Forest; One-Class SVM
+c411c8b6dbaffd467263f87a23f2cf52,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+c45ece361aab055ea6c55b61eb2d99c0,1,0,1,2,2,Isolation Forest; One-Class SVM
+c4c35b9d3d1e2564334d3154ff7d28a5,1,0,1,2,2,Isolation Forest; One-Class SVM
+c51a1ea9fa9851c70f89d1178c861150,1,0,1,2,2,Isolation Forest; One-Class SVM
+c5625fa8d6771a8ce6c260494197b5d1,0,1,1,2,2,LOF; One-Class SVM
+c5cc0bee4b73138ed973a1720df085aa,1,0,1,2,2,Isolation Forest; One-Class SVM
+c694ffd0ff6d172ecf34fcd4202c8693,1,0,1,2,2,Isolation Forest; One-Class SVM
+c6b2ccbe75ac5addb40fcff5db96a5c1,1,0,1,2,2,Isolation Forest; One-Class SVM
+c7794313e2cd53472b116a751350f132,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+c7819760e70376028f519e3b57e6c441,1,0,1,2,2,Isolation Forest; One-Class SVM
+c7c19110042036e6266adc998cbf1289,1,0,1,2,2,Isolation Forest; One-Class SVM
+c8460e4251689ba205045f3ea17884a1,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+c85df1c6ef6f7bb605e1c49d34f172ee,1,0,1,2,2,Isolation Forest; One-Class SVM
+c893e6fe915add1b28ef934048f0023e,1,0,1,2,2,Isolation Forest; One-Class SVM
+c8d832b1e6f4aa662d0fefabfca04265,1,0,1,2,2,Isolation Forest; One-Class SVM
+c8e2ea7e324f7dd660e7481ec85bef3c,1,0,1,2,2,Isolation Forest; One-Class SVM
+c8ed31310fc440a3f8031b177f9842c3,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+c90ae099730477670c18582c8b45550d,1,1,0,2,2,Isolation Forest; LOF
+c937a5d7fe89380c128d9b8746495474,1,0,1,2,2,Isolation Forest; One-Class SVM
+c9b3b24308b1a4587ffa3e60fafc2b1f,1,0,1,2,2,Isolation Forest; One-Class SVM
+c9c6d353f4101827b3dbc83b093b2fe6,1,0,1,2,2,Isolation Forest; One-Class SVM
+c9e65162671f920f88e4f689366b62fc,0,1,1,2,2,LOF; One-Class SVM
+c9e88dde299927079d22c21f72ba6e3d,0,1,1,2,2,LOF; One-Class SVM
+c9f3502cccf5585cea25aa7de58f6cb5,1,0,1,2,2,Isolation Forest; One-Class SVM
+ca0cd77819a2427d6ca0e0d0e92de58b,1,0,1,2,2,Isolation Forest; One-Class SVM
+ca12da7d856692d5cf4960c5edd99756,1,0,1,2,2,Isolation Forest; One-Class SVM
+ca27f3dac28fb1063faddd424c9d95fa,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+ca6d9bc2e717c2a0aa19d77a3bfa5398,1,0,1,2,2,Isolation Forest; One-Class SVM
+ca77025e7201e3b30c44b472ff346268,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+ca994abc57b0bd7981d91d0061b3d8d6,1,0,1,2,2,Isolation Forest; One-Class SVM
+cb4f48aa5b4657435b012a65f2a122eb,1,0,1,2,2,Isolation Forest; One-Class SVM
+cb57be427d5e8c06c10cdd1540df1e00,1,0,1,2,2,Isolation Forest; One-Class SVM
+cbebce165db72a2bfba9e81a3411bdf7,1,0,1,2,2,Isolation Forest; One-Class SVM
+cc2bef54fa72102dca9777ff483f75a5,1,0,1,2,2,Isolation Forest; One-Class SVM
+cc47f99364c6a2b50a87c1bbb3e4f0f8,1,0,1,2,2,Isolation Forest; One-Class SVM
+ccafc1c3f270410521c3c6f3b249870f,0,1,1,2,2,LOF; One-Class SVM
+cd0e1d42225b7f4cf78a382e4f57e704,1,0,1,2,2,Isolation Forest; One-Class SVM
+cd11a0920c498edb1da9ecd2d31aa599,1,0,1,2,2,Isolation Forest; One-Class SVM
+cd6c68c5fad15e0a5a5c1150546704e0,1,0,1,2,2,Isolation Forest; One-Class SVM
+cd86f2b40a6183a8212f9053bb0aaf8a,1,0,1,2,2,Isolation Forest; One-Class SVM
+cd915c60db8686f9a3dc35745aa1691c,1,0,1,2,2,Isolation Forest; One-Class SVM
+cdc8b0d152b868db7e28de59f642c94a,1,0,1,2,2,Isolation Forest; One-Class SVM
+cde37fe3a24ad875f5ff1482fd80a43e,1,0,1,2,2,Isolation Forest; One-Class SVM
+cde6577300fbd06655ff162902f15b2a,1,0,1,2,2,Isolation Forest; One-Class SVM
+ce3476f1d88f3e8985329f6115981c1d,1,0,1,2,2,Isolation Forest; One-Class SVM
+ce6160651998b40db0a0f3b9d69f7f3d,1,0,1,2,2,Isolation Forest; One-Class SVM
+ce9f8b9c31d83341764708396ac7e38b,0,1,1,2,2,LOF; One-Class SVM
+cecc19ff12c206e6368dd1e9c22a848d,1,0,1,2,2,Isolation Forest; One-Class SVM
+cef29e793e232d30250331804cdb7000,1,0,1,2,2,Isolation Forest; One-Class SVM
+cf32aeb4e8a323e6499a573ac5c90326,1,0,1,2,2,Isolation Forest; One-Class SVM
+cfa69922f9968e0e6271647abda09b09,1,0,1,2,2,Isolation Forest; One-Class SVM
+d0175fc564515a47e95bcfdf40e6bc07,1,0,1,2,2,Isolation Forest; One-Class SVM
+d02cbb85434c84acabb8e81bbf064d3e,1,0,1,2,2,Isolation Forest; One-Class SVM
+d059a0ec4c911c7abb10602099670325,1,0,1,2,2,Isolation Forest; One-Class SVM
+d05c44a138277ad325d915c6b7ccbcdf,1,0,1,2,2,Isolation Forest; One-Class SVM
+d05fdf65460ea1bf8735cd5843c3d97d,1,0,1,2,2,Isolation Forest; One-Class SVM
+d0813c57df04369487ff42ab24dd0ac7,1,0,1,2,2,Isolation Forest; One-Class SVM
+d08c29302907086e8fe823369542f3ae,1,0,1,2,2,Isolation Forest; One-Class SVM
+d10f23d669c51e0d983ba80de4d327e8,1,0,1,2,2,Isolation Forest; One-Class SVM
+d132b863416f85f2abb1a988ca05dd12,1,0,1,2,2,Isolation Forest; One-Class SVM
+d16f2966cda34d01f661bfc50635edb2,1,0,1,2,2,Isolation Forest; One-Class SVM
+d21fb1e8aee69c608f5c2fb5b6c28cad,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+d24e1d0902dac57dd313bcf4f9c80160,1,0,1,2,2,Isolation Forest; One-Class SVM
+d26c616e241736e0c1c1ab14150239e7,1,0,1,2,2,Isolation Forest; One-Class SVM
+d280c55bb8f45e367a7f24151bc99fdd,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+d29d20c2b98be8a4cdfb197a5e0a391d,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+d2ecc28fac1b377eefe7b209a895626a,1,1,0,2,2,Isolation Forest; LOF
+d3359a56d96666ac0c21bb01e7a61c95,1,0,1,2,2,Isolation Forest; One-Class SVM
+d3383e8df3cd44cd351aecff92e34627,0,1,1,2,2,LOF; One-Class SVM
+d366cfc097d250c153a712cebfc7d94a,1,0,1,2,2,Isolation Forest; One-Class SVM
+d37b5d5b492f667ea230e377a97fe859,1,0,1,2,2,Isolation Forest; One-Class SVM
+d3857f98166ef23ca95d44cbe9b1828c,1,0,1,2,2,Isolation Forest; One-Class SVM
+d387ea85dc301a91740e31360d355686,1,0,1,2,2,Isolation Forest; One-Class SVM
+d389a37c4198abbfd260d033e85c6697,1,1,0,2,2,Isolation Forest; LOF
+d3f15df5924e63131bcdac6364b6a6fd,1,0,1,2,2,Isolation Forest; One-Class SVM
+d42d80a0e58167c0dbb59315c93788bc,1,0,1,2,2,Isolation Forest; One-Class SVM
+d4336c36fbe83d4668606c4361932e1d,1,0,1,2,2,Isolation Forest; One-Class SVM
+d44ccec15f5f86d14d6a2cfa67da1975,1,0,1,2,2,Isolation Forest; One-Class SVM
+d44f553a3663a6323c901cf1f0a47c87,1,0,1,2,2,Isolation Forest; One-Class SVM
+d4a5e9f19897de65433c9d97bf4b9f8e,1,0,1,2,2,Isolation Forest; One-Class SVM
+d4b16abcbf4fef343e97337ca2b9dc1e,1,1,0,2,2,Isolation Forest; LOF
+d526c2df957cc6b177070216427c299d,1,0,1,2,2,Isolation Forest; One-Class SVM
+d5419994a02a55d4b7cd00e77fabdbae,1,0,1,2,2,Isolation Forest; One-Class SVM
+d56f9a7da9e4ce820e0478115ce287b8,1,0,1,2,2,Isolation Forest; One-Class SVM
+d58760239457cc420d92744d97087921,1,0,1,2,2,Isolation Forest; One-Class SVM
+d5abc2b56863ca7eddbeef26361b015e,0,1,1,2,2,LOF; One-Class SVM
+d5b4fce33a7ef8e6025bff334e6bbf1d,1,0,1,2,2,Isolation Forest; One-Class SVM
+d64023c35e5c1452ce568e993ac12c86,1,0,1,2,2,Isolation Forest; One-Class SVM
+d65921a138c59000aff343f8c991b896,1,0,1,2,2,Isolation Forest; One-Class SVM
+d687c16dcf223790dd97278b2cdbe240,1,0,1,2,2,Isolation Forest; One-Class SVM
+d6bc315c133be9c0a334b96002b4c1c1,1,1,0,2,2,Isolation Forest; LOF
+d6caf670c8bf91aed723f242cafb71c8,1,0,1,2,2,Isolation Forest; One-Class SVM
+d75a854dd5534f42bfac3299ac2d0b33,1,0,1,2,2,Isolation Forest; One-Class SVM
+d75acd4c5b7b4dfd32b9d9172b195419,1,0,1,2,2,Isolation Forest; One-Class SVM
+d7c6335139cb055ed0ce1125ddc788d8,1,0,1,2,2,Isolation Forest; One-Class SVM
+d87ea5e1e23e42953de9a2e6aa31c80e,0,1,1,2,2,LOF; One-Class SVM
+d8dc373219d0f95053c8d65df85a7f1c,1,0,1,2,2,Isolation Forest; One-Class SVM
+d8e4bf349af9df104faeef494ad2c6de,1,0,1,2,2,Isolation Forest; One-Class SVM
+d8f3c4f441a9b59a29f977df16724f38,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+d9456ef6d4231fb2637e490212b3e32f,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+d970a2354b55cfb67fa5840b9b4936ed,1,0,1,2,2,Isolation Forest; One-Class SVM
+d97b3cfb22b0d6b25ac9ed4e9c2d481b,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+da122df9eeddfedc1dc1f5349a1a690c,0,1,1,2,2,LOF; One-Class SVM
+da1e7179b9c5a1494d78528cbcf05aa0,1,0,1,2,2,Isolation Forest; One-Class SVM
+da2b78576894a7f95d45bfd20250cc54,1,0,1,2,2,Isolation Forest; One-Class SVM
+da5bbfd583efb762f6fda762f1aaf4a9,1,0,1,2,2,Isolation Forest; One-Class SVM
+dad9e634284872d012677965e512b57d,1,0,1,2,2,Isolation Forest; One-Class SVM
+db07fd2ad9869f8356b1fbeefdac31e8,1,0,1,2,2,Isolation Forest; One-Class SVM
+db1af3fd6b23ac3873ef02619d548f9c,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+db6232ea09754a4b150da1dafb82fe45,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+db856e8cb7586dd746d36ee69f7dbe68,1,0,1,2,2,Isolation Forest; One-Class SVM
+dc4802a71eae9be1dd28f5d788ceb526,0,1,1,2,2,LOF; One-Class SVM
+dc48b0a1b0e6abb6586f322c189f6b93,1,0,1,2,2,Isolation Forest; One-Class SVM
+dc813062e0fc23409cd255f7f53c7074,1,0,1,2,2,Isolation Forest; One-Class SVM
+dd7b0e9b51e5377bd9c1fd3e286c7b9d,1,0,1,2,2,Isolation Forest; One-Class SVM
+ddcbd9c87bce192fc14812129a7894da,1,0,1,2,2,Isolation Forest; One-Class SVM
+ddeb6f3566dcf17cb455271ac103a73f,1,0,1,2,2,Isolation Forest; One-Class SVM
+de34b16117594161a6a89c50b289d35a,1,0,1,2,2,Isolation Forest; One-Class SVM
+de73179fb08ccaa16bfbf6c139879855,1,0,1,2,2,Isolation Forest; One-Class SVM
+ded4351942c7fc292b88e5b090af2b46,1,0,1,2,2,Isolation Forest; One-Class SVM
+dff33bfc45ae0becc55ce9b50acd4073,1,0,1,2,2,Isolation Forest; One-Class SVM
+e015ce18751465bc79eeabbe3f0064d5,1,1,0,2,2,Isolation Forest; LOF
+e016365b624d1755f3e2d0e8f1631ebb,1,0,1,2,2,Isolation Forest; One-Class SVM
+e05757dc57fc38f5156c82e9e4444f8f,1,0,1,2,2,Isolation Forest; One-Class SVM
+e075305a11bf4cc09e8395bd97266a1e,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+e0836a97eaae86ac4adc26fbb334a527,1,0,1,2,2,Isolation Forest; One-Class SVM
+e0c99ffdcd8891130985ac90cd2d8eec,1,0,1,2,2,Isolation Forest; One-Class SVM
+e11a1b428e150830944b665cb6b2d5da,1,0,1,2,2,Isolation Forest; One-Class SVM
+e1224167b1a3f92781c2ff55b0b794be,1,0,1,2,2,Isolation Forest; One-Class SVM
+e12f7f1e96f1f9f6361572028a1fad5a,1,0,1,2,2,Isolation Forest; One-Class SVM
+e19d0aff38a9959adb9b0c96a450e249,1,1,0,2,2,Isolation Forest; LOF
+e2226f481eef03f2876d1a27f0f4b1b0,1,1,0,2,2,Isolation Forest; LOF
+e226254ce0c6d5b7a7ef7218c9b5b518,1,0,1,2,2,Isolation Forest; One-Class SVM
+e246473a236ca29747182e7986dbdb7a,1,0,1,2,2,Isolation Forest; One-Class SVM
+e2492e4188991b6276a4a62a287a5451,1,0,1,2,2,Isolation Forest; One-Class SVM
+e30b83af13d6ff0b0f427b2a67c43b39,1,0,1,2,2,Isolation Forest; One-Class SVM
+e325e139452a1ca05f5a33acedd7d94f,1,0,1,2,2,Isolation Forest; One-Class SVM
+e35b2a3c980b6e0fc66c66b8e1122e93,1,0,1,2,2,Isolation Forest; One-Class SVM
+e38bf9a883752b0b65407a103fd7ef30,1,0,1,2,2,Isolation Forest; One-Class SVM
+e3c95cff4b8cca496061b369eaa006f7,1,0,1,2,2,Isolation Forest; One-Class SVM
+e3fe811011101628e80a7953f1244c8d,1,0,1,2,2,Isolation Forest; One-Class SVM
+e403044f5e830582e39dec1f4aefcf56,1,0,1,2,2,Isolation Forest; One-Class SVM
+e43c9920240823d6c97bedc723c25281,1,0,1,2,2,Isolation Forest; One-Class SVM
+e43e7031cd89dd0ac61dd44b840c311f,1,0,1,2,2,Isolation Forest; One-Class SVM
+e4951b10e341a56871ef584deab3f2ef,1,0,1,2,2,Isolation Forest; One-Class SVM
+e4971a4defaf07a1d7f2ff615a32c809,1,0,1,2,2,Isolation Forest; One-Class SVM
+e4b98eebb8983cade8610c0def59f705,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+e4d18909afd252a0289765acc614d3e0,1,0,1,2,2,Isolation Forest; One-Class SVM
+e520d01b14c310b4469ce675cef5c6d2,1,0,1,2,2,Isolation Forest; One-Class SVM
+e53fd5575f1418397aae732c5755b6fc,1,0,1,2,2,Isolation Forest; One-Class SVM
+e559969619d1a0922477a2d8cfaf50d9,1,0,1,2,2,Isolation Forest; One-Class SVM
+e5912280c9d8c14b4e7778df669dea07,1,1,0,2,2,Isolation Forest; LOF
+e5f19a93cf85b13edc0376d90e4a0ba5,1,0,1,2,2,Isolation Forest; One-Class SVM
+e60791a374be598f6277932a2a8bca55,1,1,0,2,2,Isolation Forest; LOF
+e60856952187516c3397a2c4ac63aac4,1,0,1,2,2,Isolation Forest; One-Class SVM
+e6615c36920f67f15822a79168d7d32d,1,0,1,2,2,Isolation Forest; One-Class SVM
+e68365f0fec5a377bd6f49cb444e453c,1,0,1,2,2,Isolation Forest; One-Class SVM
+e68856e8450afe7390b02d1b2bcefb29,1,0,1,2,2,Isolation Forest; One-Class SVM
+e6925d3e39cebd0f699008b248e58361,1,0,1,2,2,Isolation Forest; One-Class SVM
+e6da0e9bb3545f5468975a2cf67ce246,1,0,1,2,2,Isolation Forest; One-Class SVM
+e6f7ddad5d0159e391e27db652c17246,1,1,0,2,2,Isolation Forest; LOF
+e6fad5b1c79a4760aac5068d09c46535,1,0,1,2,2,Isolation Forest; One-Class SVM
+e7039843c54c69530bbf70d926baaab6,1,0,1,2,2,Isolation Forest; One-Class SVM
+e724a8be5b7ecea71e80b27541edf7d1,0,1,1,2,2,LOF; One-Class SVM
+e7a57c5b35cdb485d352afad87560042,1,0,1,2,2,Isolation Forest; One-Class SVM
+e7e84072c5730f21d38aea4e37d531f0,1,0,1,2,2,Isolation Forest; One-Class SVM
+e8001d7ab27230c1f2fb39aa63aea136,1,0,1,2,2,Isolation Forest; One-Class SVM
+e8258022c5060b1f3d861556a17fd741,0,1,1,2,2,LOF; One-Class SVM
+e87c2e2e5985c5996ec20651a3d50fe7,1,0,1,2,2,Isolation Forest; One-Class SVM
+e8a425f2b5d885c380a80386d64277b8,1,1,0,2,2,Isolation Forest; LOF
+e8bab621313ad2a3c0ce8e3a023ff9bb,1,0,1,2,2,Isolation Forest; One-Class SVM
+e8e76b99c4deb6dd66ace26de01e426b,1,1,0,2,2,Isolation Forest; LOF
+e90598185d2427a35e32ef241a5c04aa,1,1,0,2,2,Isolation Forest; LOF
+e90dc9258e140b61728e3745eacb26fe,1,1,0,2,2,Isolation Forest; LOF
+e9523749328fe82cd18a39f8611a69b9,1,0,1,2,2,Isolation Forest; One-Class SVM
+e9b87dccd9c326a3325385087eb0150c,1,0,1,2,2,Isolation Forest; One-Class SVM
+e9d6ce102dcb8ab8a3387021b5040f70,1,1,0,2,2,Isolation Forest; LOF
+e9e96ff4f36a319a3621b95b43343532,1,0,1,2,2,Isolation Forest; One-Class SVM
+ea2a4a14c49ad9a9d64d2b7f91f0c293,1,0,1,2,2,Isolation Forest; One-Class SVM
+ea984b06b18cc6905bc2f9b0a3d1c986,0,1,1,2,2,LOF; One-Class SVM
+eaa604ab9f816252edb7a8d297f932e5,1,0,1,2,2,Isolation Forest; One-Class SVM
+ead394416d4f85207932cc124eb145e2,1,0,1,2,2,Isolation Forest; One-Class SVM
+eae0a83d752b1dd32697e0e7b4221656,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+eb0fcaffdcd9a3e46e7eb9c4bee90cd2,1,1,0,2,2,Isolation Forest; LOF
+eb3401656cd6eaad985629735dc1c339,1,0,1,2,2,Isolation Forest; One-Class SVM
+eb4520b16c32518b6615f2d50f1be1bb,1,0,1,2,2,Isolation Forest; One-Class SVM
+ebd6ab952b5135af7e9544f40a3c7e64,1,1,0,2,2,Isolation Forest; LOF
+ec441c1966bfa602976763f330fc5168,1,0,1,2,2,Isolation Forest; One-Class SVM
+ec7f1811826ab04a27a92197bc40c888,1,0,1,2,2,Isolation Forest; One-Class SVM
+ecdbc4bf2201c807294c7d8c4b777032,1,0,1,2,2,Isolation Forest; One-Class SVM
+ecf38f5463ae0ba454bba9658371bc3d,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+ed42ccde391485cde5b0699b84b5c070,1,0,1,2,2,Isolation Forest; One-Class SVM
+ed4c785e11a78a73c48fa3af98008292,1,0,1,2,2,Isolation Forest; One-Class SVM
+ed873efbae1f165689d2e836f7a45a20,1,0,1,2,2,Isolation Forest; One-Class SVM
+ed917c786a8a3e411eae87aeca27cb27,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+edde2314c6c30e864a128ac95d6b2112,0,1,1,2,2,LOF; One-Class SVM
+ee04cc9bca4c9198bec5c54c2542dd3b,1,0,1,2,2,Isolation Forest; One-Class SVM
+ee2bb06c1d3f368e92084edefb7e4b57,0,1,1,2,2,LOF; One-Class SVM
+ee3adea169ca02ca9bd1e80bc620856e,1,0,1,2,2,Isolation Forest; One-Class SVM
+ee4a5dab94b427525ea24bc30d4442fb,1,0,1,2,2,Isolation Forest; One-Class SVM
+ef0103e9602d12594d19c2b666219bc1,1,0,1,2,2,Isolation Forest; One-Class SVM
+ef1d0f1922417f396a0aa0a03296c572,1,0,1,2,2,Isolation Forest; One-Class SVM
+ef7e46f747646b6129094dc3f4155488,1,1,0,2,2,Isolation Forest; LOF
+ef8d54b3797ea4db1d63f0ced6a906e9,0,1,1,2,2,LOF; One-Class SVM
+efce1ab3e96ccab8b1b464326bd22417,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+f00e99f043c33da533ebc107f5a68c4e,1,0,1,2,2,Isolation Forest; One-Class SVM
+f0767ae738c3d90e7b737d7b8b8bb4d1,0,1,1,2,2,LOF; One-Class SVM
+f0a8e36658d6d08f6e96b9ecf389fd52,1,0,1,2,2,Isolation Forest; One-Class SVM
+f0ac405c280fab1d087b8982e7801b54,1,0,1,2,2,Isolation Forest; One-Class SVM
+f0e310a6839dce9de1638e0fe5ab282a,1,0,1,2,2,Isolation Forest; One-Class SVM
+f0fd988c7c2a4cba167138a8adada6ca,1,0,1,2,2,Isolation Forest; One-Class SVM
+f11821d908830e74ad782532ebed897a,1,0,1,2,2,Isolation Forest; One-Class SVM
+f121995493925a5ef0b46a13f594e0ab,1,0,1,2,2,Isolation Forest; One-Class SVM
+f140f377d666848e3712b51a2734d120,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+f145d50379275ab9931636f83b0102eb,1,0,1,2,2,Isolation Forest; One-Class SVM
+f1a325803dd4c341c5a946ac84c71973,1,0,1,2,2,Isolation Forest; One-Class SVM
+f1c08d13b8520a6efa197627fada3a56,1,0,1,2,2,Isolation Forest; One-Class SVM
+f1f30eb24d90309e4ec02c385a17e81f,1,0,1,2,2,Isolation Forest; One-Class SVM
+f216de65ece42736f341247dcba60ccb,1,0,1,2,2,Isolation Forest; One-Class SVM
+f22da779a017ed42f2c4e03862584885,1,0,1,2,2,Isolation Forest; One-Class SVM
+f257deaa49d5e0a8c5fde46dfc350e52,1,0,1,2,2,Isolation Forest; One-Class SVM
+f25c82f041560f45f4a408157ff3a5de,1,0,1,2,2,Isolation Forest; One-Class SVM
+f31ac54af6af7097bddd1053011e7a3a,1,0,1,2,2,Isolation Forest; One-Class SVM
+f31d2c22ddcad145e224e6dc48f349b9,1,0,1,2,2,Isolation Forest; One-Class SVM
+f34cd7fd85a1f8baff886edf09567be3,1,0,1,2,2,Isolation Forest; One-Class SVM
+f4d1502ace38b0df6f052a5544add9f4,1,0,1,2,2,Isolation Forest; One-Class SVM
+f4f1dcb7c6a5af10ef0aaae0391969d6,1,1,0,2,2,Isolation Forest; LOF
+f561632522774ab728bb93f8f3ab5e61,1,0,1,2,2,Isolation Forest; One-Class SVM
+f565c1cbc438d2561d40d780f1da28c5,1,0,1,2,2,Isolation Forest; One-Class SVM
+f582d9b093001521d8c5544ddc4f27c8,1,1,0,2,2,Isolation Forest; LOF
+f5d32f2ee3d4caec1870de481c276bd8,1,0,1,2,2,Isolation Forest; One-Class SVM
+f64ec6d8dd29940264cd0bbb5ecade8a,1,0,1,2,2,Isolation Forest; One-Class SVM
+f68cbab6cbaab1d6226e2dafed486578,1,0,1,2,2,Isolation Forest; One-Class SVM
+f6dc4789e4669873c35f8f92fdbed89f,1,0,1,2,2,Isolation Forest; One-Class SVM
+f71da337f7e2b3a70c74fa505f0f6ac9,1,0,1,2,2,Isolation Forest; One-Class SVM
+f720a16300d5b9dfa4639686e56561ba,1,1,0,2,2,Isolation Forest; LOF
+f7471d502dd946e0a2cb6020bf076808,1,0,1,2,2,Isolation Forest; One-Class SVM
+f74a075d2c4f68917c7d568df06b1e90,1,1,0,2,2,Isolation Forest; LOF
+f755e02e22f99b9e1658cbd2186a212d,1,0,1,2,2,Isolation Forest; One-Class SVM
+f7ea4eef770a388bd5b225acfc546604,0,1,1,2,2,LOF; One-Class SVM
+f87108f2ff59f6cbc898ca230483c0ab,1,0,1,2,2,Isolation Forest; One-Class SVM
+f8bc1d81f395f6239a2a5ab1b9edf1ab,1,0,1,2,2,Isolation Forest; One-Class SVM
+f8c74f26f568c1b52cd212e700e977df,1,0,1,2,2,Isolation Forest; One-Class SVM
+f8daef44c2589a488bfed29f1be8396a,1,0,1,2,2,Isolation Forest; One-Class SVM
+f97ab9c166ca8d6f5313653ee439a6a8,1,0,1,2,2,Isolation Forest; One-Class SVM
+f982853f2882760f3a52e7bdfabb1080,1,0,1,2,2,Isolation Forest; One-Class SVM
+f9ae226291893fda10af7965268fb7f6,1,1,1,3,3,Isolation Forest; LOF; One-Class SVM
+f9b5d3c8bd2dc9c26ff00bde73171554,1,0,1,2,2,Isolation Forest; One-Class SVM
+fa03405c1fce3650144d97158b4b1849,0,1,1,2,2,LOF; One-Class SVM
+fa562ef24d41361e476e748681810e1e,0,1,1,2,2,LOF; One-Class SVM
+fafe2f8e0b7065fef995698ef3809fec,1,1,0,2,2,Isolation Forest; LOF
+fb490a070c5dbc385afadcf0e56270bd,1,0,1,2,2,Isolation Forest; One-Class SVM
+fb71ed60806ae68abb00194fa02647a4,1,1,0,2,2,Isolation Forest; LOF
+fb98fdc5f7cbfd7fc0e0553becb1e413,0,1,1,2,2,LOF; One-Class SVM
+fc24db02becd484accefaa5af59c18b1,1,0,1,2,2,Isolation Forest; One-Class SVM
+fc719c11b4dce594f47e1f9aa739a3a2,1,0,1,2,2,Isolation Forest; One-Class SVM
+fcceb56470bf0b4d59caa87e111ca69e,1,0,1,2,2,Isolation Forest; One-Class SVM
+fccfbf734a92029859c4fe58eff05114,1,0,1,2,2,Isolation Forest; One-Class SVM
+fd8ccc89be43894d2553494c71a61fd8,1,0,1,2,2,Isolation Forest; One-Class SVM
+fdfc9e2e8e67be832f8ef6ca4e0f2be7,1,1,0,2,2,Isolation Forest; LOF
+fe2b2f70f3dc31c23319ae1029eac77f,1,0,1,2,2,Isolation Forest; One-Class SVM
+fe3e52de024b82706717c38c8e183084,1,0,1,2,2,Isolation Forest; One-Class SVM
+fe59d5878cd80080edbd29b5a0a4e1cf,1,0,1,2,2,Isolation Forest; One-Class SVM
+fe81bb32c243a86b2f86fbf053fe6140,1,0,1,2,2,Isolation Forest; One-Class SVM
+fed519569d16e690df6f89cb99d4e682,1,0,1,2,2,Isolation Forest; One-Class SVM
+ff03923ad1eb9e32304deb7f9b2a45c9,1,0,1,2,2,Isolation Forest; One-Class SVM
+ff36be26206fffe1eb37afd54c70e18b,1,0,1,2,2,Isolation Forest; One-Class SVM
+ff4159b92c40ebe40454e3e6a7c35ed6,0,1,1,2,2,LOF; One-Class SVM
+ff8892f7c26aa0446da53d01b18df463,1,0,1,2,2,Isolation Forest; One-Class SVM
+ff922bdd6bafcdf99cb90d7f39cea5b3,1,0,1,2,2,Isolation Forest; One-Class SVM

@@ -1,0 +1,46 @@
+{
+    "customers": 96096,
+    "anomalies": 1922,
+    "severity": {
+        "Normal": 94174,
+        "Low": 961,
+        "Medium": 768,
+        "High": 193
+    },
+    "top_reasons": {
+        "Very high purchase frequency": 706,
+        "Multiple payment methods": 356,
+        "Highly concentrated shopping": 161,
+        "High recent spending (90 days)": 125,
+        "Very frequent ordering": 105,
+        "Large basket size": 88,
+        "Unusual category diversity": 64,
+        "Large number of purchased items": 62,
+        "Heavy ordering in last 90 days": 60,
+        "Unusual customer tenure": 45
+    },
+    "second_reasons": {
+        "Very high purchase frequency": 412,
+        "Broad category diversity": 394,
+        "Unusual payment diversity": 212,
+        "Unusual category diversity": 178,
+        "Large number of purchased items": 146,
+        "Multiple payment methods": 85,
+        "Exceptional total spending": 76,
+        "Heavy ordering in last 90 days": 71,
+        "Very frequent ordering": 62,
+        "Unusual customer tenure": 58
+    },
+    "third_reasons": {
+        "Broad category diversity": 473,
+        "Unusual payment diversity": 350,
+        "Heavy ordering in last 90 days": 164,
+        "Very high purchase frequency": 154,
+        "Large number of purchased items": 131,
+        "Unusual category diversity": 116,
+        "Unusually high review activity": 86,
+        "Unusual customer tenure": 68,
+        "Highly concentrated shopping": 45,
+        "Exceptional total spending": 44
+    }
+}

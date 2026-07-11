@@ -1,0 +1,8 @@
+{
+    "model": "IsolationForest",
+    "n_estimators": 300,
+    "contamination": 0.02,
+    "rows": 96096,
+    "features": 31,
+    "anomaly_count": 1922
+}

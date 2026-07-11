@@ -1,0 +1,40 @@
+{
+    "comparison": [
+        {
+            "Model": "Isolation Forest",
+            "Detected_Anomalies": 1922,
+            "Anomaly_Rate (%)": 2.0
+        },
+        {
+            "Model": "Local Outlier Factor",
+            "Detected_Anomalies": 1791,
+            "Anomaly_Rate (%)": 1.86
+        },
+        {
+            "Model": "One-Class SVM",
+            "Detected_Anomalies": 1922,
+            "Anomaly_Rate (%)": 2.0
+        }
+    ],
+    "agreement": {
+        "all_three": 110,
+        "at_least_two": 1195,
+        "if_lof": 232,
+        "if_ocsvm": 1003,
+        "lof_ocsvm": 180
+    },
+    "jaccard_similarity": [
+        {
+            "Model Pair": "Isolation Forest vs LOF",
+            "Jaccard Similarity": 0.0666
+        },
+        {
+            "Model Pair": "Isolation Forest vs One-Class SVM",
+            "Jaccard Similarity": 0.353
+        },
+        {
+            "Model Pair": "LOF vs One-Class SVM",
+            "Jaccard Similarity": 0.0509
+        }
+    ]
+}

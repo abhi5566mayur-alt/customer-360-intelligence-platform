@@ -1,0 +1,4 @@
+Model,Detected_Anomalies,Anomaly_Rate (%)
+Isolation Forest,1922,2.0
+Local Outlier Factor,1791,1.86
+One-Class SVM,1922,2.0

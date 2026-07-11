@@ -1,0 +1,4 @@
+Model Pair,Jaccard Similarity
+Isolation Forest vs LOF,0.0666
+Isolation Forest vs One-Class SVM,0.353
+LOF vs One-Class SVM,0.0509

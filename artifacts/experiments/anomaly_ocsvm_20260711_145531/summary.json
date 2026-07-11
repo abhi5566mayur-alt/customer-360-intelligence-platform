@@ -1,0 +1,47 @@
+{
+    "algorithm": "One-Class SVM",
+    "customers": 96096,
+    "anomalies": 1922,
+    "severity": {
+        "Normal": 94174,
+        "Low": 961,
+        "Medium": 768,
+        "High": 193
+    },
+    "top_reasons": {
+        "Very high purchase frequency": 1028,
+        "Multiple payment methods": 261,
+        "Unusual customer tenure": 131,
+        "High recent spending (90 days)": 92,
+        "Unusually high review activity": 82,
+        "Large number of purchased items": 48,
+        "Large basket size": 47,
+        "High spend with few reviews": 42,
+        "Unusual review rating": 38,
+        "Large installment usage": 30
+    },
+    "second_reasons": {
+        "Broad category diversity": 494,
+        "Very high purchase frequency": 393,
+        "Unusual payment diversity": 262,
+        "Unusual customer tenure": 171,
+        "Large number of purchased items": 118,
+        "High spend with few reviews": 83,
+        "Multiple payment methods": 62,
+        "Exceptional total spending": 58,
+        "Unusual review activity": 57,
+        "Unusually high review activity": 53
+    },
+    "third_reasons": {
+        "Unusual payment diversity": 491,
+        "Broad category diversity": 383,
+        "Unusual category diversity": 191,
+        "Unusual customer tenure": 142,
+        "Large number of purchased items": 91,
+        "Unusually high review activity": 85,
+        "Very high purchase frequency": 81,
+        "Very expensive items": 79,
+        "Heavy ordering in last 90 days": 78,
+        "Exceptional total spending": 74
+    }
+}
