@@ -1,0 +1,6 @@
+topic_id,topic_name,documents,percentage,average_review_score,average_probability,keywords
+0,Delivery Satisfaction,11734,27.49,4.59,0.661,"prazo, produto, antes, chegou, bem, entregue, entrega, recomendo, ótimo, dentro, tudo, qualidade, ótima, bom, certo"
+1,Product Issues,7677,17.98,2.72,0.665,"produto, veio, otimo, comprei, recebi, porém, qualidade, quero, cor, diferente, foto, errado, defeito, pedi, caixa"
+2,Customer Satisfaction,7866,18.43,4.66,0.618,"recomendo, gostei, super, loja, tudo, produto, sempre, comprar, ok, conforme, compra, perfeito, lannister, lindo, parabéns"
+3,Delivery & Service Problems,9500,22.26,2.22,0.676,"produto, recebi, ainda, comprei, compra, entregue, dia, boa, entrega, pedido, nao, loja, chegou, agora, pois"
+4,Price & Logistics,5910,13.84,4.34,0.61,"bom, entrega, produto, excelente, rápida, qualidade, produtos, dois, frete, ótimo, preço, atendimento, super, rapida, correios"

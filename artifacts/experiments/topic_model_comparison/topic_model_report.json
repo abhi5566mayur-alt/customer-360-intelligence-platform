@@ -1,0 +1,23 @@
+{
+    "comparison": [
+        {
+            "Model": "LDA",
+            "Topics": 5,
+            "Documents": 42687,
+            "Vocabulary": 3556,
+            "Quality Metric": 472.53
+        },
+        {
+            "Model": "NMF",
+            "Topics": 15,
+            "Documents": 42687,
+            "Vocabulary": 3556,
+            "Quality Metric": 176.85
+        }
+    ],
+    "recommendation": {
+        "primary_model": "LDA",
+        "secondary_model": "NMF",
+        "reason": "LDA provides broader and more interpretable business topics suitable for Customer360 dashboards, while NMF captures finer-grained customer feedback useful for review analysis."
+    }
+}

@@ -1,0 +1,3 @@
+Model,Topics,Documents,Vocabulary,Quality Metric
+LDA,5,42687,3556,472.53
+NMF,15,42687,3556,176.85

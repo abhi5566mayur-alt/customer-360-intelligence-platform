@@ -1,0 +1,11 @@
+{
+    "algorithm": "Latent Dirichlet Allocation",
+    "topics": 5,
+    "perplexity": 472.5255750547134,
+    "documents": 42687,
+    "vocabulary_size": 3556,
+    "max_features": 5000,
+    "min_df": 5,
+    "max_df": 0.95,
+    "created_at": "2026-07-15T13:05:37.323933"
+}

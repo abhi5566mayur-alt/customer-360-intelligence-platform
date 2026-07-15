@@ -1,0 +1,142 @@
+{
+    "topics": 15,
+    "reconstruction_error": 176.85470807735493,
+    "documents": 42687,
+    "topic_summary": [
+        {
+            "dominant_topic": 0,
+            "topic_name": "Early Delivery",
+            "documents": 3176,
+            "average_review_score": 4.2,
+            "average_probability": 0.504,
+            "topic_id": 0,
+            "keywords": "antes, prazo, chegou, bem, previsto, embalado, entrega, perfeito, parab\u00e9ns, estipulado, certinho, entregou, data, estado, amei"
+        },
+        {
+            "dominant_topic": 1,
+            "topic_name": "Product & Price",
+            "documents": 3470,
+            "average_review_score": 4.4,
+            "average_probability": 0.735,
+            "topic_id": 1,
+            "keywords": "bom, atendimento, pre\u00e7o, material, mto, vendedor, comprar, r\u00e1pido, servi\u00e7o, custo, mt, dia, acabamento, rapido, prazo"
+        },
+        {
+            "dominant_topic": 2,
+            "topic_name": "Recommendations",
+            "documents": 2058,
+            "average_review_score": 4.18,
+            "average_probability": 0.686,
+            "topic_id": 2,
+            "keywords": "recomendo, loja, todos, sim, vendedor, sempre, compra, lannister, dentro, nota, certeza, site, compro, problemas, prazo"
+        },
+        {
+            "dominant_topic": 3,
+            "topic_name": "Customer Service",
+            "documents": 1832,
+            "average_review_score": 4.79,
+            "average_probability": 0.645,
+            "topic_id": 3,
+            "keywords": "\u00f3timo, atendimento, vendedor, custo, servi\u00e7o, parab\u00e9ns, pre\u00e7o, benef\u00edcio, todos, r\u00e1pido, estado, produto, material, tudo, lindo"
+        },
+        {
+            "dominant_topic": 4,
+            "topic_name": "Excellent Shopping Experience",
+            "documents": 1962,
+            "average_review_score": 4.83,
+            "average_probability": 0.593,
+            "topic_id": 4,
+            "keywords": "excelente, atendimento, loja, compra, vendedor, parab\u00e9ns, qualidade, servi\u00e7o, todos, sempre, material, antes, obrigado, satisfeito, custo"
+        },
+        {
+            "dominant_topic": 5,
+            "topic_name": "Delivery Problems",
+            "documents": 7596,
+            "average_review_score": 2.26,
+            "average_probability": 0.597,
+            "topic_id": 5,
+            "keywords": "recebi, ainda, nao, comprei, dia, agora, produtos, pedido, apenas, compra, dois, momento, aguardando, mercadoria, hoje"
+        },
+        {
+            "dominant_topic": 6,
+            "topic_name": "Fast Delivery",
+            "documents": 3659,
+            "average_review_score": 3.82,
+            "average_probability": 0.569,
+            "topic_id": 6,
+            "keywords": "entrega, r\u00e1pida, prazo, rapida, dentro, parab\u00e9ns, compra, demora, rapidez, loja, dia, eficiente, atraso, feita, pre\u00e7o"
+        },
+        {
+            "dominant_topic": 7,
+            "topic_name": "Everything OK",
+            "documents": 2438,
+            "average_review_score": 4.46,
+            "average_probability": 0.659,
+            "topic_id": 7,
+            "keywords": "tudo, ok, certo, perfeito, certinho, conforme, correto, veio, combinado, dentro, deu, esperado, ocorreu, bem, compra"
+        },
+        {
+            "dominant_topic": 8,
+            "topic_name": "Product Quality",
+            "documents": 4160,
+            "average_review_score": 2.52,
+            "average_probability": 0.633,
+            "topic_id": 8,
+            "keywords": "produto, veio, qualidade, conforme, adorei, perfeito, defeito, anunciado, chegou, expectativas, correto, embalado, errado, satisfeita, bonito"
+        },
+        {
+            "dominant_topic": 9,
+            "topic_name": "Seller Service",
+            "documents": 946,
+            "average_review_score": 4.81,
+            "average_probability": 0.703,
+            "topic_id": 9,
+            "keywords": "otimo, atendimento, rapida, vendedor, rapido, otima, parabens, servi\u00e7o, custo, comprar, satisfeito, entrega, beneficio, nota, pre\u00e7o"
+        },
+        {
+            "dominant_topic": 10,
+            "topic_name": "Order Fulfillment",
+            "documents": 3472,
+            "average_review_score": 3.35,
+            "average_probability": 0.585,
+            "topic_id": 10,
+            "keywords": "entregue, prazo, dentro, antes, pedido, ainda, corretamente, conforme, dia, data, compra, correto, momento, combinado, produto"
+        },
+        {
+            "dominant_topic": 11,
+            "topic_name": "Customer Satisfaction",
+            "documents": 2088,
+            "average_review_score": 4.07,
+            "average_probability": 0.583,
+            "topic_id": 11,
+            "keywords": "gostei, bastante, atendimento, comprar, loja, compra, bem, obrigado, achei, material, parab\u00e9ns, r\u00e1pido, rapidez, esperava, bonito"
+        },
+        {
+            "dominant_topic": 12,
+            "topic_name": "General Experience",
+            "documents": 1357,
+            "average_review_score": 4.12,
+            "average_probability": 0.57,
+            "topic_id": 12,
+            "keywords": "boa, loja, qualidade, compra, tarde, noite, bonito, material, comprar, r\u00e1pido, empresa, nota, pre\u00e7o, rapido, bem"
+        },
+        {
+            "dominant_topic": 13,
+            "topic_name": "Highly Recommended",
+            "documents": 2141,
+            "average_review_score": 4.76,
+            "average_probability": 0.47,
+            "topic_id": 13,
+            "keywords": "super, r\u00e1pido, recomendado, adorei, amei, indico, bem, perfeito, satisfeita, r\u00e1pida, lindo, rapido, parab\u00e9ns, satisfeito, embalado"
+        },
+        {
+            "dominant_topic": 14,
+            "topic_name": "Quality & Purchase",
+            "documents": 2332,
+            "average_review_score": 4.14,
+            "average_probability": 0.538,
+            "topic_id": 14,
+            "keywords": "qualidade, \u00f3tima, compra, otima, loja, produtos, lindo, material, pre\u00e7o, p\u00e9ssima, sempre, baixa, bonito, amei, todos"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "algorithm": "Non-negative Matrix Factorization",
+    "topics": 15,
+    "reconstruction_error": 176.85470807735493,
+    "documents": 42687,
+    "vocabulary_size": 3556,
+    "max_features": 5000,
+    "min_df": 5,
+    "max_df": 0.95,
+    "created_at": "2026-07-15T13:41:35.239338"
+}

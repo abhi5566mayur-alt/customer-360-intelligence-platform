@@ -1,0 +1,53 @@
+{
+    "algorithm": "LDA",
+    "topics": 5,
+    "perplexity": 472.5255750547134,
+    "documents": 42687,
+    "topic_summary": [
+        {
+            "topic_id": 0,
+            "topic_name": "Delivery Satisfaction",
+            "documents": 11734,
+            "percentage": 27.49,
+            "average_review_score": 4.59,
+            "average_probability": 0.661,
+            "keywords": "prazo, produto, antes, chegou, bem, entregue, entrega, recomendo, \u00f3timo, dentro, tudo, qualidade, \u00f3tima, bom, certo"
+        },
+        {
+            "topic_id": 1,
+            "topic_name": "Product Issues",
+            "documents": 7677,
+            "percentage": 17.98,
+            "average_review_score": 2.72,
+            "average_probability": 0.665,
+            "keywords": "produto, veio, otimo, comprei, recebi, por\u00e9m, qualidade, quero, cor, diferente, foto, errado, defeito, pedi, caixa"
+        },
+        {
+            "topic_id": 2,
+            "topic_name": "Customer Satisfaction",
+            "documents": 7866,
+            "percentage": 18.43,
+            "average_review_score": 4.66,
+            "average_probability": 0.618,
+            "keywords": "recomendo, gostei, super, loja, tudo, produto, sempre, comprar, ok, conforme, compra, perfeito, lannister, lindo, parab\u00e9ns"
+        },
+        {
+            "topic_id": 3,
+            "topic_name": "Delivery & Service Problems",
+            "documents": 9500,
+            "percentage": 22.26,
+            "average_review_score": 2.22,
+            "average_probability": 0.676,
+            "keywords": "produto, recebi, ainda, comprei, compra, entregue, dia, boa, entrega, pedido, nao, loja, chegou, agora, pois"
+        },
+        {
+            "topic_id": 4,
+            "topic_name": "Price & Logistics",
+            "documents": 5910,
+            "percentage": 13.84,
+            "average_review_score": 4.34,
+            "average_probability": 0.61,
+            "keywords": "bom, entrega, produto, excelente, r\u00e1pida, qualidade, produtos, dois, frete, \u00f3timo, pre\u00e7o, atendimento, super, rapida, correios"
+        }
+    ]
+}
