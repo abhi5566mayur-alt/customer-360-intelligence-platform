@@ -21,7 +21,18 @@ data/processed/
 # ML artifacts
 models/
 mlruns/
+artifacts/experiments/
 
 # OS/editor
 .DS_Store
 Thumbs.db
+.vscode/
+
+# Experiment artifacts
+artifacts/experiments/
+
+# Optional: generated reports
+artifacts/**/*.joblib
+artifacts/**/*.parquet
+artifacts/**/*.csv
+artifacts/**/*.json
