@@ -7,7 +7,7 @@ import joblib
 # =====================================================
 
 MODEL_BUNDLE = Path(
-    "artifacts/experiments/clv_rf_logtarget_20260716_144550/model_bundle.joblib"
+    "artifacts/experiments/topic_lda_20260715_130121/model_bundle.joblib"
 )
 # Examples:
 #
