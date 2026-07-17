@@ -92,3 +92,13 @@
 2026-07-18 03:59:50,884 | INFO | Generating SHAP explanation for anomaly detection.
 2026-07-18 03:59:50,890 | INFO | Successfully generated anomaly SHAP explanation.
 2026-07-18 03:59:50,892 | INFO | Model=Topic Modeling | Status=SUCCESS | ExecutionTime=0.0017s
+2026-07-18 04:15:30,630 | INFO | Initializing SHAP explainers...
+2026-07-18 04:15:32,132 | INFO | SHAP explainers initialized successfully.
+2026-07-18 04:15:32,132 | INFO | Customer360 Service initialized successfully.
+2026-07-18 04:18:04,425 | ERROR | Model=Churn | Status=ERROR | Error=Missing required features: ['total_items_bought', 'avg_days_between_orders', 'orders_last_90d_ratio', 'cutoff_month', 'cutoff_quarter'] | ExecutionTime=0.0000s
+2026-07-18 04:20:01,247 | INFO | Model=Churn | Status=SUCCESS | ExecutionTime=0.0297s
+2026-07-18 04:20:01,247 | INFO | Generating SHAP explanation for churn prediction.
+2026-07-18 04:20:01,252 | INFO | Successfully generated churn SHAP explanation.
+2026-07-18 04:22:18,778 | INFO | Initializing SHAP explainers...
+2026-07-18 04:22:19,386 | INFO | SHAP explainers initialized successfully.
+2026-07-18 04:22:19,386 | INFO | Customer360 Service initialized successfully.
