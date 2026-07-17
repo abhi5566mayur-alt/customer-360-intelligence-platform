@@ -32,6 +32,7 @@ from src.pipeline.response_formatter import (
 )
 from src.utils.logger import logger
 from src.pipeline.load_models import load_all_models
+from src.explainability.shap_explainer import ShapExplainer
 
 
 class Customer360Service:
@@ -39,6 +40,9 @@ class Customer360Service:
     def __init__(self):
         print("\nInitializing Customer360 Service...\n")
         self.models = load_all_models()
+        self.shap_explainer = ShapExplainer(
+            self.models
+        )
         logger.info("Customer360 Service initialized successfully.")
 
     # =====================================================
@@ -112,7 +116,11 @@ class Customer360Service:
     # CHURN
     # =====================================================
 
-    def predict_churn(self, customer_features):
+    def predict_churn(
+        self,
+        customer_features,
+        explain: bool = False,
+    ):
         
         try:
             start_time = time.perf_counter()
@@ -156,15 +164,25 @@ class Customer360Service:
             execution_time = time.perf_counter() - start_time
             logger.info(f"Model=Churn | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
 
-            return success_response(
-                    "Churn",
-                    {
-                        "will_churn": bool(prediction),
-                        "churn_probability": round(float(probability), 4),
-                        "risk": risk,
-                        "business_action": CHURN_ACTIONS[risk],
-                    },
+            
+            prediction_result = {
+                "will_churn": bool(prediction),
+                "churn_probability": round(float(probability), 4),
+                "risk": risk,
+                "business_action": CHURN_ACTIONS[risk],
+            }
+
+            if explain:
+                prediction_result["explanation"] = (
+                    self.shap_explainer.explain_churn(
+                        customer_features
+                    )
                 )
+
+            return success_response(
+                "Churn",
+                prediction_result,
+            )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
             logger.error(f"Model=Churn | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
@@ -177,7 +195,11 @@ class Customer360Service:
     # CLV PREDICTION
     # =====================================================
 
-    def predict_clv(self, customer_features):
+    def predict_clv(
+        self,
+        customer_features,
+        explain: bool = False,
+    ):
         
         try:
             start_time = time.perf_counter()
@@ -237,16 +259,25 @@ class Customer360Service:
             execution_time = time.perf_counter() - start_time    
             logger.info(f"Model=CLV | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
 
-            return success_response(
-                    "CLV",
-                    {
-                        "predicted_clv": round(clv, 2),
-                        "customer_value": value,
-                        "business_action": CLV_ACTIONS[
-                            value.replace(" Value Customer", "")
-                        ],
-                    },
+            prediction_result = {
+                "predicted_clv": round(clv, 2),
+                "customer_value": value,
+                "business_action": CLV_ACTIONS[
+                    value.replace(" Value Customer", "")
+                ],
+            }
+
+            if explain:
+                prediction_result["explanation"] = (
+                    self.shap_explainer.explain_clv(
+                        customer_features
+                    )
                 )
+
+            return success_response(
+                "CLV",
+                prediction_result,
+            )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
             logger.error(f"Model=CLV | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
@@ -326,7 +357,11 @@ class Customer360Service:
     # ANOMALY DETECTION
     # =====================================================
 
-    def detect_anomaly(self, customer_features):
+    def detect_anomaly(
+        self,
+        customer_features,
+        explain: bool = False,
+    ):
         try:
             start_time = time.perf_counter()
 
@@ -389,15 +424,25 @@ class Customer360Service:
                 
             execution_time = time.perf_counter() - start_time
             logger.info(f"Model=Anomaly Detection | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
-            return success_response(
-                    "Anomaly Detection",
-                    {
-                        "status": label,
-                        "anomaly_score": round(score, 4),
-                        "risk": risk,
-                        "business_action": ANOMALY_ACTIONS[label],
-                    },
+           
+            prediction_result = {
+                "status": label,
+                "anomaly_score": round(score, 4),
+                "risk": risk,
+                "business_action": ANOMALY_ACTIONS[label],
+            }
+
+            if explain:
+                prediction_result["explanation"] = (
+                    self.shap_explainer.explain_anomaly(
+                        customer_features
+                    )
                 )
+
+            return success_response(
+                "Anomaly Detection",
+                prediction_result,
+            )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
             logger.error(f"Model=Anomaly Detection | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
@@ -542,7 +587,10 @@ if __name__ == "__main__":
     for col in service.models["churn"]["feature_cols"]:
         churn_features[col] = 1.0
 
-    churn = service.predict_churn(churn_features)
+    churn = service.predict_churn(
+        churn_features,
+        explain=True,
+    )
 
     print("\nChurn Prediction")
     print("----------------")
@@ -563,7 +611,10 @@ if __name__ == "__main__":
     for col in service.models["clv"]["feature_names"]:
         clv_features[col] = 1.0
 
-    clv = service.predict_clv(clv_features)
+    clv = service.predict_clv(
+        clv_features,
+        explain=True,
+    )
 
     print("\nCLV Prediction")
     print("----------------")
@@ -588,7 +639,10 @@ if __name__ == "__main__":
     for col in service.models["anomaly"]["feature_cols"]:
         anomaly_features[col] = 1.0
 
-    anomaly = service.detect_anomaly(anomaly_features)
+    anomaly = service.detect_anomaly(
+        anomaly_features,
+        explain=True,
+    )
 
     print("\nAnomaly Detection")
     print("----------------")
