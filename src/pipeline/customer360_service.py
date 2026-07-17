@@ -26,7 +26,10 @@ from src.pipeline.validators import (
     validate_product_id,
     validate_review_text,
 )
-
+from src.pipeline.response_formatter import (
+    success_response,
+    error_response,
+)
 from src.pipeline.load_models import load_all_models
 
 
@@ -84,17 +87,15 @@ class Customer360Service:
             },
         )
 
-        return {
-
-            "segment_id": int(cluster),
-
-            "segment_name": segment["name"],
-
-            "description": segment["description"],
-
-            "business_action": segment["business_action"],
-
-        }
+        return success_response(
+                "Segmentation",
+                {
+                    "segment_id": int(cluster),
+                    "segment_name": segment["name"],
+                    "description": segment["description"],
+                    "business_action": segment["business_action"],
+                },
+            )
 
     # =====================================================
     # CHURN
@@ -138,17 +139,15 @@ class Customer360Service:
         else:
             risk = "Low"
 
-        return {
-
-            "will_churn": bool(prediction),
-
-            "churn_probability": round(float(probability), 4),
-
-            "risk": risk,
-
-            "business_action": CHURN_ACTIONS[risk],
-
-        }
+        return success_response(
+                "Churn",
+                {
+                    "will_churn": bool(prediction),
+                    "churn_probability": round(float(probability), 4),
+                    "risk": risk,
+                    "business_action": CHURN_ACTIONS[risk],
+                },
+            )
     # =====================================================
     # CLV PREDICTION
     # =====================================================
@@ -207,17 +206,16 @@ class Customer360Service:
         else:
             value = "Low Value Customer"
 
-        return {
-
-            "predicted_clv": round(clv, 2),
-
-            "customer_value": value,
-
-            "business_action": CLV_ACTIONS[
-                value.replace(" Value Customer", "")
-            ],
-
-        }
+        return success_response(
+                "CLV",
+                {
+                    "predicted_clv": round(clv, 2),
+                    "customer_value": value,
+                    "business_action": CLV_ACTIONS[
+                        value.replace(" Value Customer", "")
+                    ],
+                },
+            )
     # =====================================================
     # RECOMMENDATION
     # =====================================================
@@ -267,15 +265,14 @@ class Customer360Service:
             if len(recommendations) >= top_k:
                 break
 
-        return {
-
-            "algorithm": "Truncated SVD",
-
-            "input_product": product_id,
-
-            "recommendations": recommendations,
-
-        }
+        return success_response(
+                "Recommendation",
+                {
+                    "algorithm": "Truncated SVD",
+                    "input_product": product_id,
+                    "recommendations": recommendations,
+                },
+            )
     # =====================================================
     # ANOMALY DETECTION
     # =====================================================
@@ -338,18 +335,19 @@ class Customer360Service:
         else:
             label = ANOMALY_NORMAL_LABEL
             risk = "Low"
+            
+        return success_response(
+                "Anomaly Detection",
+                {
+                    "status": label,
+                    "anomaly_score": round(score, 4),
+                    "risk": risk,
+                    "business_action": ANOMALY_ACTIONS[label],
+                },
+            )
 
-        return {
-
-            "status": label,
-
-            "anomaly_score": round(score, 4),
-
-            "risk": risk,
-
-            "business_action": ANOMALY_ACTIONS[label],
-
-        }
+        
+               
 
     # =====================================================
     # TOPIC MODELING
@@ -420,23 +418,23 @@ class Customer360Service:
         },
 
     )
-        return {
 
-        "dominant_topic": topic_id,
+        return success_response(
+                "Topic Modeling",
+                {
+                    "dominant_topic": topic_id,
+                    "topic_name": topic["name"],
+                    "topic_probability": round(
+                        probability,
+                        DEFAULT_TOPIC_PROBABILITY_DECIMALS,
+                    ),
+                    "keywords": keywords,
+                    "description": topic["description"],
+                    "business_action": topic["business_action"],
+                },
+            )
 
-        "topic_name": topic["name"],
-
-        "topic_probability": round(
-                                probability,
-                                DEFAULT_TOPIC_PROBABILITY_DECIMALS,
-                            ),
-        "keywords": keywords,
-
-        "description": topic["description"],
-
-        "business_action": topic["business_action"],
-
-    }
+    
 
 
 # =====================================================
