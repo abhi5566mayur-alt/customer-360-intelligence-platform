@@ -1,4 +1,4 @@
-
+import time
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
@@ -30,6 +30,7 @@ from src.pipeline.response_formatter import (
     success_response,
     error_response,
 )
+from src.utils.logger import logger
 from src.pipeline.load_models import load_all_models
 
 
@@ -38,56 +39,58 @@ class Customer360Service:
     def __init__(self):
         print("\nInitializing Customer360 Service...\n")
         self.models = load_all_models()
+        logger.info("Customer360 Service initialized successfully.")
 
     # =====================================================
     # CUSTOMER SEGMENTATION
     # =====================================================
 
     def predict_segment(self, customer_features):
-        bundle = self.models["segmentation"]
 
-        scaler = bundle["scaler"]
-        model = bundle["model"]
+        try:
+            start_time = time.perf_counter()
 
-        feature_cols = bundle["feature_cols"]
-        log_cols = bundle["log_cols"]
+            bundle = self.models["segmentation"]
 
-        validate_customer_features(
-            customer_features,
-            feature_cols,
-        )
+            scaler = bundle["scaler"]
+            model = bundle["model"]
 
-        df = pd.DataFrame([customer_features])
+            feature_cols = bundle["feature_cols"]
+            log_cols = bundle["log_cols"]
 
-        # Ensure all expected columns exist
-        for col in feature_cols:
-            if col not in df.columns:
-                df[col] = 0
+            validate_customer_features(
+                customer_features,
+                feature_cols,
+            )
 
-        # Apply log transform
-        for col in log_cols:
-            if col in df.columns:
-                df[col] = np.log1p(df[col])
+            df = pd.DataFrame([customer_features])
 
-        # Correct column order
-        df = df[feature_cols]
+            for col in feature_cols:
+                if col not in df.columns:
+                    df[col] = 0
 
-        # Scale
-        X = scaler.transform(df)
+            for col in log_cols:
+                if col in df.columns:
+                    df[col] = np.log1p(df[col])
 
-        # Predict
-        cluster = model.predict(X)[0]
+            df = df[feature_cols]
 
-        segment = SEGMENT_MAPPING.get(
-        int(cluster),
-        {
-            "name": "Unknown",
-            "description": "Unknown segment.",
-            "business_action": "No recommendation available.",
-            },
-        )
+            X = scaler.transform(df)
 
-        return success_response(
+            cluster = model.predict(X)[0]
+
+            segment = SEGMENT_MAPPING.get(
+                int(cluster),
+                {
+                    "name": "Unknown",
+                    "description": "Unknown segment.",
+                    "business_action": "No recommendation available.",
+                },
+            )
+            execution_time = time.perf_counter() - start_time
+            logger.info(f"Model=Segmentation | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
+
+            return success_response(
                 "Segmentation",
                 {
                     "segment_id": int(cluster),
@@ -97,124 +100,159 @@ class Customer360Service:
                 },
             )
 
+        except Exception as e:
+            execution_time = time.perf_counter() - start_time
+            logger.error(f"Model=Segmentation | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+
+            return error_response(
+                "Segmentation",
+                str(e),
+            )
     # =====================================================
     # CHURN
     # =====================================================
 
     def predict_churn(self, customer_features):
+        
+        try:
+            start_time = time.perf_counter()
 
-        bundle = self.models["churn"]
+            bundle = self.models["churn"]
 
-        scaler = bundle["scaler"]
-        model = bundle["model"]
-        feature_cols = bundle["feature_cols"]
+            scaler = bundle["scaler"]
+            model = bundle["model"]
+            feature_cols = bundle["feature_cols"]
 
-        validate_customer_features(
-            customer_features,
-            feature_cols,
-        )
+            validate_customer_features(
+                customer_features,
+                feature_cols,
+            )
 
-        df = pd.DataFrame([customer_features])
+            df = pd.DataFrame([customer_features])
 
-        # Add missing columns
-        for col in feature_cols:
-            if col not in df.columns:
-                df[col] = 0
+            # Add missing columns
+            for col in feature_cols:
+                if col not in df.columns:
+                    df[col] = 0
 
-        # Correct feature order
-        df = df[feature_cols]
+            # Correct feature order
+            df = df[feature_cols]
 
-        # Scale
-        X = scaler.transform(df)
+            # Scale
+            X = scaler.transform(df)
 
-        # Predict
-        probability = model.predict_proba(X)[0][1]
-        prediction = model.predict(X)[0]
+            # Predict
+            probability = model.predict_proba(X)[0][1]
+            prediction = model.predict(X)[0]
 
-        # Risk bucket
-        if probability >= CHURN_HIGH_RISK_THRESHOLD:
-            risk = "High"
-        elif probability >= CHURN_MEDIUM_RISK_THRESHOLD:
-            risk = "Medium"
-        else:
-            risk = "Low"
+            # Risk bucket
+            if probability >= CHURN_HIGH_RISK_THRESHOLD:
+                risk = "High"
+            elif probability >= CHURN_MEDIUM_RISK_THRESHOLD:
+                risk = "Medium"
+            else:
+                risk = "Low"
+            
+            execution_time = time.perf_counter() - start_time
+            logger.info(f"Model=Churn | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
 
-        return success_response(
-                "Churn",
-                {
-                    "will_churn": bool(prediction),
-                    "churn_probability": round(float(probability), 4),
-                    "risk": risk,
-                    "business_action": CHURN_ACTIONS[risk],
-                },
+            return success_response(
+                    "Churn",
+                    {
+                        "will_churn": bool(prediction),
+                        "churn_probability": round(float(probability), 4),
+                        "risk": risk,
+                        "business_action": CHURN_ACTIONS[risk],
+                    },
+                )
+        except Exception as e:
+            execution_time = time.perf_counter() - start_time
+            logger.error(f"Model=Churn | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            
+            return error_response(
+                 "Churn",
+                str(e),
             )
     # =====================================================
     # CLV PREDICTION
     # =====================================================
 
     def predict_clv(self, customer_features):
-       
-        bundle = self.models["clv"]
-
-        model = bundle["model"]
         
-        feature_cols = bundle["feature_names"]
-
-        validate_customer_features(
-            customer_features,
-            feature_cols,
-        )
-
-        df = pd.DataFrame([customer_features])
-
-        # ------------------------------------
-        # Add missing columns
-        # ------------------------------------
-
-        for col in feature_cols:
-            if col not in df.columns:
-                df[col] = 0
-
-        # ------------------------------------
-        # Correct feature order
-        # ------------------------------------
-
-        df = df[feature_cols]
-
-        # ------------------------------------
-        # Predict
-        # ------------------------------------
-
-        clv = float(model.predict(df)[0])
-
-        # Safety
-        clv = max(clv, 0)
-
-        # ------------------------------------
-        # Business Value Bucket
-        # ------------------------------------
-
+        try:
+            start_time = time.perf_counter()
        
-      # Business Value Bucket
+            bundle = self.models["clv"]
 
-        if clv >= CLV_HIGH_VALUE_THRESHOLD:
-            value = "High Value Customer"
+            model = bundle["model"]
+            
+            feature_cols = bundle["feature_names"]
 
-        elif clv >= CLV_MEDIUM_VALUE_THRESHOLD:
-            value = "Medium Value Customer"
+            validate_customer_features(
+                customer_features,
+                feature_cols,
+            )
 
-        else:
-            value = "Low Value Customer"
+            df = pd.DataFrame([customer_features])
 
-        return success_response(
+            # ------------------------------------
+            # Add missing columns
+            # ------------------------------------
+
+            for col in feature_cols:
+                if col not in df.columns:
+                    df[col] = 0
+
+            # ------------------------------------
+            # Correct feature order
+            # ------------------------------------
+
+            df = df[feature_cols]
+
+            # ------------------------------------
+            # Predict
+            # ------------------------------------
+
+            clv = float(model.predict(df)[0])
+
+            # Safety
+            clv = max(clv, 0)
+
+            # ------------------------------------
+            # Business Value Bucket
+            # ------------------------------------
+
+        
+        # Business Value Bucket
+
+            if clv >= CLV_HIGH_VALUE_THRESHOLD:
+                value = "High Value Customer"
+
+            elif clv >= CLV_MEDIUM_VALUE_THRESHOLD:
+                value = "Medium Value Customer"
+
+            else:
+                value = "Low Value Customer"
+                
+            execution_time = time.perf_counter() - start_time    
+            logger.info(f"Model=CLV | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
+
+            return success_response(
+                    "CLV",
+                    {
+                        "predicted_clv": round(clv, 2),
+                        "customer_value": value,
+                        "business_action": CLV_ACTIONS[
+                            value.replace(" Value Customer", "")
+                        ],
+                    },
+                )
+        except Exception as e:
+            execution_time = time.perf_counter() - start_time
+            logger.error(f"Model=CLV | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            return error_response(
                 "CLV",
-                {
-                    "predicted_clv": round(clv, 2),
-                    "customer_value": value,
-                    "business_action": CLV_ACTIONS[
-                        value.replace(" Value Customer", "")
-                    ],
-                },
+                str(e),
             )
     # =====================================================
     # RECOMMENDATION
@@ -225,215 +263,246 @@ class Customer360Service:
         product_id,
         top_k=DEFAULT_TOP_K_RECOMMENDATIONS,
     ):
+        try:
+            start_time = time.perf_counter()
 
-        bundle = self.models["recommendation"]
+            bundle = self.models["recommendation"]
 
-        product_embeddings = bundle["product_embeddings"]
-        product_index = bundle["product_index"]
+            product_embeddings = bundle["product_embeddings"]
+            product_index = bundle["product_index"]
 
-        validate_product_id(
-            product_id,
-            product_index,
-        )
+            validate_product_id(
+                product_id,
+                product_index,
+            )
 
-        idx = product_index.get_loc(product_id)
+            idx = product_index.get_loc(product_id)
 
-        query_embedding = product_embeddings[idx].reshape(1, -1)
+            query_embedding = product_embeddings[idx].reshape(1, -1)
 
-        similarities = cosine_similarity(
-            query_embedding,
-            product_embeddings,
-        )[0]
+            similarities = cosine_similarity(
+                query_embedding,
+                product_embeddings,
+            )[0]
 
-        sorted_indices = similarities.argsort()[::-1]
+            sorted_indices = similarities.argsort()[::-1]
 
-        recommendations = []
+            recommendations = []
 
-        for i in sorted_indices:
+            for i in sorted_indices:
 
-            if i == idx:
-                continue
+                if i == idx:
+                    continue
 
-            recommendations.append({
+                recommendations.append({
 
-                "product_id": product_index[i],
+                    "product_id": product_index[i],
 
-                "similarity": round(float(similarities[i]), 4),
+                    "similarity": round(float(similarities[i]), 4),
 
-            })
+                })
 
-            if len(recommendations) >= top_k:
-                break
+                if len(recommendations) >= top_k:
+                    break
+            execution_time = time.perf_counter() - start_time    
+            logger.info(f"Model=Recommendation | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
 
-        return success_response(
+            return success_response(
+                    "Recommendation",
+                    {
+                        "algorithm": "Truncated SVD",
+                        "input_product": product_id,
+                        "recommendations": recommendations,
+                    },
+                )
+        except Exception as e:
+            execution_time = time.perf_counter() - start_time
+            logger.error(f"Model=Recommendation | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            return error_response(
                 "Recommendation",
-                {
-                    "algorithm": "Truncated SVD",
-                    "input_product": product_id,
-                    "recommendations": recommendations,
-                },
+                str(e),
             )
     # =====================================================
     # ANOMALY DETECTION
     # =====================================================
 
     def detect_anomaly(self, customer_features):
-       
-        bundle = self.models["anomaly"]
+        try:
+            start_time = time.perf_counter()
 
-        scaler = bundle["scaler"]
-        model = bundle["model"]
-        feature_cols = bundle["feature_cols"]
-        log_cols = bundle["log_cols"]
+            bundle = self.models["anomaly"]
 
-        validate_customer_features(
-            customer_features,
-            feature_cols,
-        )
+            scaler = bundle["scaler"]
+            model = bundle["model"]
+            feature_cols = bundle["feature_cols"]
+            log_cols = bundle["log_cols"]
 
-        df = pd.DataFrame([customer_features])
-
-        # ------------------------------------
-        # Add missing columns
-        # ------------------------------------
-
-        for col in feature_cols:
-            if col not in df.columns:
-                df[col] = 0
-
-        # ------------------------------------
-        # Log transform
-        # ------------------------------------
-
-        for col in log_cols:
-            if col in df.columns:
-                df[col] = np.log1p(df[col])
-
-        # ------------------------------------
-        # Correct feature order
-        # ------------------------------------
-
-        df = df[feature_cols]
-
-        # ------------------------------------
-        # Scale
-        # ------------------------------------
-
-        X = scaler.transform(df)
-
-        # ------------------------------------
-        # Predict
-        # ------------------------------------
-
-        prediction = model.predict(X)[0]
-
-        score = float(model.decision_function(X)[0])
-
-        if prediction == -1:
-            label = ANOMALY_ANOMALY_LABEL
-            risk = "High"
-        else:
-            label = ANOMALY_NORMAL_LABEL
-            risk = "Low"
-            
-        return success_response(
-                "Anomaly Detection",
-                {
-                    "status": label,
-                    "anomaly_score": round(score, 4),
-                    "risk": risk,
-                    "business_action": ANOMALY_ACTIONS[label],
-                },
+            validate_customer_features(
+                customer_features,
+                feature_cols,
             )
 
-        
-               
+            df = pd.DataFrame([customer_features])
 
+            # ------------------------------------
+            # Add missing columns
+            # ------------------------------------
+
+            for col in feature_cols:
+                if col not in df.columns:
+                    df[col] = 0
+
+            # ------------------------------------
+            # Log transform
+            # ------------------------------------
+
+            for col in log_cols:
+                if col in df.columns:
+                    df[col] = np.log1p(df[col])
+
+            # ------------------------------------
+            # Correct feature order
+            # ------------------------------------
+
+            df = df[feature_cols]
+
+            # ------------------------------------
+            # Scale
+            # ------------------------------------
+
+            X = scaler.transform(df)
+
+            # ------------------------------------
+            # Predict
+            # ------------------------------------
+
+            prediction = model.predict(X)[0]
+
+            score = float(model.decision_function(X)[0])
+
+            if prediction == -1:
+                label = ANOMALY_ANOMALY_LABEL
+                risk = "High"
+            else:
+                label = ANOMALY_NORMAL_LABEL
+                risk = "Low"
+                
+            execution_time = time.perf_counter() - start_time
+            logger.info(f"Model=Anomaly Detection | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
+            return success_response(
+                    "Anomaly Detection",
+                    {
+                        "status": label,
+                        "anomaly_score": round(score, 4),
+                        "risk": risk,
+                        "business_action": ANOMALY_ACTIONS[label],
+                    },
+                )
+        except Exception as e:
+            execution_time = time.perf_counter() - start_time
+            logger.error(f"Model=Anomaly Detection | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            return error_response(
+                "Anomaly Detection",
+                str(e),
+            )
+
+    
     # =====================================================
     # TOPIC MODELING
     # =====================================================
     
 
     def review_topics(self, review_text):
-        validate_review_text(review_text)
+        
+        
+        try:
+            start_time = time.perf_counter()
+            
+            validate_review_text(review_text)
 
-        import re
+            import re
 
-        bundle = self.models["topic_model"]
+            bundle = self.models["topic_model"]
 
-        model = bundle["model"]
-        vectorizer = bundle["vectorizer"]
-        topic_keywords = bundle["topic_keywords"]
+            model = bundle["model"]
+            vectorizer = bundle["vectorizer"]
+            topic_keywords = bundle["topic_keywords"]
 
-        # ------------------------------------
-        # Clean review
-        # ------------------------------------
+            # ------------------------------------
+            # Clean review
+            # ------------------------------------
 
-        text = str(review_text).lower()
+            text = str(review_text).lower()
 
-        text = re.sub(r"http\S+", " ", text)
-        text = re.sub(r"\d+", " ", text)
-        text = re.sub(r"[^\w\s]", " ", text)
-        text = re.sub(r"\s+", " ", text).strip()
+            text = re.sub(r"http\S+", " ", text)
+            text = re.sub(r"\d+", " ", text)
+            text = re.sub(r"[^\w\s]", " ", text)
+            text = re.sub(r"\s+", " ", text).strip()
 
-        # ------------------------------------
-        # Vectorize
-        # ------------------------------------
+            # ------------------------------------
+            # Vectorize
+            # ------------------------------------
 
-        X = vectorizer.transform([text])
+            X = vectorizer.transform([text])
 
-        # ------------------------------------
-        # Topic probabilities
-        # ------------------------------------
+            # ------------------------------------
+            # Topic probabilities
+            # ------------------------------------
 
-        topic_probs = model.transform(X)[0]
+            topic_probs = model.transform(X)[0]
 
-        topic_id = int(np.argmax(topic_probs))
+            topic_id = int(np.argmax(topic_probs))
 
-        probability = float(np.max(topic_probs))
+            probability = float(np.max(topic_probs))
 
-        # ------------------------------------
-        # Keywords
-        # ------------------------------------
+            # ------------------------------------
+            # Keywords
+            # ------------------------------------
 
-        keywords = ""
+            keywords = ""
 
-        for topic in topic_keywords:
+            for topic in topic_keywords:
 
-            if topic["topic_id"] == topic_id:
+                if topic["topic_id"] == topic_id:
 
-                keywords = topic["keywords"]
+                    keywords = topic["keywords"]
 
-                break
-        topic = TOPIC_MAPPING.get(
+                    break
+            topic = TOPIC_MAPPING.get(
 
-        topic_id,
+            topic_id,
 
-        {
-            "name": "Unknown",
+            {
+                "name": "Unknown",
 
-            "description": "Unknown topic.",
+                "description": "Unknown topic.",
 
-            "business_action": "No recommendation available.",
-        },
-
-    )
-
-        return success_response(
+                "business_action": "No recommendation available.",
+            },
+        )  
+            execution_time = time.perf_counter() - start_time
+            logger.info(f"Model=Topic Modeling | Status=SUCCESS | ExecutionTime={execution_time:.4f}s")
+            return success_response(
+                    "Topic Modeling",
+                    {
+                        "dominant_topic": topic_id,
+                        "topic_name": topic["name"],
+                        "topic_probability": round(
+                            probability,
+                            DEFAULT_TOPIC_PROBABILITY_DECIMALS,
+                        ),
+                        "keywords": keywords,
+                        "description": topic["description"],
+                        "business_action": topic["business_action"],
+                    },
+                )
+        except Exception as e:
+            execution_time = time.perf_counter() - start_time
+            logger.error(f"Model=Topic Modeling | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            return error_response(
                 "Topic Modeling",
-                {
-                    "dominant_topic": topic_id,
-                    "topic_name": topic["name"],
-                    "topic_probability": round(
-                        probability,
-                        DEFAULT_TOPIC_PROBABILITY_DECIMALS,
-                    ),
-                    "keywords": keywords,
-                    "description": topic["description"],
-                    "business_action": topic["business_action"],
-                },
-            )
-
+                str(e),
+            )    
     
 
 
