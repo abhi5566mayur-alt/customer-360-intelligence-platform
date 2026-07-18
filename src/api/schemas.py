@@ -57,3 +57,63 @@ class ReviewRequest(BaseModel):
         ...,
         description="Customer review text.",
     )
+from typing import Any
+
+from pydantic import BaseModel
+
+
+# =====================================================
+# COMMON RESPONSE
+# =====================================================
+
+class BaseResponse(BaseModel):
+    status: str
+    model: str
+
+
+# =====================================================
+# CHURN
+# =====================================================
+
+class ChurnResponse(BaseResponse):
+    prediction: dict[str, Any]
+
+
+# =====================================================
+# CLV
+# =====================================================
+
+class CLVResponse(BaseResponse):
+    prediction: dict[str, Any]
+
+
+# =====================================================
+# SEGMENTATION
+# =====================================================
+
+class SegmentationResponse(BaseResponse):
+    prediction: dict[str, Any]
+
+
+# =====================================================
+# ANOMALY
+# =====================================================
+
+class AnomalyResponse(BaseResponse):
+    prediction: dict[str, Any]
+
+
+# =====================================================
+# RECOMMENDATION
+# =====================================================
+
+class RecommendationResponse(BaseResponse):
+    prediction: dict[str, Any]
+
+
+# =====================================================
+# REVIEW TOPIC
+# =====================================================
+
+class ReviewTopicResponse(BaseResponse):
+    prediction: dict[str, Any]
