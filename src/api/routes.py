@@ -32,59 +32,64 @@ def predict_churn(request: CustomerFeaturesRequest):
     )
 
 
-# ==========================
+
+# =====================================================
 # CLV
-# ==========================
+# =====================================================
 
 @router.post("/predict/clv")
-def predict_clv(request: CustomerFeaturesRequest):
+def predict_clv(
+    request: CustomerFeaturesRequest,
+):
     return service.predict_clv(
         customer_features=request.customer_features,
         explain=request.explain,
     )
 
 
-# ==========================
+# =====================================================
 # SEGMENTATION
-# ==========================
+# =====================================================
 
 @router.post("/predict/segment")
-def predict_segment(request: CustomerFeaturesRequest):
+def predict_segment(
+    request: CustomerFeaturesRequest,
+):
     return service.predict_segment(
         customer_features=request.customer_features,
     )
-
-
-# ==========================
-# ANOMALY
-# ==========================
+# =====================================================
+# ANOMALY DETECTION
+# =====================================================
 
 @router.post("/predict/anomaly")
-def predict_anomaly(request: CustomerFeaturesRequest):
+def predict_anomaly(
+    request: CustomerFeaturesRequest,
+):
     return service.detect_anomaly(
         customer_features=request.customer_features,
         explain=request.explain,
     )
-
-
-# ==========================
-# RECOMMENDATION
-# ==========================
+# =====================================================
+# PRODUCT RECOMMENDATION
+# =====================================================
 
 @router.post("/recommend")
-def recommend(request: RecommendationRequest):
+def recommend(
+    request: RecommendationRequest,
+):
     return service.recommend_products(
         product_id=request.product_id,
         top_k=request.top_k,
     )
-
-
-# ==========================
+# =====================================================
 # REVIEW TOPIC
-# ==========================
+# =====================================================
 
 @router.post("/review-topic")
-def review_topic(request: ReviewRequest):
-    return service.classify_review_topic(
+def review_topic(
+    request: ReviewRequest,
+):
+    return service.review_topics(
         review_text=request.review_text,
     )

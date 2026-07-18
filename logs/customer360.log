@@ -102,3 +102,35 @@
 2026-07-18 04:22:18,778 | INFO | Initializing SHAP explainers...
 2026-07-18 04:22:19,386 | INFO | SHAP explainers initialized successfully.
 2026-07-18 04:22:19,386 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:05:31,414 | INFO | Initializing SHAP explainers...
+2026-07-18 13:05:32,719 | INFO | SHAP explainers initialized successfully.
+2026-07-18 13:05:32,719 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:06:34,235 | INFO | Model=CLV | Status=SUCCESS | ExecutionTime=0.0550s
+2026-07-18 13:06:34,235 | INFO | Generating SHAP explanation for CLV prediction.
+2026-07-18 13:06:34,248 | INFO | Successfully generated CLV SHAP explanation.
+2026-07-18 13:06:37,635 | INFO | Model=CLV | Status=SUCCESS | ExecutionTime=0.0083s
+2026-07-18 13:06:37,635 | INFO | Generating SHAP explanation for CLV prediction.
+2026-07-18 13:06:37,645 | INFO | Successfully generated CLV SHAP explanation.
+2026-07-18 13:08:01,679 | INFO | Initializing SHAP explainers...
+2026-07-18 13:08:02,970 | INFO | SHAP explainers initialized successfully.
+2026-07-18 13:08:02,971 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:08:44,195 | ERROR | Model=Segmentation | Status=ERROR | Error=Missing required features: ['recent_30d_spend_share', 'recent_90d_spend_share', 'recent_30d_order_share', 'recent_90d_order_share'] | ExecutionTime=0.0000s
+2026-07-18 13:10:52,961 | INFO | Model=Segmentation | Status=SUCCESS | ExecutionTime=0.4414s
+2026-07-18 13:12:11,524 | INFO | Initializing SHAP explainers...
+2026-07-18 13:12:12,617 | INFO | SHAP explainers initialized successfully.
+2026-07-18 13:12:12,617 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:12:36,067 | ERROR | Model=Anomaly Detection | Status=ERROR | Error=Missing required features: ['spend_per_review', 'categories_per_order', 'reviews_per_order', 'payment_types_per_order', 'installments_per_order', 'spend_per_item'] | ExecutionTime=0.0000s
+2026-07-18 13:13:51,452 | INFO | Model=Anomaly Detection | Status=SUCCESS | ExecutionTime=0.1267s
+2026-07-18 13:13:51,452 | INFO | Generating SHAP explanation for anomaly detection.
+2026-07-18 13:13:51,460 | INFO | Successfully generated anomaly SHAP explanation.
+2026-07-18 13:14:43,407 | INFO | Initializing SHAP explainers...
+2026-07-18 13:14:44,609 | INFO | SHAP explainers initialized successfully.
+2026-07-18 13:14:44,609 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:15:16,645 | INFO | Model=Recommendation | Status=SUCCESS | ExecutionTime=0.0401s
+2026-07-18 13:16:04,322 | INFO | Initializing SHAP explainers...
+2026-07-18 13:16:05,257 | INFO | SHAP explainers initialized successfully.
+2026-07-18 13:16:05,257 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:20:12,344 | INFO | Initializing SHAP explainers...
+2026-07-18 13:20:13,176 | INFO | SHAP explainers initialized successfully.
+2026-07-18 13:20:13,176 | INFO | Customer360 Service initialized successfully.
+2026-07-18 13:20:17,922 | INFO | Model=Topic Modeling | Status=SUCCESS | ExecutionTime=0.0024s
