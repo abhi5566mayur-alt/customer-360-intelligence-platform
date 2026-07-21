@@ -1,4 +1,7 @@
 from pathlib import Path
+
+from src.utils.logger import logger
+
 import joblib
 
 EXPERIMENTS_DIR = Path("artifacts/experiments")
@@ -35,7 +38,7 @@ def load_bundle(experiment_dir: Path):
 
 def load_all_models():
 
-    print("\nLoading trained models...\n")
+    logger.info("Loading trained models...")
 
     models = {}
 
@@ -49,7 +52,7 @@ def load_all_models():
 
     models["segmentation"] = load_bundle(seg_dir)
 
-    print("✓ Segmentation")
+    logger.info(" Segmentation model loaded successfully.")
 
     # ----------------------------------------
     # Churn
@@ -61,7 +64,7 @@ def load_all_models():
 
     models["churn"] = load_bundle(churn_dir)
 
-    print("✓ Churn")
+    logger.info(" Churn model loaded successfully.")
 
     # ----------------------------------------
     # CLV
@@ -73,7 +76,7 @@ def load_all_models():
 
     models["clv"] = load_bundle(clv_dir)
 
-    print("✓ CLV")
+    logger.info(" CLV model loaded successfully.")
 
     # ----------------------------------------
     # Recommendation
@@ -85,7 +88,7 @@ def load_all_models():
 
     models["recommendation"] = load_bundle(rec_dir)
 
-    print("✓ Recommendation")
+    logger.info(" Recommendation model loaded successfully.")
 
     # ----------------------------------------
     # Anomaly
@@ -97,7 +100,7 @@ def load_all_models():
 
     models["anomaly"] = load_bundle(anomaly_dir)
 
-    print("✓ Anomaly Detection")
+    logger.info(" Anomaly Detection model loaded successfully.")
 
     # ----------------------------------------
     # Topic Modeling
@@ -109,11 +112,9 @@ def load_all_models():
 
     models["topic_model"] = load_bundle(topic_dir)
 
-    print("✓ Topic Modeling")
+    logger.info(" Topic Modeling model loaded successfully.")
 
-    print("\n==============================")
-    print("All models loaded successfully.")
-    print("==============================")
+    logger.info("All trained models loaded successfully.")
 
     return models
 

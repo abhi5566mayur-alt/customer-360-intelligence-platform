@@ -38,7 +38,7 @@ from src.explainability.shap_explainer import ShapExplainer
 class Customer360Service:
 
     def __init__(self):
-        print("\nInitializing Customer360 Service...\n")
+        logger.info("Initializing Customer360 Service...")
         self.models = load_all_models()
         self.shap_explainer = ShapExplainer(
             self.models
@@ -106,7 +106,7 @@ class Customer360Service:
 
         except Exception as e:
             execution_time = time.perf_counter() - start_time
-            logger.error(f"Model=Segmentation | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            logger.exception(f"Model=Segmentation | Status=ERROR | ExecutionTime={execution_time:.4f}s")
 
             return error_response(
                 "Segmentation",
@@ -185,7 +185,7 @@ class Customer360Service:
             )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
-            logger.error(f"Model=Churn | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            logger.exception(f"Model=Churn | Status=ERROR | ExecutionTime={execution_time:.4f}s")
             
             return error_response(
                  "Churn",
@@ -280,7 +280,7 @@ class Customer360Service:
             )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
-            logger.error(f"Model=CLV | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            logger.exception(f"Model=CLV | Status=ERROR | ExecutionTime={execution_time:.4f}s")
             return error_response(
                 "CLV",
                 str(e),
@@ -348,7 +348,7 @@ class Customer360Service:
                 )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
-            logger.error(f"Model=Recommendation | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            logger.exception(f"Model=Recommendation | Status=ERROR | ExecutionTime={execution_time:.4f}s")
             return error_response(
                 "Recommendation",
                 str(e),
@@ -445,7 +445,7 @@ class Customer360Service:
             )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
-            logger.error(f"Model=Anomaly Detection | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            logger.exception(f"Model=Anomaly Detection | Status=ERROR | ExecutionTime={execution_time:.4f}s")
             return error_response(
                 "Anomaly Detection",
                 str(e),
@@ -543,7 +543,7 @@ class Customer360Service:
                 )
         except Exception as e:
             execution_time = time.perf_counter() - start_time
-            logger.error(f"Model=Topic Modeling | Status=ERROR | Error={e} | ExecutionTime={execution_time:.4f}s")
+            logger.exception(f"Model=Topic Modeling | Status=ERROR | ExecutionTime={execution_time:.4f}s")
             return error_response(
                 "Topic Modeling",
                 str(e),

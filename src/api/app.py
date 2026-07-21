@@ -1,9 +1,11 @@
 from fastapi import FastAPI
+from src.utils.logger import logger
 
 from src.api.error_handlers import register_exception_handlers
 from src.api.routes import router
 
 app = FastAPI(
+    
     title="Customer360 Intelligence Platform API",
     description="""
 ## Customer360 Intelligence Platform
@@ -36,6 +38,7 @@ Built using:
         "name": "MIT License",
     },
 )
+logger.info("Customer360 API started successfully.")
 
 # Register global exception handlers
 register_exception_handlers(app)
