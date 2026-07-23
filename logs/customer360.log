@@ -617,3 +617,567 @@ Loading trained models...
 2026-07-21 14:35:42,849 | INFO | customer360 | SHAP explainers initialized successfully.
 2026-07-21 14:35:42,849 | INFO | customer360 | Customer360 Service initialized successfully.
 2026-07-21 14:35:42,871 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:42:26,933 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:42:26,933 | INFO | customer360 | Loading trained models...
+2026-07-23 13:42:26,942 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:42:26,950 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:42:27,667 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:42:27,805 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:42:27,849 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:42:27,870 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:42:27,871 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:42:27,871 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:42:28,462 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:42:28,463 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:42:28,694 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:49:16,417 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:49:16,418 | INFO | customer360 | Loading trained models...
+2026-07-23 13:49:16,420 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:49:16,424 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:49:16,523 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:49:16,597 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:49:16,650 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:49:16,664 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:49:16,665 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:49:16,665 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:49:17,595 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:49:17,595 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:49:17,618 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:51:27,122 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:51:27,123 | INFO | customer360 | Loading trained models...
+2026-07-23 13:51:27,124 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:51:27,125 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:51:27,209 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:51:27,284 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:51:27,338 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:51:27,352 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:51:27,352 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:51:27,353 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:51:27,999 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:51:27,999 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:51:28,020 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:51:31,998 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:51:31,998 | INFO | customer360 | Loading trained models...
+2026-07-23 13:51:32,000 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:51:32,001 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:51:32,100 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:51:32,185 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:51:32,232 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:51:32,245 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:51:32,246 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:51:32,246 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:51:33,900 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:51:33,900 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:51:33,956 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:52:12,526 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:52:12,527 | INFO | customer360 | Loading trained models...
+2026-07-23 13:52:12,529 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:52:12,533 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:52:12,627 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:52:12,703 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:52:12,818 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:52:12,853 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:52:12,853 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:52:12,854 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:52:14,573 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:52:14,573 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:52:14,656 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:52:39,578 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:52:39,581 | INFO | customer360 | Loading trained models...
+2026-07-23 13:52:39,583 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:52:39,588 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:52:39,702 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:52:39,768 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:52:39,819 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:52:39,833 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:52:39,834 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:52:39,834 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:52:41,647 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:52:41,647 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:52:41,696 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:52:56,116 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:52:56,117 | INFO | customer360 | Loading trained models...
+2026-07-23 13:52:56,121 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:52:56,126 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:52:56,238 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:52:56,301 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:52:56,357 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:52:56,373 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:52:56,380 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:52:56,389 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:52:58,173 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:52:58,174 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:52:58,235 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:53:46,313 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:53:46,315 | INFO | customer360 | Loading trained models...
+2026-07-23 13:53:46,316 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:53:46,317 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:53:46,416 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:53:46,495 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:53:46,618 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:53:46,650 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:53:46,651 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:53:46,651 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:53:48,428 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:53:48,429 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:53:48,476 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:55:00,592 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:55:00,593 | INFO | customer360 | Loading trained models...
+2026-07-23 13:55:00,595 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:55:00,596 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:55:00,683 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:55:00,757 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:55:00,900 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:55:00,932 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:55:00,932 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:55:00,932 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:55:02,684 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:55:02,684 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:55:02,816 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:55:13,875 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:55:13,876 | INFO | customer360 | Loading trained models...
+2026-07-23 13:55:13,878 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:55:13,880 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:55:13,973 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:55:14,041 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:55:14,100 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:55:14,114 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:55:14,115 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:55:14,115 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:55:15,972 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:55:15,973 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:55:16,021 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:56:30,797 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:56:30,798 | INFO | customer360 | Loading trained models...
+2026-07-23 13:56:30,799 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:56:30,801 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:56:30,892 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:56:30,961 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:56:31,005 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:56:31,018 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:56:31,018 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:56:31,018 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 13:56:32,612 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 13:56:32,612 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 13:56:32,661 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 13:59:59,253 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 13:59:59,254 | INFO | customer360 | Loading trained models...
+2026-07-23 13:59:59,257 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 13:59:59,259 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 13:59:59,361 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 13:59:59,441 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 13:59:59,507 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 13:59:59,541 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 13:59:59,543 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 13:59:59,543 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:00:01,291 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:00:01,291 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:00:01,340 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:01:32,650 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:01:32,650 | INFO | customer360 | Loading trained models...
+2026-07-23 14:01:32,652 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:01:32,653 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:01:32,739 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:01:32,817 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:01:32,873 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:01:32,887 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:01:32,887 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:01:32,889 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:01:34,301 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:01:34,302 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:01:34,349 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:04:33,159 | ERROR | customer360 | Model=Churn | Status=ERROR | ExecutionTime=0.0000s
+Traceback (most recent call last):
+  File "D:\customer-360-intelligence-platform\src\pipeline\customer360_service.py", line 134, in predict_churn
+    validate_customer_features(
+  File "D:\customer-360-intelligence-platform\src\pipeline\validators.py", line 32, in validate_customer_features
+    raise ValueError(
+ValueError: Missing required features: ['avg_items_per_order', 'avg_days_between_orders', 'orders_per_tenure_day', 'spend_per_tenure_day', 'spend_last_30d_ratio', 'spend_last_90d_ratio', 'orders_last_90d_ratio', 'cutoff_month', 'cutoff_quarter']
+2026-07-23 14:05:52,739 | ERROR | customer360 | Model=Churn | Status=ERROR | ExecutionTime=0.0000s
+Traceback (most recent call last):
+  File "D:\customer-360-intelligence-platform\src\pipeline\customer360_service.py", line 134, in predict_churn
+    validate_customer_features(
+  File "D:\customer-360-intelligence-platform\src\pipeline\validators.py", line 32, in validate_customer_features
+    raise ValueError(
+ValueError: Missing required features: ['avg_items_per_order', 'avg_days_between_orders', 'orders_per_tenure_day', 'spend_per_tenure_day', 'spend_last_30d_ratio', 'spend_last_90d_ratio', 'orders_last_90d_ratio', 'cutoff_month', 'cutoff_quarter']
+2026-07-23 14:40:02,872 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:40:02,872 | INFO | customer360 | Loading trained models...
+2026-07-23 14:40:02,875 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:40:02,878 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:40:02,969 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:40:03,049 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:40:03,101 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:40:03,115 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:40:03,115 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:40:03,116 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:40:04,892 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:40:04,893 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:40:04,941 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:40:17,534 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:40:17,535 | INFO | customer360 | Loading trained models...
+2026-07-23 14:40:17,537 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:40:17,538 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:40:17,622 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:40:17,701 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:40:17,750 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:40:17,767 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:40:17,767 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:40:17,768 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:40:19,524 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:40:19,524 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:40:19,571 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:44:03,900 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:44:03,900 | INFO | customer360 | Loading trained models...
+2026-07-23 14:44:03,901 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:44:03,902 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:44:03,983 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:44:04,055 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:44:04,110 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:44:04,123 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:44:04,124 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:44:04,124 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:44:04,805 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:44:04,805 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:44:04,827 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:45:44,546 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:45:44,547 | INFO | customer360 | Loading trained models...
+2026-07-23 14:45:44,548 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:45:44,549 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:45:44,666 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:45:44,753 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:45:44,803 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:45:44,816 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:45:44,816 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:45:44,817 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:45:45,479 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:45:45,480 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:45:45,501 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:46:13,471 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:46:13,471 | INFO | customer360 | Loading trained models...
+2026-07-23 14:46:13,472 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:46:13,473 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:46:13,554 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:46:13,618 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:46:13,672 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:46:13,685 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:46:13,686 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:46:13,686 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:46:14,399 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:46:14,400 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:46:14,423 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:57:23,805 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:57:23,806 | INFO | customer360 | Loading trained models...
+2026-07-23 14:57:23,807 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:57:23,808 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:57:23,888 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:57:23,949 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:57:23,997 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:57:24,008 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:57:24,009 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:57:24,009 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:57:24,537 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:57:24,537 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:57:24,561 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:57:41,017 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:57:41,018 | INFO | customer360 | Loading trained models...
+2026-07-23 14:57:41,019 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:57:41,020 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:57:41,100 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:57:41,162 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:57:41,221 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:57:41,234 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:57:41,234 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:57:41,234 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:57:41,782 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:57:41,782 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:57:41,803 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 14:58:29,016 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 14:58:29,016 | INFO | customer360 | Loading trained models...
+2026-07-23 14:58:29,017 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 14:58:29,018 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 14:58:29,104 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 14:58:29,171 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 14:58:29,231 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 14:58:29,243 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 14:58:29,244 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 14:58:29,244 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 14:58:29,791 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 14:58:29,791 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 14:58:29,812 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:04:53,022 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:04:53,022 | INFO | customer360 | Loading trained models...
+2026-07-23 15:04:53,023 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:04:53,024 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:04:53,124 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:04:53,209 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:04:53,261 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:04:53,274 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:04:53,275 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:04:53,275 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:04:53,821 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:04:53,821 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:04:53,842 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:05:10,449 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.3673s
+2026-07-23 15:05:10,449 | INFO | customer360 | Generating SHAP explanation for churn prediction.
+2026-07-23 15:05:10,455 | INFO | customer360 | Successfully generated churn SHAP explanation.
+2026-07-23 15:05:11,986 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0054s
+2026-07-23 15:05:11,987 | INFO | customer360 | Generating SHAP explanation for churn prediction.
+2026-07-23 15:05:11,992 | INFO | customer360 | Successfully generated churn SHAP explanation.
+2026-07-23 15:05:25,769 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0059s
+2026-07-23 15:05:25,769 | INFO | customer360 | Generating SHAP explanation for churn prediction.
+2026-07-23 15:05:25,774 | INFO | customer360 | Successfully generated churn SHAP explanation.
+2026-07-23 15:10:30,580 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0057s
+2026-07-23 15:12:54,789 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:12:54,790 | INFO | customer360 | Loading trained models...
+2026-07-23 15:12:54,791 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:12:54,792 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:12:54,885 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:12:54,973 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:12:55,021 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:12:55,035 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:12:55,036 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:12:55,036 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:12:56,074 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:12:56,075 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:12:56,174 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:12:56,793 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0358s
+2026-07-23 15:12:58,052 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0066s
+2026-07-23 15:13:09,949 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:13:09,950 | INFO | customer360 | Loading trained models...
+2026-07-23 15:13:09,952 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:13:09,953 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:13:10,047 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:13:10,127 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:13:10,171 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:13:10,184 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:13:10,184 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:13:10,184 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:13:11,546 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:13:11,547 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:13:11,593 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:00,428 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:00,428 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:00,429 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:00,430 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:00,529 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:00,613 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:00,657 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:00,672 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:00,672 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:00,672 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:01,346 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:01,346 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:01,367 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:04,973 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:04,973 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:04,975 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:04,975 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:05,066 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:05,142 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:05,198 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:05,211 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:05,211 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:05,211 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:05,860 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:05,860 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:05,882 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:10,053 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:10,054 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:10,055 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:10,056 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:10,160 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:10,244 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:10,306 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:10,319 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:10,319 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:10,320 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:10,950 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:10,950 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:10,974 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:20,018 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:20,018 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:20,019 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:20,020 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:20,093 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:20,169 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:20,222 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:20,235 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:20,236 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:20,236 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:20,907 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:20,908 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:20,930 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:30,268 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:30,268 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:30,270 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:30,272 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:30,359 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:30,431 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:30,499 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:30,513 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:30,513 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:30,513 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:31,083 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:31,084 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:31,104 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:34,768 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:34,768 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:34,769 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:34,770 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:34,845 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:34,912 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:34,978 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:34,990 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:34,991 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:34,991 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:35,521 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:35,521 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:35,542 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:41,246 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:41,246 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:41,248 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:41,249 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:41,344 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:41,407 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:41,458 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:41,471 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:41,471 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:41,471 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:42,039 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:42,039 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:42,061 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:45,953 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:45,953 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:45,954 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:45,955 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:46,038 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:46,103 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:46,157 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:46,170 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:46,170 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:46,170 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:46,744 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:46,745 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:46,773 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:50,685 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:14:50,685 | INFO | customer360 | Loading trained models...
+2026-07-23 15:14:50,687 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:14:50,689 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:14:50,821 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:14:50,911 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:14:50,951 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:14:50,964 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:14:50,965 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:14:50,965 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:14:52,546 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:14:52,549 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:14:52,635 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:14:55,898 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0356s
+2026-07-23 15:15:40,957 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:15:40,957 | INFO | customer360 | Loading trained models...
+2026-07-23 15:15:40,959 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:15:40,960 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:15:41,041 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:15:41,110 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:15:41,174 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:15:41,186 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:15:41,186 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:15:41,187 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:15:41,744 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:15:41,744 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:15:41,765 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:15:46,155 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:15:46,155 | INFO | customer360 | Loading trained models...
+2026-07-23 15:15:46,157 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:15:46,158 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:15:46,241 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:15:46,303 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:15:46,356 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:15:46,370 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:15:46,370 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:15:46,370 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:15:47,960 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:15:47,962 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:15:48,014 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:16:37,208 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:16:37,208 | INFO | customer360 | Loading trained models...
+2026-07-23 15:16:37,209 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:16:37,210 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:16:37,289 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:16:37,351 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:16:37,402 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:16:37,415 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:16:37,415 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:16:37,415 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:16:37,973 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:16:37,973 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:16:37,992 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:16:41,744 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:16:41,745 | INFO | customer360 | Loading trained models...
+2026-07-23 15:16:41,746 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:16:41,747 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:16:41,823 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:16:41,892 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:16:41,952 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:16:41,967 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:16:41,967 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:16:41,968 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:16:42,632 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:16:42,632 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:16:42,655 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:16:48,498 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:16:48,499 | INFO | customer360 | Loading trained models...
+2026-07-23 15:16:48,501 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:16:48,504 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:16:48,587 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:16:48,648 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:16:48,701 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:16:48,715 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:16:48,715 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:16:48,716 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:16:50,102 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:16:50,102 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:16:50,156 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:17:00,096 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0286s
+2026-07-23 15:17:37,756 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:17:37,756 | INFO | customer360 | Loading trained models...
+2026-07-23 15:17:37,757 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:17:37,758 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:17:37,840 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:17:37,905 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:17:37,951 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:17:37,963 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:17:37,963 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:17:37,964 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:17:38,549 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:17:38,549 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:17:38,571 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:17:42,471 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:17:42,471 | INFO | customer360 | Loading trained models...
+2026-07-23 15:17:42,473 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:17:42,474 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:17:42,565 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:17:42,640 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:17:42,693 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:17:42,706 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:17:42,707 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:17:42,707 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:17:44,220 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:17:44,220 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:17:44,275 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:17:44,332 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0349s
+2026-07-23 15:19:47,225 | INFO | customer360 | Initializing Customer360 Service...
+2026-07-23 15:19:47,225 | INFO | customer360 | Loading trained models...
+2026-07-23 15:19:47,226 | INFO | customer360 |  Segmentation model loaded successfully.
+2026-07-23 15:19:47,228 | INFO | customer360 |  Churn model loaded successfully.
+2026-07-23 15:19:47,307 | INFO | customer360 |  CLV model loaded successfully.
+2026-07-23 15:19:47,369 | INFO | customer360 |  Recommendation model loaded successfully.
+2026-07-23 15:19:47,417 | INFO | customer360 |  Anomaly Detection model loaded successfully.
+2026-07-23 15:19:47,430 | INFO | customer360 |  Topic Modeling model loaded successfully.
+2026-07-23 15:19:47,430 | INFO | customer360 | All trained models loaded successfully.
+2026-07-23 15:19:47,430 | INFO | customer360 | Initializing SHAP explainers...
+2026-07-23 15:19:48,907 | INFO | customer360 | SHAP explainers initialized successfully.
+2026-07-23 15:19:48,907 | INFO | customer360 | Customer360 Service initialized successfully.
+2026-07-23 15:19:48,961 | INFO | customer360 | Customer360 API started successfully.
+2026-07-23 15:19:49,025 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0407s
+2026-07-23 15:19:49,027 | INFO | customer360 | Model=Churn | Status=SUCCESS | ExecutionTime=0.0443s

@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
+from src.pipeline.feature_engineering import add_engineered_features
+
 from src.config.settings import (
     CHURN_HIGH_RISK_THRESHOLD,
     CHURN_MEDIUM_RISK_THRESHOLD,
@@ -61,6 +63,8 @@ class Customer360Service:
 
             feature_cols = bundle["feature_cols"]
             log_cols = bundle["log_cols"]
+            
+            customer_features = add_engineered_features(customer_features)
 
             validate_customer_features(
                 customer_features,
@@ -130,6 +134,9 @@ class Customer360Service:
             scaler = bundle["scaler"]
             model = bundle["model"]
             feature_cols = bundle["feature_cols"]
+            # NEW: Generate engineered features
+            
+            customer_features = add_engineered_features(customer_features)
 
             validate_customer_features(
                 customer_features,
@@ -209,6 +216,8 @@ class Customer360Service:
             model = bundle["model"]
             
             feature_cols = bundle["feature_names"]
+            
+            customer_features = add_engineered_features(customer_features)
 
             validate_customer_features(
                 customer_features,
@@ -371,6 +380,8 @@ class Customer360Service:
             model = bundle["model"]
             feature_cols = bundle["feature_cols"]
             log_cols = bundle["log_cols"]
+            
+            customer_features = add_engineered_features(customer_features)
 
             validate_customer_features(
                 customer_features,
